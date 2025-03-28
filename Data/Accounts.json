@@ -1,1 +1,3 @@
-
+{
+  {AccountNickname = "Test", AccountPassword = "Test1234" AccountAvatar = "rbxassetid://0", AccountAge = "28.03.2025", AccountSubscription = "Free", AccountStatus = "Unverified"}
+}
