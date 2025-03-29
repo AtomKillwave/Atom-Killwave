@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 215 | Scripts: 8 | Modules: 0 | Tags: 0
+-- Instances: 216 | Scripts: 9 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.AtomKillwave
@@ -1821,222 +1821,227 @@ G2L["ba"] = Instance.new("LocalScript", G2L["4"]);
 G2L["ba"]["Name"] = [[DragSoftware]];
 
 
+-- StarterGui.AtomKillwave.Software.Atom.Corner.AtomProtection
+G2L["bb"] = Instance.new("LocalScript", G2L["4"]);
+G2L["bb"]["Name"] = [[AtomProtection]];
+
+
 -- StarterGui.AtomKillwave.Software.Notifications
-G2L["bb"] = Instance.new("Frame", G2L["2"]);
-G2L["bb"]["BorderSizePixel"] = 0;
-G2L["bb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["bb"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["bb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["bb"]["Name"] = [[Notifications]];
-G2L["bb"]["BackgroundTransparency"] = 1;
-
-
--- StarterGui.AtomKillwave.Software.Notifications.Container
-G2L["bc"] = Instance.new("Frame", G2L["bb"]);
+G2L["bc"] = Instance.new("Frame", G2L["2"]);
 G2L["bc"]["BorderSizePixel"] = 0;
 G2L["bc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["bc"]["Size"] = UDim2.new(0, 300, 0, 150);
-G2L["bc"]["Position"] = UDim2.new(0.81061, 0, 0.81156, 0);
+G2L["bc"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["bc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["bc"]["Name"] = [[Container]];
+G2L["bc"]["Name"] = [[Notifications]];
 G2L["bc"]["BackgroundTransparency"] = 1;
 
 
+-- StarterGui.AtomKillwave.Software.Notifications.Container
+G2L["bd"] = Instance.new("Frame", G2L["bc"]);
+G2L["bd"]["BorderSizePixel"] = 0;
+G2L["bd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["bd"]["Size"] = UDim2.new(0, 300, 0, 150);
+G2L["bd"]["Position"] = UDim2.new(0.81061, 0, 0.81156, 0);
+G2L["bd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["bd"]["Name"] = [[Container]];
+G2L["bd"]["BackgroundTransparency"] = 1;
+
+
 -- StarterGui.AtomKillwave.Software.Notifications.Container.UIListLayout
-G2L["bd"] = Instance.new("UIListLayout", G2L["bc"]);
-G2L["bd"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
-G2L["bd"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
-G2L["bd"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["be"] = Instance.new("UIListLayout", G2L["bd"]);
+G2L["be"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+G2L["be"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+G2L["be"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.Container.Corner
-G2L["be"] = Instance.new("Frame", G2L["bc"]);
-G2L["be"]["BorderSizePixel"] = 0;
-G2L["be"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["be"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["be"]["Position"] = UDim2.new(0.16667, 0, 0.19333, 0);
-G2L["be"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["be"]["Name"] = [[Corner]];
-G2L["be"]["BackgroundTransparency"] = 1;
+G2L["bf"] = Instance.new("Frame", G2L["bd"]);
+G2L["bf"]["BorderSizePixel"] = 0;
+G2L["bf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["bf"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["bf"]["Position"] = UDim2.new(0.16667, 0, 0.19333, 0);
+G2L["bf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["bf"]["Name"] = [[Corner]];
+G2L["bf"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.Container.Corner.UIListLayout
-G2L["bf"] = Instance.new("UIListLayout", G2L["be"]);
-G2L["bf"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
-G2L["bf"]["Padding"] = UDim.new(0, 5);
-G2L["bf"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
-G2L["bf"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
-
-
--- StarterGui.AtomKillwave.Software.Notifications.UIListLayout
-G2L["c0"] = Instance.new("UIListLayout", G2L["bb"]);
-G2L["c0"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Right;
+G2L["c0"] = Instance.new("UIListLayout", G2L["bf"]);
+G2L["c0"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+G2L["c0"]["Padding"] = UDim.new(0, 5);
 G2L["c0"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
 G2L["c0"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
+-- StarterGui.AtomKillwave.Software.Notifications.UIListLayout
+G2L["c1"] = Instance.new("UIListLayout", G2L["bc"]);
+G2L["c1"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Right;
+G2L["c1"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
+G2L["c1"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware
-G2L["c1"] = Instance.new("LocalScript", G2L["bb"]);
-G2L["c1"]["Name"] = [[NotificationsSoftware]];
+G2L["c2"] = Instance.new("LocalScript", G2L["bc"]);
+G2L["c2"]["Name"] = [[NotificationsSoftware]];
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification
-G2L["c2"] = Instance.new("Frame", G2L["c1"]);
-G2L["c2"]["BorderSizePixel"] = 0;
-G2L["c2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c2"]["Size"] = UDim2.new(0, 275, 0, 100);
-G2L["c2"]["Position"] = UDim2.new(-0.1875, 0, 0, 0);
-G2L["c2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c2"]["Name"] = [[Notification]];
-G2L["c2"]["BackgroundTransparency"] = 1;
+G2L["c3"] = Instance.new("Frame", G2L["c2"]);
+G2L["c3"]["BorderSizePixel"] = 0;
+G2L["c3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c3"]["Size"] = UDim2.new(0, 275, 0, 100);
+G2L["c3"]["Position"] = UDim2.new(-0.1875, 0, 0, 0);
+G2L["c3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c3"]["Name"] = [[Notification]];
+G2L["c3"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification.Container
-G2L["c3"] = Instance.new("Frame", G2L["c2"]);
-G2L["c3"]["BorderSizePixel"] = 0;
-G2L["c3"]["BackgroundColor3"] = Color3.fromRGB(33, 36, 46);
-G2L["c3"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["c3"]["Position"] = UDim2.new(1, 500, 0, 0);
-G2L["c3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c3"]["Name"] = [[Container]];
+G2L["c4"] = Instance.new("Frame", G2L["c3"]);
+G2L["c4"]["BorderSizePixel"] = 0;
+G2L["c4"]["BackgroundColor3"] = Color3.fromRGB(33, 36, 46);
+G2L["c4"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["c4"]["Position"] = UDim2.new(1, 500, 0, 0);
+G2L["c4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c4"]["Name"] = [[Container]];
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification.Container.UICorner
-G2L["c4"] = Instance.new("UICorner", G2L["c3"]);
-G2L["c4"]["CornerRadius"] = UDim.new(0, 15);
+G2L["c5"] = Instance.new("UICorner", G2L["c4"]);
+G2L["c5"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification.Container.BackgroundLogo
-G2L["c5"] = Instance.new("ImageLabel", G2L["c3"]);
-G2L["c5"]["BorderSizePixel"] = 0;
-G2L["c5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c5"]["ScaleType"] = Enum.ScaleType.Crop;
-G2L["c5"]["ResampleMode"] = Enum.ResamplerMode.Pixelated;
-G2L["c5"]["ImageTransparency"] = 0.9;
-G2L["c5"]["Image"] = [[rbxassetid://85144060099112]];
-G2L["c5"]["Size"] = UDim2.new(0, 117, 0, 109);
-G2L["c5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c5"]["BackgroundTransparency"] = 1;
-G2L["c5"]["Name"] = [[BackgroundLogo]];
-G2L["c5"]["Position"] = UDim2.new(0.28727, 0, -0.09, 0);
+G2L["c6"] = Instance.new("ImageLabel", G2L["c4"]);
+G2L["c6"]["BorderSizePixel"] = 0;
+G2L["c6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c6"]["ScaleType"] = Enum.ScaleType.Crop;
+G2L["c6"]["ResampleMode"] = Enum.ResamplerMode.Pixelated;
+G2L["c6"]["ImageTransparency"] = 0.9;
+G2L["c6"]["Image"] = [[rbxassetid://85144060099112]];
+G2L["c6"]["Size"] = UDim2.new(0, 117, 0, 109);
+G2L["c6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c6"]["BackgroundTransparency"] = 1;
+G2L["c6"]["Name"] = [[BackgroundLogo]];
+G2L["c6"]["Position"] = UDim2.new(0.28727, 0, -0.09, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification.Container.Title
-G2L["c6"] = Instance.new("TextLabel", G2L["c3"]);
-G2L["c6"]["TextWrapped"] = true;
-G2L["c6"]["BorderSizePixel"] = 0;
-G2L["c6"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["c6"]["TextScaled"] = true;
-G2L["c6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c6"]["TextSize"] = 14;
-G2L["c6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["c6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c6"]["BackgroundTransparency"] = 1;
-G2L["c6"]["Size"] = UDim2.new(0, 235, 0, 35);
-G2L["c6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c6"]["Text"] = [[]];
-G2L["c6"]["Name"] = [[Title]];
-G2L["c6"]["Position"] = UDim2.new(0.07273, 0, 0.1, 0);
-
-
--- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification.Container.Description
-G2L["c7"] = Instance.new("TextLabel", G2L["c3"]);
+G2L["c7"] = Instance.new("TextLabel", G2L["c4"]);
 G2L["c7"]["TextWrapped"] = true;
 G2L["c7"]["BorderSizePixel"] = 0;
 G2L["c7"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["c7"]["TextScaled"] = true;
 G2L["c7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c7"]["TextSize"] = 1;
+G2L["c7"]["TextSize"] = 14;
 G2L["c7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["c7"]["TextColor3"] = Color3.fromRGB(56, 62, 80);
+G2L["c7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c7"]["BackgroundTransparency"] = 1;
-G2L["c7"]["Size"] = UDim2.new(0, 235, 0, 45);
+G2L["c7"]["Size"] = UDim2.new(0, 235, 0, 35);
 G2L["c7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["c7"]["Text"] = [[]];
-G2L["c7"]["Name"] = [[Description]];
-G2L["c7"]["Position"] = UDim2.new(0.07273, 0, 0.45, 0);
+G2L["c7"]["Name"] = [[Title]];
+G2L["c7"]["Position"] = UDim2.new(0.07273, 0, 0.1, 0);
+
+
+-- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification.Container.Description
+G2L["c8"] = Instance.new("TextLabel", G2L["c4"]);
+G2L["c8"]["TextWrapped"] = true;
+G2L["c8"]["BorderSizePixel"] = 0;
+G2L["c8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["c8"]["TextScaled"] = true;
+G2L["c8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c8"]["TextSize"] = 1;
+G2L["c8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["c8"]["TextColor3"] = Color3.fromRGB(56, 62, 80);
+G2L["c8"]["BackgroundTransparency"] = 1;
+G2L["c8"]["Size"] = UDim2.new(0, 235, 0, 45);
+G2L["c8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c8"]["Text"] = [[]];
+G2L["c8"]["Name"] = [[Description]];
+G2L["c8"]["Position"] = UDim2.new(0.07273, 0, 0.45, 0);
 
 
 -- StarterGui.AtomKillwave.Software.System
-G2L["c8"] = Instance.new("Folder", G2L["2"]);
-G2L["c8"]["Name"] = [[System]];
+G2L["c9"] = Instance.new("Folder", G2L["2"]);
+G2L["c9"]["Name"] = [[System]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Values
-G2L["c9"] = Instance.new("Folder", G2L["c8"]);
-G2L["c9"]["Name"] = [[Values]];
+G2L["ca"] = Instance.new("Folder", G2L["c9"]);
+G2L["ca"]["Name"] = [[Values]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Values.MenuKeycode
-G2L["ca"] = Instance.new("StringValue", G2L["c9"]);
-G2L["ca"]["Name"] = [[MenuKeycode]];
-G2L["ca"]["Value"] = [[RightAlt]];
+G2L["cb"] = Instance.new("StringValue", G2L["ca"]);
+G2L["cb"]["Name"] = [[MenuKeycode]];
+G2L["cb"]["Value"] = [[RightAlt]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Values.AimKeycode
-G2L["cb"] = Instance.new("StringValue", G2L["c9"]);
-G2L["cb"]["Name"] = [[AimKeycode]];
+G2L["cc"] = Instance.new("StringValue", G2L["ca"]);
+G2L["cc"]["Name"] = [[AimKeycode]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Values.EspKeycode
-G2L["cc"] = Instance.new("StringValue", G2L["c9"]);
-G2L["cc"]["Name"] = [[EspKeycode]];
+G2L["cd"] = Instance.new("StringValue", G2L["ca"]);
+G2L["cd"]["Name"] = [[EspKeycode]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Notifications
-G2L["cd"] = Instance.new("Folder", G2L["c8"]);
-G2L["cd"]["Name"] = [[Notifications]];
+G2L["ce"] = Instance.new("Folder", G2L["c9"]);
+G2L["ce"]["Name"] = [[Notifications]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Notification
-G2L["ce"] = Instance.new("StringValue", G2L["c8"]);
-G2L["ce"]["Name"] = [[Notification]];
+G2L["cf"] = Instance.new("StringValue", G2L["c9"]);
+G2L["cf"]["Name"] = [[Notification]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Notification.NotificationDescription
-G2L["cf"] = Instance.new("StringValue", G2L["ce"]);
-G2L["cf"]["Name"] = [[NotificationDescription]];
+G2L["d0"] = Instance.new("StringValue", G2L["cf"]);
+G2L["d0"]["Name"] = [[NotificationDescription]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Esp
-G2L["d0"] = Instance.new("Folder", G2L["c8"]);
-G2L["d0"]["Name"] = [[Esp]];
+G2L["d1"] = Instance.new("Folder", G2L["c9"]);
+G2L["d1"]["Name"] = [[Esp]];
 
 
 -- StarterGui.AtomKillwave.Software.System.AtomVersion
-G2L["d1"] = Instance.new("StringValue", G2L["c8"]);
-G2L["d1"]["Name"] = [[AtomVersion]];
-G2L["d1"]["Value"] = [[0.01]];
+G2L["d2"] = Instance.new("StringValue", G2L["c9"]);
+G2L["d2"]["Name"] = [[AtomVersion]];
+G2L["d2"]["Value"] = [[0.01]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Account
-G2L["d2"] = Instance.new("Folder", G2L["c8"]);
-G2L["d2"]["Name"] = [[Account]];
+G2L["d3"] = Instance.new("Folder", G2L["c9"]);
+G2L["d3"]["Name"] = [[Account]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Account.AccountNickname
-G2L["d3"] = Instance.new("StringValue", G2L["d2"]);
-G2L["d3"]["Name"] = [[AccountNickname]];
+G2L["d4"] = Instance.new("StringValue", G2L["d3"]);
+G2L["d4"]["Name"] = [[AccountNickname]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Account.AccountAvatar
-G2L["d4"] = Instance.new("StringValue", G2L["d2"]);
-G2L["d4"]["Name"] = [[AccountAvatar]];
+G2L["d5"] = Instance.new("StringValue", G2L["d3"]);
+G2L["d5"]["Name"] = [[AccountAvatar]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Account.AccountAge
-G2L["d5"] = Instance.new("StringValue", G2L["d2"]);
-G2L["d5"]["Name"] = [[AccountAge]];
+G2L["d6"] = Instance.new("StringValue", G2L["d3"]);
+G2L["d6"]["Name"] = [[AccountAge]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Account.AccountSubscription
-G2L["d6"] = Instance.new("StringValue", G2L["d2"]);
-G2L["d6"]["Name"] = [[AccountSubscription]];
+G2L["d7"] = Instance.new("StringValue", G2L["d3"]);
+G2L["d7"]["Name"] = [[AccountSubscription]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Account.AccountStatus
-G2L["d7"] = Instance.new("StringValue", G2L["d2"]);
-G2L["d7"]["Name"] = [[AccountStatus]];
+G2L["d8"] = Instance.new("StringValue", G2L["d3"]);
+G2L["d8"]["Name"] = [[AccountStatus]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick.ThickClient
@@ -2299,19 +2304,19 @@ local script = G2L["b6"];
 		coroutine.wrap(TweenAnimation)(Object, "BackgroundColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(40, 44, 57), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object.Logo.Icon, "ImageColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(88, 98, 126), AnimationTime) 
 	end
-	
+
 	local function ActivatedAnimation(Object, AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "Size", Enum.EasingStyle.Sine, Enum.EasingDirection.In, UDim2.new(0, 65,0, 65), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "BackgroundColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(40, 44, 57), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object.Logo.Icon, "ImageColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(255, 255, 255), AnimationTime)
 	end
-	
+
 	local function OutAnimation(Object, AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "Size", Enum.EasingStyle.Sine, Enum.EasingDirection.Out, UDim2.new(0, 60,0, 60), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "BackgroundColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.Out, Color3.fromRGB(32, 35, 45), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object.Logo.Icon, "ImageColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.Out, Color3.fromRGB(50, 55, 71), AnimationTime) 
 	end
-	
+
 	local function ShowFrameForButton(ButtonFrame)
 		for _, frame in pairs(ScreenFrames:GetChildren()) do
 			if frame:IsA("Frame") then
@@ -2324,20 +2329,20 @@ local script = G2L["b6"];
 			targetFrame.Visible = true
 		end
 	end
-	
+
 	local function SetupButton(frame, button)
 		button.MouseEnter:Connect(function()
 			if frame ~= CurrentActiveFrame then
 				coroutine.wrap(InAnimation)(frame, 0.15)
 			end
 		end)
-	
+
 		button.MouseLeave:Connect(function()
 			if frame ~= CurrentActiveFrame then
 				coroutine.wrap(OutAnimation)(frame, 0.15)
 			end
 		end)
-	
+
 		button.MouseButton1Click:Connect(function()
 			if CurrentActiveFrame and CurrentActiveFrame ~= frame then
 				coroutine.wrap(OutAnimation)(CurrentActiveFrame, 0.15)
@@ -2348,7 +2353,7 @@ local script = G2L["b6"];
 			script.Click:Play()
 		end)
 	end
-	
+
 	UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
 		if gameProcessedEvent then return end
 		if input.KeyCode == Enum.KeyCode[ClientValue.Value] then
@@ -2363,14 +2368,14 @@ local script = G2L["b6"];
 			end
 		end
 	end)
-	
+
 	-- Настраиваем все кнопки
 	coroutine.wrap(SetupButton)(Home, HomeButton)
 	coroutine.wrap(SetupButton)(Legit, LegitButton)
 	coroutine.wrap(SetupButton)(Rage, RageButton)
 	coroutine.wrap(SetupButton)(Config, ConfigButton)
 	coroutine.wrap(SetupButton)(Information, AccountButton)
-	
+
 	CurrentActiveFrame = Home
 	coroutine.wrap(ActivatedAnimation)(Home, 0.15)
 	coroutine.wrap(ShowFrameForButton)(Home)
@@ -2378,26 +2383,26 @@ end;
 task.spawn(C_b6);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.DragSoftware
 local function C_ba()
-local script = G2L["ba"];
+	local script = G2L["ba"];
 	local UserInputService = game:GetService("UserInputService")
 	local Element = script.Parent
-	
+
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-	
+
 	local function ElementUpdate(input)
 		local delta = input.Position - dragStart
 		Element.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-	
+
 	Element.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = Element.Position
-			
+
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -2405,13 +2410,13 @@ local script = G2L["ba"];
 			end)
 		end
 	end)
-	
+
 	Element.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-	
+
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			ElementUpdate(input)
@@ -2419,22 +2424,37 @@ local script = G2L["ba"];
 	end)
 end;
 task.spawn(C_ba);
+-- StarterGui.AtomKillwave.Software.Atom.Corner.AtomProtection
+local function C_bb()
+	local script = G2L["bb"];
+	local Service = game:GetService("CoreGui")
+	local AtomChannel = Service:WaitForChild("Channel", 10)
+	local Atom = script.Parent.Parent.Parent.Parent
+
+	if AtomChannel and AtomChannel:IsA("StringValue") then
+		if AtomChannel.Value == "AtomKillave" then
+		else
+			Atom:Destroy()
+		end
+	end
+end;
+task.spawn(C_bb);
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware
-local function C_c1()
-local script = G2L["c1"];
+local function C_c2()
+	local script = G2L["c2"];
 	local TweenService = game:GetService("TweenService")
-	
+
 	local System = script.Parent.Parent:WaitForChild("System")
 	local Notifications = System:WaitForChild("Notifications")
 	local NotificationTemplate = script:WaitForChild("Notification")
-	
+
 	local function TweenAnimation(Frame, Propertion, EasingStyle, EasingDirection, Value, AnimationTime)
 		local AnimationInfo = TweenInfo.new(AnimationTime, EasingStyle, EasingDirection, 0, false, 0)
 		local Goal = {}; Goal[Propertion] = Value
 		local Animation = TweenService:Create(Frame, AnimationInfo, Goal)
 		Animation:Play()
 	end
-	
+
 	local function NotificationAnimation(Object, AnimationsTime, Delay)
 		coroutine.wrap(TweenAnimation)(Object.Container, "Position", Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, UDim2.new(0, 0, 0, 0), 1)
 		task.wait(1)
@@ -2443,7 +2463,7 @@ local script = G2L["c1"];
 		task.wait(1)
 		Object:Destroy()
 	end
-	
+
 	local function InstanceNotification(NotificationTitle, NotificationDescription)
 		local Notification = NotificationTemplate:Clone()
 		if not Notification then return end
@@ -2456,7 +2476,7 @@ local script = G2L["c1"];
 		Notification.Parent = script.Parent:FindFirstChild("Container"):FindFirstChild("Corner")
 		coroutine.wrap(NotificationAnimation)(Notification, 1, 5)
 	end
-	
+
 	Notifications.ChildAdded:Connect(function(Child)
 		if Child:IsA("StringValue") and Child.Name == "Notification" then
 			local description = Child:FindFirstChild("NotificationDescription")
@@ -2466,9 +2486,9 @@ local script = G2L["c1"];
 			end
 		end
 	end)
-	
+
 	coroutine.wrap(InstanceNotification)("SYSTEM", "ATOM KILLWAVE IS READY TO GO! FUCK PLAYING!")
 end;
-task.spawn(C_c1);
+task.spawn(C_c2);
 
 return G2L["1"], require;
