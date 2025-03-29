@@ -1,10 +1,10 @@
 {
-  "accounts": [
+  "accounts": 
     {
       "AccountNickname": "Atom",
       "AccountPassword": "ANFISAKISA",
       "AccountAvatar": "rbxassetid://13410742107",
-      "AccountAge": "28.05.2025",
+      "AccountAge": "20.05.2024,
       "AccountSubscription": "Premium",
       "AccountStatus": "Verified"
     }
