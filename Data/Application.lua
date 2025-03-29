@@ -1292,6 +1292,7 @@ G2L["86"] = Instance.new("ScrollingFrame", G2L["85"]);
 G2L["86"]["Active"] = true;
 G2L["86"]["BorderSizePixel"] = 0;
 G2L["86"]["CanvasSize"] = UDim2.new(0, 0, 1, 160);
+G2L["86"]["CanvasPosition"] = Vector2.new(0, 160);
 G2L["86"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["86"]["Name"] = [[Scroll]];
 G2L["86"]["Size"] = UDim2.new(1, 0, 1, 0);
@@ -1329,7 +1330,7 @@ G2L["89"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["89"]["BackgroundTransparency"] = 1;
 G2L["89"]["Size"] = UDim2.new(0, 520, 0, 40);
 G2L["89"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["89"]["Text"] = [[ACCOUNT INFORMATION]];
+G2L["89"]["Text"] = [[ACCOUNT]];
 G2L["89"]["Name"] = [[Title]];
 G2L["89"]["Position"] = UDim2.new(0.03063, 0, 0.01754, 0);
 
@@ -1363,7 +1364,7 @@ G2L["8c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8c"]["BackgroundTransparency"] = 1;
 G2L["8c"]["Size"] = UDim2.new(0, 230, 0, 35);
 G2L["8c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8c"]["Text"] = [[Unverified]];
+G2L["8c"]["Text"] = [[]];
 G2L["8c"]["Name"] = [[Title]];
 G2L["8c"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
 
@@ -1542,7 +1543,7 @@ G2L["9f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["9f"]["BackgroundTransparency"] = 1;
 G2L["9f"]["Size"] = UDim2.new(0, 230, 0, 35);
 G2L["9f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9f"]["Text"] = [[Unkown]];
+G2L["9f"]["Text"] = [[]];
 G2L["9f"]["Name"] = [[Title]];
 G2L["9f"]["Position"] = UDim2.new(0.16703, 0, 0.09333, 0);
 
@@ -1589,7 +1590,7 @@ G2L["a3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a3"]["BackgroundTransparency"] = 1;
 G2L["a3"]["Size"] = UDim2.new(0, 230, 0, 35);
 G2L["a3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a3"]["Text"] = [[Free Status]];
+G2L["a3"]["Text"] = [[]];
 G2L["a3"]["Name"] = [[Title]];
 G2L["a3"]["Position"] = UDim2.new(0.16703, 0, 0.10444, 0);
 
@@ -1647,7 +1648,7 @@ G2L["a8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a8"]["BackgroundTransparency"] = 1;
 G2L["a8"]["Size"] = UDim2.new(0, 520, 0, 40);
 G2L["a8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a8"]["Text"] = [[CLIENT INFORMATION]];
+G2L["a8"]["Text"] = [[CLIENT]];
 G2L["a8"]["Name"] = [[Title]];
 G2L["a8"]["Position"] = UDim2.new(0.03063, 0, 0.02892, 0);
 
@@ -1753,9 +1754,7 @@ G2L["b1"]["Position"] = UDim2.new(0.01291, 0, 0.14, 0);
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.DataSoftware
 G2L["b2"] = Instance.new("LocalScript", G2L["86"]);
-G2L["b2"]["Enabled"] = false;
 G2L["b2"]["Name"] = [[DataSoftware]];
-G2L["b2"]["Disabled"] = true;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Corner
@@ -2162,6 +2161,85 @@ local script = G2L["48"];
 	
 end;
 task.spawn(C_48);
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.DataSoftware
+local function C_b2()
+local script = G2L["b2"];
+	local CoreGui = game:GetService("CoreGui")
+	local Account = script.Parent:WaitForChild("Account", 10)
+	local AccountStatus = Account:WaitForChild("AccountStatus", 10)
+	local AccountSubscription = Account:WaitForChild("AccountSubscription", 10)
+	local AccountAge = Account:WaitForChild("AccountAge", 10)
+	local AccountAvatar = Account:WaitForChild("AccountAvatar", 10)
+	local AccountNickname = Account:WaitForChild("AccountNickname", 10)
+	
+	local Client = script.Parent:WaitForChild("Client", 10)
+	local ClientVersion = Client:WaitForChild("ClientVersion", 10)
+	local Timeplay = Client:WaitForChild("Timeplay", 10)
+	
+	local System = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent:WaitForChild("System", 10)
+	
+	local AtomVersion = System.AtomVersion
+	ClientVersion.Title.Text = AtomVersion.Value
+	
+	local function AccountSetup(Child)
+		local AccountData = Child
+		local GetAccountNickname = AccountData.AccountNickname
+		local GetAccountAvatar = AccountData.AccountAvatar
+		local GetAccountAge = AccountData.AccountAge
+		local GetAccountSubscription = AccountData.AccountSubscription
+		local GetAccountStatus = AccountData.AccountStatus
+		
+		AccountNickname.Title.Text = GetAccountNickname.Value
+		AccountAvatar.Icon.Image = GetAccountAvatar.Value
+		AccountAge.Title.Text = GetAccountAge.Value
+		AccountSubscription.Title.Text = GetAccountSubscription.Value
+		AccountStatus.Title.Text = GetAccountStatus.Value
+		
+		if GetAccountSubscription.Value == "Premium" then
+			AccountSubscription.Icon.Premium.Enabled = true
+			AccountSubscription.Title.Premium.Enabled = true
+		elseif GetAccountSubscription.Value == "Free" then
+			AccountSubscription.Icon.Premium.Enabled = false
+			AccountSubscription.Title.Premium.Enabled = false
+		end
+		
+		if GetAccountStatus.Value == "Unverified" then
+			AccountStatus.Unverified.Visible = true
+			AccountStatus.Verified.Visible = false
+			AccountStatus.Title.Unverified.Enabled = true
+			AccountStatus.Title.Verified.Enabled = false
+		elseif GetAccountStatus.Value == "Verified" then
+			AccountStatus.Unverified.Visible = false
+			AccountStatus.Verified.Visible = true
+			AccountStatus.Title.Unverified.Enabled = false
+			AccountStatus.Title.Verified.Enabled = true
+		end
+	end
+	
+	local totalSeconds = 0
+	
+	local function updateTimeDisplay()
+		local hours = math.floor(totalSeconds / 3600)
+		local minutes = math.floor((totalSeconds % 3600) / 60)
+		local seconds = totalSeconds % 60
+		Timeplay.Title.Text = string.format("%d Hours, %d Minutes, %d Seconds", hours, minutes, seconds)
+	end
+	
+	task.spawn(function()
+		while true do
+			totalSeconds = totalSeconds + 1
+			updateTimeDisplay()
+			task.wait(1)
+		end
+	end)
+	
+	Account.ChildAdded:Connect(function(Child)
+		if Child:IsA("Folder") and Child.Name == "Account" then
+			AccountSetup(Child)
+		end
+	end)
+end;
+task.spawn(C_b2);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.AtomSoftware
 local function C_b6()
 local script = G2L["b6"];
@@ -2208,7 +2286,7 @@ local script = G2L["b6"];
 		coroutine.wrap(TweenAnimation)(Object, "BackgroundColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.Out, Color3.fromRGB(32, 35, 45), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object.Logo.Icon, "ImageColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.Out, Color3.fromRGB(50, 55, 71), AnimationTime) 
 	end
-	
+
 	local function ShowFrameForButton(ButtonFrame)
 		for _, frame in pairs(ScreenFrames:GetChildren()) do
 			if frame:IsA("Frame") then
@@ -2221,20 +2299,20 @@ local script = G2L["b6"];
 			targetFrame.Visible = true
 		end
 	end
-	
+
 	local function SetupButton(frame, button)
 		button.MouseEnter:Connect(function()
 			if frame ~= CurrentActiveFrame then
 				coroutine.wrap(InAnimation)(frame, 0.15)
 			end
 		end)
-	
+
 		button.MouseLeave:Connect(function()
 			if frame ~= CurrentActiveFrame then
 				coroutine.wrap(OutAnimation)(frame, 0.15)
 			end
 		end)
-	
+
 		button.MouseButton1Click:Connect(function()
 			if CurrentActiveFrame and CurrentActiveFrame ~= frame then
 				coroutine.wrap(OutAnimation)(CurrentActiveFrame, 0.15)
@@ -2245,7 +2323,7 @@ local script = G2L["b6"];
 			script.Click:Play()
 		end)
 	end
-	
+
 	UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
 		if gameProcessedEvent then return end
 		if input.KeyCode == Enum.KeyCode[ClientValue.Value] then
@@ -2260,14 +2338,14 @@ local script = G2L["b6"];
 			end
 		end
 	end)
-	
+
 	-- Настраиваем все кнопки
 	coroutine.wrap(SetupButton)(Home, HomeButton)
 	coroutine.wrap(SetupButton)(Legit, LegitButton)
 	coroutine.wrap(SetupButton)(Rage, RageButton)
 	coroutine.wrap(SetupButton)(Config, ConfigButton)
 	coroutine.wrap(SetupButton)(Information, AccountButton)
-	
+
 	CurrentActiveFrame = Home
 	coroutine.wrap(ActivatedAnimation)(Home, 0.15)
 	coroutine.wrap(ShowFrameForButton)(Home)
@@ -2275,20 +2353,20 @@ end;
 task.spawn(C_b6);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.DragSoftware
 local function C_ba()
-local script = G2L["ba"];
+	local script = G2L["ba"];
 	local UserInputService = game:GetService("UserInputService")
 	local Element = script.Parent
-	
+
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-	
+
 	local function ElementUpdate(input)
 		local delta = input.Position - dragStart
 		Element.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-	
+
 	Element.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
