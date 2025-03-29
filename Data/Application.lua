@@ -14,7 +14,6 @@ local G2L = {};
 G2L["1"] = Instance.new("ScreenGui", game.CoreGui);
 G2L["1"]["SafeAreaCompatibility"] = Enum.SafeAreaCompatibility.None;
 G2L["1"]["IgnoreGuiInset"] = true;
-G2L["1"]["Enabled"] = false;
 G2L["1"]["ScreenInsets"] = Enum.ScreenInsets.None;
 G2L["1"]["ClipToDeviceSafeArea"] = false;
 G2L["1"]["Name"] = [[AtomKillwave]];
@@ -2262,6 +2261,7 @@ local script = G2L["b2"];
 		end
 	end)
 	
+	task.wait(1)
 	coroutine.wrap(AccountSetup)()
 end;
 task.spawn(C_b2);
@@ -2299,19 +2299,19 @@ local script = G2L["b6"];
 		coroutine.wrap(TweenAnimation)(Object, "BackgroundColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(40, 44, 57), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object.Logo.Icon, "ImageColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(88, 98, 126), AnimationTime) 
 	end
-
+	
 	local function ActivatedAnimation(Object, AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "Size", Enum.EasingStyle.Sine, Enum.EasingDirection.In, UDim2.new(0, 65,0, 65), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "BackgroundColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(40, 44, 57), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object.Logo.Icon, "ImageColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(255, 255, 255), AnimationTime)
 	end
-
+	
 	local function OutAnimation(Object, AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "Size", Enum.EasingStyle.Sine, Enum.EasingDirection.Out, UDim2.new(0, 60,0, 60), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "BackgroundColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.Out, Color3.fromRGB(32, 35, 45), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object.Logo.Icon, "ImageColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.Out, Color3.fromRGB(50, 55, 71), AnimationTime) 
 	end
-
+	
 	local function ShowFrameForButton(ButtonFrame)
 		for _, frame in pairs(ScreenFrames:GetChildren()) do
 			if frame:IsA("Frame") then
@@ -2324,20 +2324,20 @@ local script = G2L["b6"];
 			targetFrame.Visible = true
 		end
 	end
-
+	
 	local function SetupButton(frame, button)
 		button.MouseEnter:Connect(function()
 			if frame ~= CurrentActiveFrame then
 				coroutine.wrap(InAnimation)(frame, 0.15)
 			end
 		end)
-
+	
 		button.MouseLeave:Connect(function()
 			if frame ~= CurrentActiveFrame then
 				coroutine.wrap(OutAnimation)(frame, 0.15)
 			end
 		end)
-
+	
 		button.MouseButton1Click:Connect(function()
 			if CurrentActiveFrame and CurrentActiveFrame ~= frame then
 				coroutine.wrap(OutAnimation)(CurrentActiveFrame, 0.15)
@@ -2348,7 +2348,7 @@ local script = G2L["b6"];
 			script.Click:Play()
 		end)
 	end
-
+	
 	UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
 		if gameProcessedEvent then return end
 		if input.KeyCode == Enum.KeyCode[ClientValue.Value] then
@@ -2363,14 +2363,14 @@ local script = G2L["b6"];
 			end
 		end
 	end)
-
+	
 	-- Настраиваем все кнопки
 	coroutine.wrap(SetupButton)(Home, HomeButton)
 	coroutine.wrap(SetupButton)(Legit, LegitButton)
 	coroutine.wrap(SetupButton)(Rage, RageButton)
 	coroutine.wrap(SetupButton)(Config, ConfigButton)
 	coroutine.wrap(SetupButton)(Information, AccountButton)
-
+	
 	CurrentActiveFrame = Home
 	coroutine.wrap(ActivatedAnimation)(Home, 0.15)
 	coroutine.wrap(ShowFrameForButton)(Home)
@@ -2378,26 +2378,26 @@ end;
 task.spawn(C_b6);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.DragSoftware
 local function C_ba()
-	local script = G2L["ba"];
+local script = G2L["ba"];
 	local UserInputService = game:GetService("UserInputService")
 	local Element = script.Parent
-
+	
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-
+	
 	local function ElementUpdate(input)
 		local delta = input.Position - dragStart
 		Element.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-
+	
 	Element.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = Element.Position
-
+			
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -2405,13 +2405,13 @@ local function C_ba()
 			end)
 		end
 	end)
-
+	
 	Element.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-
+	
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			ElementUpdate(input)
@@ -2421,20 +2421,20 @@ end;
 task.spawn(C_ba);
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware
 local function C_c1()
-	local script = G2L["c1"];
+local script = G2L["c1"];
 	local TweenService = game:GetService("TweenService")
-
+	
 	local System = script.Parent.Parent:WaitForChild("System")
 	local Notifications = System:WaitForChild("Notifications")
 	local NotificationTemplate = script:WaitForChild("Notification")
-
+	
 	local function TweenAnimation(Frame, Propertion, EasingStyle, EasingDirection, Value, AnimationTime)
 		local AnimationInfo = TweenInfo.new(AnimationTime, EasingStyle, EasingDirection, 0, false, 0)
 		local Goal = {}; Goal[Propertion] = Value
 		local Animation = TweenService:Create(Frame, AnimationInfo, Goal)
 		Animation:Play()
 	end
-
+	
 	local function NotificationAnimation(Object, AnimationsTime, Delay)
 		coroutine.wrap(TweenAnimation)(Object.Container, "Position", Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, UDim2.new(0, 0, 0, 0), 1)
 		task.wait(1)
@@ -2443,7 +2443,7 @@ local function C_c1()
 		task.wait(1)
 		Object:Destroy()
 	end
-
+	
 	local function InstanceNotification(NotificationTitle, NotificationDescription)
 		local Notification = NotificationTemplate:Clone()
 		if not Notification then return end
@@ -2456,7 +2456,7 @@ local function C_c1()
 		Notification.Parent = script.Parent:FindFirstChild("Container"):FindFirstChild("Corner")
 		coroutine.wrap(NotificationAnimation)(Notification, 1, 5)
 	end
-
+	
 	Notifications.ChildAdded:Connect(function(Child)
 		if Child:IsA("StringValue") and Child.Name == "Notification" then
 			local description = Child:FindFirstChild("NotificationDescription")
@@ -2466,7 +2466,7 @@ local function C_c1()
 			end
 		end
 	end)
-
+	
 	coroutine.wrap(InstanceNotification)("SYSTEM", "ATOM KILLWAVE IS READY TO GO! FUCK PLAYING!")
 end;
 task.spawn(C_c1);
