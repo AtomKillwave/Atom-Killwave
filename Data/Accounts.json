@@ -1,12 +1,12 @@
 {
   "accounts": [
     {
-      "AccountNickname": "Test",
-      "AccountPassword": "Test1234",
-      "AccountAvatar": "rbxassetid://0",
-      "AccountAge": "28.03.2025",
-      "AccountSubscription": "Free",
-      "AccountStatus": "Unverified"
+      "AccountNickname": "Atom",
+      "AccountPassword": "ANFISAKISA",
+      "AccountAvatar": "rbxassetid://13410742107",
+      "AccountAge": "28.05.2025",
+      "AccountSubscription": "Premium",
+      "AccountStatus": "Verified"
     }
   ]
 }
