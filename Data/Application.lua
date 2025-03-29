@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 216 | Scripts: 9 | Modules: 0 | Tags: 0
+-- Instances: 210 | Scripts: 9 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.AtomKillwave
@@ -2014,36 +2014,6 @@ G2L["d2"]["Name"] = [[AtomVersion]];
 G2L["d2"]["Value"] = [[0.01]];
 
 
--- StarterGui.AtomKillwave.Software.System.Account
-G2L["d3"] = Instance.new("Folder", G2L["c9"]);
-G2L["d3"]["Name"] = [[Account]];
-
-
--- StarterGui.AtomKillwave.Software.System.Account.AccountNickname
-G2L["d4"] = Instance.new("StringValue", G2L["d3"]);
-G2L["d4"]["Name"] = [[AccountNickname]];
-
-
--- StarterGui.AtomKillwave.Software.System.Account.AccountAvatar
-G2L["d5"] = Instance.new("StringValue", G2L["d3"]);
-G2L["d5"]["Name"] = [[AccountAvatar]];
-
-
--- StarterGui.AtomKillwave.Software.System.Account.AccountAge
-G2L["d6"] = Instance.new("StringValue", G2L["d3"]);
-G2L["d6"]["Name"] = [[AccountAge]];
-
-
--- StarterGui.AtomKillwave.Software.System.Account.AccountSubscription
-G2L["d7"] = Instance.new("StringValue", G2L["d3"]);
-G2L["d7"]["Name"] = [[AccountSubscription]];
-
-
--- StarterGui.AtomKillwave.Software.System.Account.AccountStatus
-G2L["d8"] = Instance.new("StringValue", G2L["d3"]);
-G2L["d8"]["Name"] = [[AccountStatus]];
-
-
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick.ThickClient
 local function C_39()
 local script = G2L["39"];
@@ -2208,8 +2178,8 @@ local script = G2L["b2"];
 	local ClientVersion = Client.ClientVersion
 	local Timeplay = Client.Timeplay
 	
-	local System = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.System
-	local AccountData = System.Account
+	local System = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent:WaitForChild("System", 10)
+	local AccountData = game.CoreGui:WaitForChild("Account", 10)
 	
 	local AtomVersion = System.AtomVersion
 	ClientVersion.Title.Text = AtomVersion.Value
@@ -2304,13 +2274,13 @@ local script = G2L["b6"];
 		coroutine.wrap(TweenAnimation)(Object, "BackgroundColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(40, 44, 57), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object.Logo.Icon, "ImageColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(88, 98, 126), AnimationTime) 
 	end
-
+	
 	local function ActivatedAnimation(Object, AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "Size", Enum.EasingStyle.Sine, Enum.EasingDirection.In, UDim2.new(0, 65,0, 65), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "BackgroundColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(40, 44, 57), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object.Logo.Icon, "ImageColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(255, 255, 255), AnimationTime)
 	end
-
+	
 	local function OutAnimation(Object, AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "Size", Enum.EasingStyle.Sine, Enum.EasingDirection.Out, UDim2.new(0, 60,0, 60), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "BackgroundColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.Out, Color3.fromRGB(32, 35, 45), AnimationTime)
