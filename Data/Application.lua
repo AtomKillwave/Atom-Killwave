@@ -2233,7 +2233,7 @@ local script = G2L["b2"];
 		end
 	end)
 	
-	Account.ChildAdded:Connect(function(Child)
+	CoreGui.ChildAdded:Connect(function(Child)
 		if Child:IsA("Folder") and Child.Name == "Account" then
 			AccountSetup(Child)
 		end
