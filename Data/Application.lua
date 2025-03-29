@@ -1292,7 +1292,6 @@ G2L["86"] = Instance.new("ScrollingFrame", G2L["85"]);
 G2L["86"]["Active"] = true;
 G2L["86"]["BorderSizePixel"] = 0;
 G2L["86"]["CanvasSize"] = UDim2.new(0, 0, 1, 160);
-G2L["86"]["CanvasPosition"] = Vector2.new(0, 160);
 G2L["86"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["86"]["Name"] = [[Scroll]];
 G2L["86"]["Size"] = UDim2.new(1, 0, 1, 0);
@@ -2165,6 +2164,7 @@ task.spawn(C_48);
 local function C_b2()
 local script = G2L["b2"];
 	local CoreGui = game:GetService("CoreGui")
+	local Atom = script.Parent.Parent.Parent.Parent.Parent.Parent
 	local Account = script.Parent:WaitForChild("Account", 10)
 	local AccountStatus = Account:WaitForChild("AccountStatus", 10)
 	local AccountSubscription = Account:WaitForChild("AccountSubscription", 10)
@@ -2177,6 +2177,7 @@ local script = G2L["b2"];
 	local Timeplay = Client:WaitForChild("Timeplay", 10)
 	
 	local System = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent:WaitForChild("System", 10)
+	local Notification = System:WaitForChild("Notification", 10)
 	
 	local AtomVersion = System.AtomVersion
 	ClientVersion.Title.Text = AtomVersion.Value
@@ -2238,6 +2239,17 @@ local script = G2L["b2"];
 			AccountSetup(Child)
 		end
 	end)
+	
+	task.wait(5)
+	
+	local Account = CoreGui:FindFirstChild("Account")
+	if not Account then
+		Atom:Destroy()
+		local Notify = Notification:Clone()
+		Notify.Value = "SYNCHRONIZATION ERROR"
+		Notify.NotificationDescription.Value = "SORRY, THE CLIENT WON'T WORK WITHOUT AN ACCOUNT!"
+		Notify.Parent = System.Notifications
+	end
 end;
 task.spawn(C_b2);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.AtomSoftware
@@ -2280,7 +2292,7 @@ local script = G2L["b6"];
 		coroutine.wrap(TweenAnimation)(Object, "BackgroundColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(40, 44, 57), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object.Logo.Icon, "ImageColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.In, Color3.fromRGB(255, 255, 255), AnimationTime)
 	end
-	
+
 	local function OutAnimation(Object, AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "Size", Enum.EasingStyle.Sine, Enum.EasingDirection.Out, UDim2.new(0, 60,0, 60), AnimationTime)
 		coroutine.wrap(TweenAnimation)(Object, "BackgroundColor3", Enum.EasingStyle.Sine, Enum.EasingDirection.Out, Color3.fromRGB(32, 35, 45), AnimationTime)
