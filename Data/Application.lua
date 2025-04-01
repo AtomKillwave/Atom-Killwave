@@ -419,18 +419,18 @@ G2L["2b"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
 G2L["2b"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens
 G2L["2c"] = Instance.new("Frame", G2L["4"]);
 G2L["2c"]["BorderSizePixel"] = 0;
 G2L["2c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["2c"]["Size"] = UDim2.new(0, 590, 0, 415);
 G2L["2c"]["Position"] = UDim2.new(0.12593, 0, 0, 0);
 G2L["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2c"]["Name"] = [[Screen]];
+G2L["2c"]["Name"] = [[Screens]];
 G2L["2c"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit
 G2L["2d"] = Instance.new("Frame", G2L["2c"]);
 G2L["2d"]["Visible"] = false;
 G2L["2d"]["BorderSizePixel"] = 0;
@@ -441,7 +441,7 @@ G2L["2d"]["Name"] = [[Legit]];
 G2L["2d"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Title
 G2L["2e"] = Instance.new("TextLabel", G2L["2d"]);
 G2L["2e"]["TextWrapped"] = true;
 G2L["2e"]["BorderSizePixel"] = 0;
@@ -459,7 +459,7 @@ G2L["2e"]["Name"] = [[Title]];
 G2L["2e"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions
 G2L["2f"] = Instance.new("Frame", G2L["2d"]);
 G2L["2f"]["BorderSizePixel"] = 0;
 G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -470,7 +470,7 @@ G2L["2f"]["Name"] = [[Functions]];
 G2L["2f"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll
 G2L["30"] = Instance.new("ScrollingFrame", G2L["2f"]);
 G2L["30"]["Active"] = true;
 G2L["30"]["BorderSizePixel"] = 0;
@@ -482,7 +482,7 @@ G2L["30"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["30"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM
 G2L["31"] = Instance.new("Frame", G2L["30"]);
 G2L["31"]["BorderSizePixel"] = 0;
 G2L["31"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -494,12 +494,12 @@ G2L["31"]["LayoutOrder"] = 2;
 G2L["31"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.UICorner
 G2L["32"] = Instance.new("UICorner", G2L["31"]);
 G2L["32"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.Thick
 G2L["33"] = Instance.new("Frame", G2L["31"]);
 G2L["33"]["BorderSizePixel"] = 0;
 G2L["33"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
@@ -510,7 +510,7 @@ G2L["33"]["Name"] = [[Thick]];
 G2L["33"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick.Culc
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.Thick.Culc
 G2L["34"] = Instance.new("Frame", G2L["33"]);
 G2L["34"]["BorderSizePixel"] = 0;
 G2L["34"]["BackgroundColor3"] = Color3.fromRGB(42, 46, 59);
@@ -519,12 +519,12 @@ G2L["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["34"]["Name"] = [[Culc]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick.Culc.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.Thick.Culc.UICorner
 G2L["35"] = Instance.new("UICorner", G2L["34"]);
 G2L["35"]["CornerRadius"] = UDim.new(1, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick.True
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.Thick.True
 G2L["36"] = Instance.new("ImageLabel", G2L["33"]);
 G2L["36"]["ZIndex"] = 0;
 G2L["36"]["BorderSizePixel"] = 0;
@@ -538,7 +538,7 @@ G2L["36"]["Name"] = [[True]];
 G2L["36"]["Position"] = UDim2.new(0.06667, 0, 0.11111, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick.False
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.Thick.False
 G2L["37"] = Instance.new("ImageLabel", G2L["33"]);
 G2L["37"]["ZIndex"] = 0;
 G2L["37"]["BorderSizePixel"] = 0;
@@ -552,7 +552,7 @@ G2L["37"]["Name"] = [[False]];
 G2L["37"]["Position"] = UDim2.new(0.54444, 0, 0.11111, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick.Button
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.Thick.Button
 G2L["38"] = Instance.new("TextButton", G2L["33"]);
 G2L["38"]["BorderSizePixel"] = 0;
 G2L["38"]["TextSize"] = 14;
@@ -566,24 +566,24 @@ G2L["38"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["38"]["Text"] = [[]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick.ThickClient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.Thick.ThickClient
 G2L["39"] = Instance.new("LocalScript", G2L["33"]);
 G2L["39"]["Name"] = [[ThickClient]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick.Click
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.Thick.Click
 G2L["3a"] = Instance.new("Sound", G2L["33"]);
 G2L["3a"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
 G2L["3a"]["Name"] = [[Click]];
 G2L["3a"]["SoundId"] = [[rbxassetid://15675032796]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.Thick.UICorner
 G2L["3b"] = Instance.new("UICorner", G2L["33"]);
 G2L["3b"]["CornerRadius"] = UDim.new(1, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.Title
 G2L["3c"] = Instance.new("TextLabel", G2L["31"]);
 G2L["3c"]["TextWrapped"] = true;
 G2L["3c"]["BorderSizePixel"] = 0;
@@ -601,23 +601,23 @@ G2L["3c"]["Name"] = [[Title]];
 G2L["3c"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.FunctionStatus
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.FunctionStatus
 G2L["3d"] = Instance.new("BoolValue", G2L["31"]);
 G2L["3d"]["Name"] = [[FunctionStatus]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.FunctionSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.FunctionSoftware
 G2L["3e"] = Instance.new("LocalScript", G2L["31"]);
 G2L["3e"]["Name"] = [[FunctionSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.UIListLayout
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.UIListLayout
 G2L["3f"] = Instance.new("UIListLayout", G2L["30"]);
 G2L["3f"]["Padding"] = UDim.new(0, 5);
 G2L["3f"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP
 G2L["40"] = Instance.new("Frame", G2L["30"]);
 G2L["40"]["BorderSizePixel"] = 0;
 G2L["40"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -629,12 +629,12 @@ G2L["40"]["LayoutOrder"] = 3;
 G2L["40"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.UICorner
 G2L["41"] = Instance.new("UICorner", G2L["40"]);
 G2L["41"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.Thick
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.Thick
 G2L["42"] = Instance.new("Frame", G2L["40"]);
 G2L["42"]["BorderSizePixel"] = 0;
 G2L["42"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
@@ -645,7 +645,7 @@ G2L["42"]["Name"] = [[Thick]];
 G2L["42"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.Thick.Culc
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.Thick.Culc
 G2L["43"] = Instance.new("Frame", G2L["42"]);
 G2L["43"]["BorderSizePixel"] = 0;
 G2L["43"]["BackgroundColor3"] = Color3.fromRGB(42, 46, 59);
@@ -654,12 +654,12 @@ G2L["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["43"]["Name"] = [[Culc]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.Thick.Culc.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.Thick.Culc.UICorner
 G2L["44"] = Instance.new("UICorner", G2L["43"]);
 G2L["44"]["CornerRadius"] = UDim.new(1, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.Thick.True
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.Thick.True
 G2L["45"] = Instance.new("ImageLabel", G2L["42"]);
 G2L["45"]["ZIndex"] = 0;
 G2L["45"]["BorderSizePixel"] = 0;
@@ -673,7 +673,7 @@ G2L["45"]["Name"] = [[True]];
 G2L["45"]["Position"] = UDim2.new(0.06667, 0, 0.11111, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.Thick.False
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.Thick.False
 G2L["46"] = Instance.new("ImageLabel", G2L["42"]);
 G2L["46"]["ZIndex"] = 0;
 G2L["46"]["BorderSizePixel"] = 0;
@@ -687,7 +687,7 @@ G2L["46"]["Name"] = [[False]];
 G2L["46"]["Position"] = UDim2.new(0.54444, 0, 0.11111, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.Thick.Button
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.Thick.Button
 G2L["47"] = Instance.new("TextButton", G2L["42"]);
 G2L["47"]["BorderSizePixel"] = 0;
 G2L["47"]["TextSize"] = 14;
@@ -701,24 +701,24 @@ G2L["47"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["47"]["Text"] = [[]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.Thick.ThickClient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.Thick.ThickClient
 G2L["48"] = Instance.new("LocalScript", G2L["42"]);
 G2L["48"]["Name"] = [[ThickClient]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.Thick.Click
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.Thick.Click
 G2L["49"] = Instance.new("Sound", G2L["42"]);
 G2L["49"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
 G2L["49"]["Name"] = [[Click]];
 G2L["49"]["SoundId"] = [[rbxassetid://15675032796]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.Thick.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.Thick.UICorner
 G2L["4a"] = Instance.new("UICorner", G2L["42"]);
 G2L["4a"]["CornerRadius"] = UDim.new(1, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.Title
 G2L["4b"] = Instance.new("TextLabel", G2L["40"]);
 G2L["4b"]["TextWrapped"] = true;
 G2L["4b"]["BorderSizePixel"] = 0;
@@ -736,17 +736,17 @@ G2L["4b"]["Name"] = [[Title]];
 G2L["4b"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionStatus
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionStatus
 G2L["4c"] = Instance.new("BoolValue", G2L["40"]);
 G2L["4c"]["Name"] = [[FunctionStatus]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware
 G2L["4d"] = Instance.new("LocalScript", G2L["40"]);
 G2L["4d"]["Name"] = [[FunctionSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes
 G2L["4e"] = Instance.new("Frame", G2L["4d"]);
 G2L["4e"]["BorderSizePixel"] = 0;
 G2L["4e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
@@ -757,7 +757,7 @@ G2L["4e"]["Name"] = [[PlayerHitboxes]];
 G2L["4e"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner
 G2L["4f"] = Instance.new("Frame", G2L["4e"]);
 G2L["4f"]["BorderSizePixel"] = 0;
 G2L["4f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -767,12 +767,12 @@ G2L["4f"]["Name"] = [[LeftCorner]];
 G2L["4f"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner.UIListLayout
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner.UIListLayout
 G2L["50"] = Instance.new("UIListLayout", G2L["4f"]);
 G2L["50"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner.Container
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner.Container
 G2L["51"] = Instance.new("Frame", G2L["4f"]);
 G2L["51"]["BorderSizePixel"] = 0;
 G2L["51"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -782,7 +782,7 @@ G2L["51"]["Name"] = [[Container]];
 G2L["51"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner.Container.Stroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner.Container.Stroke
 G2L["52"] = Instance.new("Frame", G2L["51"]);
 G2L["52"]["BorderSizePixel"] = 0;
 G2L["52"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -791,12 +791,12 @@ G2L["52"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["52"]["Name"] = [[Stroke]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner.Container.Stroke.UIGradient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner.Container.Stroke.UIGradient
 G2L["53"] = Instance.new("UIGradient", G2L["52"]);
 G2L["53"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner.Container.Stroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner.Container.Stroke
 G2L["54"] = Instance.new("Frame", G2L["51"]);
 G2L["54"]["BorderSizePixel"] = 0;
 G2L["54"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -805,13 +805,13 @@ G2L["54"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["54"]["Name"] = [[Stroke]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner.Container.Stroke.UIGradient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftCorner.Container.Stroke.UIGradient
 G2L["55"] = Instance.new("UIGradient", G2L["54"]);
 G2L["55"]["Rotation"] = 90;
 G2L["55"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner
 G2L["56"] = Instance.new("Frame", G2L["4e"]);
 G2L["56"]["BorderSizePixel"] = 0;
 G2L["56"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -821,13 +821,13 @@ G2L["56"]["Name"] = [[RightCorner]];
 G2L["56"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner.UIListLayout
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner.UIListLayout
 G2L["57"] = Instance.new("UIListLayout", G2L["56"]);
 G2L["57"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Right;
 G2L["57"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner.Container
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner.Container
 G2L["58"] = Instance.new("Frame", G2L["56"]);
 G2L["58"]["BorderSizePixel"] = 0;
 G2L["58"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -837,7 +837,7 @@ G2L["58"]["Name"] = [[Container]];
 G2L["58"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner.Container.Stroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner.Container.Stroke
 G2L["59"] = Instance.new("Frame", G2L["58"]);
 G2L["59"]["BorderSizePixel"] = 0;
 G2L["59"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -847,13 +847,13 @@ G2L["59"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["59"]["Name"] = [[Stroke]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner.Container.Stroke.UIGradient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner.Container.Stroke.UIGradient
 G2L["5a"] = Instance.new("UIGradient", G2L["59"]);
 G2L["5a"]["Rotation"] = 180;
 G2L["5a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner.Container.Stroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner.Container.Stroke
 G2L["5b"] = Instance.new("Frame", G2L["58"]);
 G2L["5b"]["BorderSizePixel"] = 0;
 G2L["5b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -863,13 +863,13 @@ G2L["5b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["5b"]["Name"] = [[Stroke]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner.Container.Stroke.UIGradient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightCorner.Container.Stroke.UIGradient
 G2L["5c"] = Instance.new("UIGradient", G2L["5b"]);
 G2L["5c"]["Rotation"] = 90;
 G2L["5c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner
 G2L["5d"] = Instance.new("Frame", G2L["4e"]);
 G2L["5d"]["BorderSizePixel"] = 0;
 G2L["5d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -879,13 +879,13 @@ G2L["5d"]["Name"] = [[LeftBottomCorner]];
 G2L["5d"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner.UIListLayout
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner.UIListLayout
 G2L["5e"] = Instance.new("UIListLayout", G2L["5d"]);
 G2L["5e"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
 G2L["5e"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner.Container
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner.Container
 G2L["5f"] = Instance.new("Frame", G2L["5d"]);
 G2L["5f"]["BorderSizePixel"] = 0;
 G2L["5f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -895,7 +895,7 @@ G2L["5f"]["Name"] = [[Container]];
 G2L["5f"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner.Container.Stroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner.Container.Stroke
 G2L["60"] = Instance.new("Frame", G2L["5f"]);
 G2L["60"]["BorderSizePixel"] = 0;
 G2L["60"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -905,13 +905,13 @@ G2L["60"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["60"]["Name"] = [[Stroke]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner.Container.Stroke.UIGradient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner.Container.Stroke.UIGradient
 G2L["61"] = Instance.new("UIGradient", G2L["60"]);
 G2L["61"]["Rotation"] = -90;
 G2L["61"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner.Container.Stroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner.Container.Stroke
 G2L["62"] = Instance.new("Frame", G2L["5f"]);
 G2L["62"]["BorderSizePixel"] = 0;
 G2L["62"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -921,12 +921,12 @@ G2L["62"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["62"]["Name"] = [[Stroke]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner.Container.Stroke.UIGradient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.LeftBottomCorner.Container.Stroke.UIGradient
 G2L["63"] = Instance.new("UIGradient", G2L["62"]);
 G2L["63"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner
 G2L["64"] = Instance.new("Frame", G2L["4e"]);
 G2L["64"]["BorderSizePixel"] = 0;
 G2L["64"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -936,14 +936,14 @@ G2L["64"]["Name"] = [[RightBottomCorner]];
 G2L["64"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner.UIListLayout
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner.UIListLayout
 G2L["65"] = Instance.new("UIListLayout", G2L["64"]);
 G2L["65"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Right;
 G2L["65"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
 G2L["65"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner.Container
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner.Container
 G2L["66"] = Instance.new("Frame", G2L["64"]);
 G2L["66"]["BorderSizePixel"] = 0;
 G2L["66"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -953,7 +953,7 @@ G2L["66"]["Name"] = [[Container]];
 G2L["66"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner.Container.Stroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner.Container.Stroke
 G2L["67"] = Instance.new("Frame", G2L["66"]);
 G2L["67"]["BorderSizePixel"] = 0;
 G2L["67"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -963,12 +963,12 @@ G2L["67"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["67"]["Name"] = [[Stroke]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner.Container.Stroke.UIGradient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner.Container.Stroke.UIGradient
 G2L["68"] = Instance.new("UIGradient", G2L["67"]);
 G2L["68"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner.Container.Stroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner.Container.Stroke
 G2L["69"] = Instance.new("Frame", G2L["66"]);
 G2L["69"]["BorderSizePixel"] = 0;
 G2L["69"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -978,13 +978,13 @@ G2L["69"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["69"]["Name"] = [[Stroke]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner.Container.Stroke.UIGradient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.RightBottomCorner.Container.Stroke.UIGradient
 G2L["6a"] = Instance.new("UIGradient", G2L["69"]);
 G2L["6a"]["Rotation"] = 90;
 G2L["6a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname
 G2L["6b"] = Instance.new("Frame", G2L["4e"]);
 G2L["6b"]["BorderSizePixel"] = 0;
 G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -994,7 +994,7 @@ G2L["6b"]["Name"] = [[Nickname]];
 G2L["6b"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container
 G2L["6c"] = Instance.new("Frame", G2L["6b"]);
 G2L["6c"]["BorderSizePixel"] = 0;
 G2L["6c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
@@ -1005,7 +1005,7 @@ G2L["6c"]["Name"] = [[Container]];
 G2L["6c"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container.Corner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container.Corner
 G2L["6d"] = Instance.new("Frame", G2L["6c"]);
 G2L["6d"]["BorderSizePixel"] = 0;
 G2L["6d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
@@ -1015,14 +1015,14 @@ G2L["6d"]["Name"] = [[Corner]];
 G2L["6d"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container.Corner.UIStroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container.Corner.UIStroke
 G2L["6e"] = Instance.new("UIStroke", G2L["6d"]);
 G2L["6e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["6e"]["Thickness"] = 2;
 G2L["6e"]["Color"] = Color3.fromRGB(255, 0, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container.Corner.Texts
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container.Corner.Texts
 G2L["6f"] = Instance.new("Frame", G2L["6d"]);
 G2L["6f"]["BorderSizePixel"] = 0;
 G2L["6f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1032,7 +1032,7 @@ G2L["6f"]["Name"] = [[Texts]];
 G2L["6f"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container.Corner.Texts.NicknameTitle
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container.Corner.Texts.NicknameTitle
 G2L["70"] = Instance.new("TextLabel", G2L["6f"]);
 G2L["70"]["TextWrapped"] = true;
 G2L["70"]["BorderSizePixel"] = 0;
@@ -1049,20 +1049,20 @@ G2L["70"]["Name"] = [[NicknameTitle]];
 G2L["70"]["Position"] = UDim2.new(0, 0, 0.05714, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container.Corner.Texts.NicknameTitle.UIStroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container.Corner.Texts.NicknameTitle.UIStroke
 G2L["71"] = Instance.new("UIStroke", G2L["70"]);
 G2L["71"]["LineJoinMode"] = Enum.LineJoinMode.Miter;
 G2L["71"]["Color"] = Color3.fromRGB(255, 0, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container.UIListLayout
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Nickname.Container.UIListLayout
 G2L["72"] = Instance.new("UIListLayout", G2L["6c"]);
 G2L["72"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
 G2L["72"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
 G2L["72"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health
 G2L["73"] = Instance.new("Frame", G2L["4e"]);
 G2L["73"]["BorderSizePixel"] = 0;
 G2L["73"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1071,7 +1071,7 @@ G2L["73"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["73"]["Name"] = [[Health]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container
 G2L["74"] = Instance.new("Frame", G2L["73"]);
 G2L["74"]["BorderSizePixel"] = 0;
 G2L["74"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1081,7 +1081,7 @@ G2L["74"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["74"]["Name"] = [[Container]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.Corner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.Corner
 G2L["75"] = Instance.new("Frame", G2L["74"]);
 G2L["75"]["BorderSizePixel"] = 0;
 G2L["75"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1092,21 +1092,21 @@ G2L["75"]["Name"] = [[Corner]];
 G2L["75"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.Corner.UIStroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.Corner.UIStroke
 G2L["76"] = Instance.new("UIStroke", G2L["75"]);
 G2L["76"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["76"]["Thickness"] = 2;
 G2L["76"]["Color"] = Color3.fromRGB(255, 0, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.Corner.UIListLayout
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.Corner.UIListLayout
 G2L["77"] = Instance.new("UIListLayout", G2L["75"]);
 G2L["77"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
 G2L["77"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
 G2L["77"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.Corner.Bar
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.Corner.Bar
 G2L["78"] = Instance.new("Frame", G2L["75"]);
 G2L["78"]["BorderSizePixel"] = 0;
 G2L["78"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1115,13 +1115,13 @@ G2L["78"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["78"]["Name"] = [[Bar]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.Corner.Bar.UIGradient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.Corner.Bar.UIGradient
 G2L["79"] = Instance.new("UIGradient", G2L["78"]);
 G2L["79"]["Rotation"] = -90;
 G2L["79"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 0))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.UIListLayout
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.UIListLayout
 G2L["7a"] = Instance.new("UIListLayout", G2L["74"]);
 G2L["7a"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Right;
 G2L["7a"]["Padding"] = UDim.new(0, 5);
@@ -1130,7 +1130,7 @@ G2L["7a"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 G2L["7a"]["FillDirection"] = Enum.FillDirection.Horizontal;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.Zone
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware.PlayerHitboxes.Health.Container.Zone
 G2L["7b"] = Instance.new("Frame", G2L["74"]);
 G2L["7b"]["BorderSizePixel"] = 0;
 G2L["7b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1140,12 +1140,12 @@ G2L["7b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["7b"]["Name"] = [[Zone]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ScrollSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ScrollSoftware
 G2L["7c"] = Instance.new("LocalScript", G2L["30"]);
 G2L["7c"]["Name"] = [[ScrollSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.CATEGORY
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.CATEGORY
 G2L["7d"] = Instance.new("Frame", G2L["30"]);
 G2L["7d"]["BorderSizePixel"] = 0;
 G2L["7d"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -1157,12 +1157,12 @@ G2L["7d"]["LayoutOrder"] = 1;
 G2L["7d"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.CATEGORY.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.CATEGORY.UICorner
 G2L["7e"] = Instance.new("UICorner", G2L["7d"]);
 G2L["7e"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.CATEGORY.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.CATEGORY.Title
 G2L["7f"] = Instance.new("TextLabel", G2L["7d"]);
 G2L["7f"]["TextWrapped"] = true;
 G2L["7f"]["BorderSizePixel"] = 0;
@@ -1180,7 +1180,7 @@ G2L["7f"]["Name"] = [[Title]];
 G2L["7f"]["Position"] = UDim2.new(0.09474, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.CATEGORY.Icon
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.CATEGORY.Icon
 G2L["80"] = Instance.new("ImageLabel", G2L["7d"]);
 G2L["80"]["BorderSizePixel"] = 0;
 G2L["80"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1194,7 +1194,7 @@ G2L["80"]["Name"] = [[Icon]];
 G2L["80"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage
 G2L["81"] = Instance.new("Frame", G2L["2c"]);
 G2L["81"]["Visible"] = false;
 G2L["81"]["BorderSizePixel"] = 0;
@@ -1205,7 +1205,7 @@ G2L["81"]["Name"] = [[Rage]];
 G2L["81"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Title
 G2L["82"] = Instance.new("TextLabel", G2L["81"]);
 G2L["82"]["TextWrapped"] = true;
 G2L["82"]["BorderSizePixel"] = 0;
@@ -1223,7 +1223,7 @@ G2L["82"]["Name"] = [[Title]];
 G2L["82"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions
 G2L["83"] = Instance.new("Frame", G2L["81"]);
 G2L["83"]["BorderSizePixel"] = 0;
 G2L["83"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -1234,7 +1234,7 @@ G2L["83"]["Name"] = [[Functions]];
 G2L["83"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll
 G2L["84"] = Instance.new("ScrollingFrame", G2L["83"]);
 G2L["84"]["Active"] = true;
 G2L["84"]["BorderSizePixel"] = 0;
@@ -1246,18 +1246,18 @@ G2L["84"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["84"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.UIListLayout
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.UIListLayout
 G2L["85"] = Instance.new("UIListLayout", G2L["84"]);
 G2L["85"]["Padding"] = UDim.new(0, 5);
 G2L["85"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.ScrollSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.ScrollSoftware
 G2L["86"] = Instance.new("LocalScript", G2L["84"]);
 G2L["86"]["Name"] = [[ScrollSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.WalkSpeed
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.WalkSpeed
 G2L["87"] = Instance.new("Frame", G2L["84"]);
 G2L["87"]["BorderSizePixel"] = 0;
 G2L["87"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -1269,12 +1269,12 @@ G2L["87"]["LayoutOrder"] = 2;
 G2L["87"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.WalkSpeed.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.WalkSpeed.UICorner
 G2L["88"] = Instance.new("UICorner", G2L["87"]);
 G2L["88"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.WalkSpeed.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.WalkSpeed.Title
 G2L["89"] = Instance.new("TextLabel", G2L["87"]);
 G2L["89"]["TextWrapped"] = true;
 G2L["89"]["BorderSizePixel"] = 0;
@@ -1292,7 +1292,7 @@ G2L["89"]["Name"] = [[Title]];
 G2L["89"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.WalkSpeed.ValueSet
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.WalkSpeed.ValueSet
 G2L["8a"] = Instance.new("Frame", G2L["87"]);
 G2L["8a"]["BorderSizePixel"] = 0;
 G2L["8a"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
@@ -1303,12 +1303,12 @@ G2L["8a"]["Name"] = [[ValueSet]];
 G2L["8a"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.WalkSpeed.ValueSet.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.WalkSpeed.ValueSet.UICorner
 G2L["8b"] = Instance.new("UICorner", G2L["8a"]);
 G2L["8b"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.WalkSpeed.ValueSet.TextBox
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.WalkSpeed.ValueSet.TextBox
 G2L["8c"] = Instance.new("TextBox", G2L["8a"]);
 G2L["8c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8c"]["PlaceholderColor3"] = Color3.fromRGB(56, 62, 80);
@@ -1327,12 +1327,12 @@ G2L["8c"]["Text"] = [[]];
 G2L["8c"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.WalkSpeed.FunctionSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.WalkSpeed.FunctionSoftware
 G2L["8d"] = Instance.new("LocalScript", G2L["87"]);
 G2L["8d"]["Name"] = [[FunctionSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.JumpPower
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.JumpPower
 G2L["8e"] = Instance.new("Frame", G2L["84"]);
 G2L["8e"]["BorderSizePixel"] = 0;
 G2L["8e"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -1344,12 +1344,12 @@ G2L["8e"]["LayoutOrder"] = 3;
 G2L["8e"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.JumpPower.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.JumpPower.UICorner
 G2L["8f"] = Instance.new("UICorner", G2L["8e"]);
 G2L["8f"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.JumpPower.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.JumpPower.Title
 G2L["90"] = Instance.new("TextLabel", G2L["8e"]);
 G2L["90"]["TextWrapped"] = true;
 G2L["90"]["BorderSizePixel"] = 0;
@@ -1367,7 +1367,7 @@ G2L["90"]["Name"] = [[Title]];
 G2L["90"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.JumpPower.ValueSet
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.JumpPower.ValueSet
 G2L["91"] = Instance.new("Frame", G2L["8e"]);
 G2L["91"]["BorderSizePixel"] = 0;
 G2L["91"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
@@ -1378,12 +1378,12 @@ G2L["91"]["Name"] = [[ValueSet]];
 G2L["91"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.JumpPower.ValueSet.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.JumpPower.ValueSet.UICorner
 G2L["92"] = Instance.new("UICorner", G2L["91"]);
 G2L["92"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.JumpPower.ValueSet.TextBox
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.JumpPower.ValueSet.TextBox
 G2L["93"] = Instance.new("TextBox", G2L["91"]);
 G2L["93"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["93"]["PlaceholderColor3"] = Color3.fromRGB(56, 62, 80);
@@ -1402,12 +1402,12 @@ G2L["93"]["Text"] = [[]];
 G2L["93"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.JumpPower.FunctionSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.JumpPower.FunctionSoftware
 G2L["94"] = Instance.new("LocalScript", G2L["8e"]);
 G2L["94"]["Name"] = [[FunctionSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.CATEGORY
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.CATEGORY
 G2L["95"] = Instance.new("Frame", G2L["84"]);
 G2L["95"]["BorderSizePixel"] = 0;
 G2L["95"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -1419,12 +1419,12 @@ G2L["95"]["LayoutOrder"] = 1;
 G2L["95"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.CATEGORY.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.CATEGORY.UICorner
 G2L["96"] = Instance.new("UICorner", G2L["95"]);
 G2L["96"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.CATEGORY.Icon
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.CATEGORY.Icon
 G2L["97"] = Instance.new("ImageLabel", G2L["95"]);
 G2L["97"]["BorderSizePixel"] = 0;
 G2L["97"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1438,7 +1438,7 @@ G2L["97"]["Name"] = [[Icon]];
 G2L["97"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.CATEGORY.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.CATEGORY.Title
 G2L["98"] = Instance.new("TextLabel", G2L["95"]);
 G2L["98"]["TextWrapped"] = true;
 G2L["98"]["BorderSizePixel"] = 0;
@@ -1456,7 +1456,7 @@ G2L["98"]["Name"] = [[Title]];
 G2L["98"]["Position"] = UDim2.new(0.09474, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config
 G2L["99"] = Instance.new("Frame", G2L["2c"]);
 G2L["99"]["Visible"] = false;
 G2L["99"]["BorderSizePixel"] = 0;
@@ -1467,7 +1467,7 @@ G2L["99"]["Name"] = [[Config]];
 G2L["99"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Title
 G2L["9a"] = Instance.new("TextLabel", G2L["99"]);
 G2L["9a"]["TextWrapped"] = true;
 G2L["9a"]["BorderSizePixel"] = 0;
@@ -1485,7 +1485,7 @@ G2L["9a"]["Name"] = [[Title]];
 G2L["9a"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions
 G2L["9b"] = Instance.new("Frame", G2L["99"]);
 G2L["9b"]["BorderSizePixel"] = 0;
 G2L["9b"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -1496,7 +1496,7 @@ G2L["9b"]["Name"] = [[Functions]];
 G2L["9b"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll
 G2L["9c"] = Instance.new("ScrollingFrame", G2L["9b"]);
 G2L["9c"]["Active"] = true;
 G2L["9c"]["BorderSizePixel"] = 0;
@@ -1509,7 +1509,7 @@ G2L["9c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["9c"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.AIM
 G2L["9d"] = Instance.new("Frame", G2L["9c"]);
 G2L["9d"]["BorderSizePixel"] = 0;
 G2L["9d"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -1521,12 +1521,12 @@ G2L["9d"]["LayoutOrder"] = 2;
 G2L["9d"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.AIM.UICorner
 G2L["9e"] = Instance.new("UICorner", G2L["9d"]);
 G2L["9e"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.AIM.Title
 G2L["9f"] = Instance.new("TextLabel", G2L["9d"]);
 G2L["9f"]["TextWrapped"] = true;
 G2L["9f"]["BorderSizePixel"] = 0;
@@ -1544,7 +1544,7 @@ G2L["9f"]["Name"] = [[Title]];
 G2L["9f"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.Keybind
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.AIM.Keybind
 G2L["a0"] = Instance.new("Frame", G2L["9d"]);
 G2L["a0"]["BorderSizePixel"] = 0;
 G2L["a0"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
@@ -1555,12 +1555,12 @@ G2L["a0"]["Name"] = [[Keybind]];
 G2L["a0"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.Keybind.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.AIM.Keybind.UICorner
 G2L["a1"] = Instance.new("UICorner", G2L["a0"]);
 G2L["a1"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.Keybind.Button
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.AIM.Keybind.Button
 G2L["a2"] = Instance.new("TextButton", G2L["a0"]);
 G2L["a2"]["BorderSizePixel"] = 0;
 G2L["a2"]["TextSize"] = 14;
@@ -1574,7 +1574,7 @@ G2L["a2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["a2"]["Text"] = [[]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.Keybind.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.AIM.Keybind.Title
 G2L["a3"] = Instance.new("TextLabel", G2L["a0"]);
 G2L["a3"]["TextWrapped"] = true;
 G2L["a3"]["BorderSizePixel"] = 0;
@@ -1591,7 +1591,7 @@ G2L["a3"]["Name"] = [[Title]];
 G2L["a3"]["Position"] = UDim2.new(0.07, 0, 0, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.Keybind.UIStroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.AIM.Keybind.UIStroke
 G2L["a4"] = Instance.new("UIStroke", G2L["a0"]);
 G2L["a4"]["Enabled"] = false;
 G2L["a4"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
@@ -1599,32 +1599,32 @@ G2L["a4"]["Thickness"] = 2;
 G2L["a4"]["Color"] = Color3.fromRGB(60, 68, 86);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.KeycodeSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.AIM.KeycodeSoftware
 G2L["a5"] = Instance.new("LocalScript", G2L["9d"]);
 G2L["a5"]["Name"] = [[KeycodeSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.KeycodeSoftware.KeycodeSet
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.AIM.KeycodeSoftware.KeycodeSet
 G2L["a6"] = Instance.new("Sound", G2L["a5"]);
 G2L["a6"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
 G2L["a6"]["Name"] = [[KeycodeSet]];
 G2L["a6"]["SoundId"] = [[rbxassetid://17582213219]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.KeycodeSoftware.KeycodeClick
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.AIM.KeycodeSoftware.KeycodeClick
 G2L["a7"] = Instance.new("Sound", G2L["a5"]);
 G2L["a7"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
 G2L["a7"]["Name"] = [[KeycodeClick]];
 G2L["a7"]["SoundId"] = [[rbxassetid://17779566040]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.UIListLayout
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.UIListLayout
 G2L["a8"] = Instance.new("UIListLayout", G2L["9c"]);
 G2L["a8"]["Padding"] = UDim.new(0, 5);
 G2L["a8"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CATEGORY
 G2L["a9"] = Instance.new("Frame", G2L["9c"]);
 G2L["a9"]["BorderSizePixel"] = 0;
 G2L["a9"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -1636,12 +1636,12 @@ G2L["a9"]["LayoutOrder"] = 1;
 G2L["a9"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CATEGORY.UICorner
 G2L["aa"] = Instance.new("UICorner", G2L["a9"]);
 G2L["aa"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY.Icon
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CATEGORY.Icon
 G2L["ab"] = Instance.new("ImageLabel", G2L["a9"]);
 G2L["ab"]["BorderSizePixel"] = 0;
 G2L["ab"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1655,7 +1655,7 @@ G2L["ab"]["Name"] = [[Icon]];
 G2L["ab"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CATEGORY.Title
 G2L["ac"] = Instance.new("TextLabel", G2L["a9"]);
 G2L["ac"]["TextWrapped"] = true;
 G2L["ac"]["BorderSizePixel"] = 0;
@@ -1673,7 +1673,7 @@ G2L["ac"]["Name"] = [[Title]];
 G2L["ac"]["Position"] = UDim2.new(0.09474, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ESP
 G2L["ad"] = Instance.new("Frame", G2L["9c"]);
 G2L["ad"]["BorderSizePixel"] = 0;
 G2L["ad"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -1685,12 +1685,12 @@ G2L["ad"]["LayoutOrder"] = 3;
 G2L["ad"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ESP.UICorner
 G2L["ae"] = Instance.new("UICorner", G2L["ad"]);
 G2L["ae"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ESP.Title
 G2L["af"] = Instance.new("TextLabel", G2L["ad"]);
 G2L["af"]["TextWrapped"] = true;
 G2L["af"]["BorderSizePixel"] = 0;
@@ -1708,7 +1708,7 @@ G2L["af"]["Name"] = [[Title]];
 G2L["af"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.Keybind
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ESP.Keybind
 G2L["b0"] = Instance.new("Frame", G2L["ad"]);
 G2L["b0"]["BorderSizePixel"] = 0;
 G2L["b0"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
@@ -1719,12 +1719,12 @@ G2L["b0"]["Name"] = [[Keybind]];
 G2L["b0"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.Keybind.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ESP.Keybind.UICorner
 G2L["b1"] = Instance.new("UICorner", G2L["b0"]);
 G2L["b1"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.Keybind.Button
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ESP.Keybind.Button
 G2L["b2"] = Instance.new("TextButton", G2L["b0"]);
 G2L["b2"]["BorderSizePixel"] = 0;
 G2L["b2"]["TextSize"] = 14;
@@ -1738,7 +1738,7 @@ G2L["b2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["b2"]["Text"] = [[]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.Keybind.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ESP.Keybind.Title
 G2L["b3"] = Instance.new("TextLabel", G2L["b0"]);
 G2L["b3"]["TextWrapped"] = true;
 G2L["b3"]["BorderSizePixel"] = 0;
@@ -1755,7 +1755,7 @@ G2L["b3"]["Name"] = [[Title]];
 G2L["b3"]["Position"] = UDim2.new(0.07, 0, 0, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.Keybind.UIStroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ESP.Keybind.UIStroke
 G2L["b4"] = Instance.new("UIStroke", G2L["b0"]);
 G2L["b4"]["Enabled"] = false;
 G2L["b4"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
@@ -1763,26 +1763,26 @@ G2L["b4"]["Thickness"] = 2;
 G2L["b4"]["Color"] = Color3.fromRGB(60, 68, 86);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.KeycodeSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ESP.KeycodeSoftware
 G2L["b5"] = Instance.new("LocalScript", G2L["ad"]);
 G2L["b5"]["Name"] = [[KeycodeSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.KeycodeSoftware.KeycodeSet
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ESP.KeycodeSoftware.KeycodeSet
 G2L["b6"] = Instance.new("Sound", G2L["b5"]);
 G2L["b6"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
 G2L["b6"]["Name"] = [[KeycodeSet]];
 G2L["b6"]["SoundId"] = [[rbxassetid://17582213219]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.KeycodeSoftware.KeycodeClick
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ESP.KeycodeSoftware.KeycodeClick
 G2L["b7"] = Instance.new("Sound", G2L["b5"]);
 G2L["b7"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
 G2L["b7"]["Name"] = [[KeycodeClick]];
 G2L["b7"]["SoundId"] = [[rbxassetid://17779566040]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CATEGORY
 G2L["b8"] = Instance.new("Frame", G2L["9c"]);
 G2L["b8"]["BorderSizePixel"] = 0;
 G2L["b8"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -1794,18 +1794,18 @@ G2L["b8"]["LayoutOrder"] = 4;
 G2L["b8"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CATEGORY.UICorner
 G2L["b9"] = Instance.new("UICorner", G2L["b8"]);
 G2L["b9"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY.Icon
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CATEGORY.Icon
 G2L["ba"] = Instance.new("ImageLabel", G2L["b8"]);
 G2L["ba"]["BorderSizePixel"] = 0;
 G2L["ba"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["ba"]["ScaleType"] = Enum.ScaleType.Crop;
 G2L["ba"]["ImageColor3"] = Color3.fromRGB(56, 62, 80);
-G2L["ba"]["Image"] = [[rbxassetid://70954296467983]];
+G2L["ba"]["Image"] = [[rbxassetid://71568447524409]];
 G2L["ba"]["Size"] = UDim2.new(0, 35, 0, 35);
 G2L["ba"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["ba"]["BackgroundTransparency"] = 1;
@@ -1813,7 +1813,7 @@ G2L["ba"]["Name"] = [[Icon]];
 G2L["ba"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CATEGORY.Title
 G2L["bb"] = Instance.new("TextLabel", G2L["b8"]);
 G2L["bb"]["TextWrapped"] = true;
 G2L["bb"]["BorderSizePixel"] = 0;
@@ -1831,7 +1831,7 @@ G2L["bb"]["Name"] = [[Title]];
 G2L["bb"]["Position"] = UDim2.new(0.09474, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CLIENT
 G2L["bc"] = Instance.new("Frame", G2L["9c"]);
 G2L["bc"]["BorderSizePixel"] = 0;
 G2L["bc"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -1843,12 +1843,12 @@ G2L["bc"]["LayoutOrder"] = 5;
 G2L["bc"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CLIENT.UICorner
 G2L["bd"] = Instance.new("UICorner", G2L["bc"]);
 G2L["bd"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CLIENT.Title
 G2L["be"] = Instance.new("TextLabel", G2L["bc"]);
 G2L["be"]["TextWrapped"] = true;
 G2L["be"]["BorderSizePixel"] = 0;
@@ -1866,7 +1866,7 @@ G2L["be"]["Name"] = [[Title]];
 G2L["be"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.Keybind
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CLIENT.Keybind
 G2L["bf"] = Instance.new("Frame", G2L["bc"]);
 G2L["bf"]["BorderSizePixel"] = 0;
 G2L["bf"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
@@ -1877,12 +1877,12 @@ G2L["bf"]["Name"] = [[Keybind]];
 G2L["bf"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.Keybind.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CLIENT.Keybind.UICorner
 G2L["c0"] = Instance.new("UICorner", G2L["bf"]);
 G2L["c0"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.Keybind.Button
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CLIENT.Keybind.Button
 G2L["c1"] = Instance.new("TextButton", G2L["bf"]);
 G2L["c1"]["BorderSizePixel"] = 0;
 G2L["c1"]["TextSize"] = 14;
@@ -1896,7 +1896,7 @@ G2L["c1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["c1"]["Text"] = [[]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.Keybind.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CLIENT.Keybind.Title
 G2L["c2"] = Instance.new("TextLabel", G2L["bf"]);
 G2L["c2"]["TextWrapped"] = true;
 G2L["c2"]["BorderSizePixel"] = 0;
@@ -1913,7 +1913,7 @@ G2L["c2"]["Name"] = [[Title]];
 G2L["c2"]["Position"] = UDim2.new(0.07, 0, 0, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.Keybind.UIStroke
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CLIENT.Keybind.UIStroke
 G2L["c3"] = Instance.new("UIStroke", G2L["bf"]);
 G2L["c3"]["Enabled"] = false;
 G2L["c3"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
@@ -1921,26 +1921,26 @@ G2L["c3"]["Thickness"] = 2;
 G2L["c3"]["Color"] = Color3.fromRGB(60, 68, 86);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.KeycodeSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CLIENT.KeycodeSoftware
 G2L["c4"] = Instance.new("LocalScript", G2L["bc"]);
 G2L["c4"]["Name"] = [[KeycodeSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.KeycodeSoftware.KeycodeSet
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CLIENT.KeycodeSoftware.KeycodeSet
 G2L["c5"] = Instance.new("Sound", G2L["c4"]);
 G2L["c5"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
 G2L["c5"]["Name"] = [[KeycodeSet]];
 G2L["c5"]["SoundId"] = [[rbxassetid://17582213219]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.KeycodeSoftware.KeycodeClick
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CLIENT.KeycodeSoftware.KeycodeClick
 G2L["c6"] = Instance.new("Sound", G2L["c4"]);
 G2L["c6"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
 G2L["c6"]["Name"] = [[KeycodeClick]];
 G2L["c6"]["SoundId"] = [[rbxassetid://17779566040]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO
 G2L["c7"] = Instance.new("Frame", G2L["9c"]);
 G2L["c7"]["BorderSizePixel"] = 0;
 G2L["c7"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -1952,12 +1952,12 @@ G2L["c7"]["LayoutOrder"] = 5;
 G2L["c7"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.UICorner
 G2L["c8"] = Instance.new("UICorner", G2L["c7"]);
 G2L["c8"]["CornerRadius"] = UDim.new(0, 10);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.Title
 G2L["c9"] = Instance.new("TextLabel", G2L["c7"]);
 G2L["c9"]["TextWrapped"] = true;
 G2L["c9"]["BorderSizePixel"] = 0;
@@ -1975,7 +1975,7 @@ G2L["c9"]["Name"] = [[Title]];
 G2L["c9"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.Thick
 G2L["ca"] = Instance.new("Frame", G2L["c7"]);
 G2L["ca"]["BorderSizePixel"] = 0;
 G2L["ca"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
@@ -1986,7 +1986,7 @@ G2L["ca"]["Name"] = [[Thick]];
 G2L["ca"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.Culc
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.Thick.Culc
 G2L["cb"] = Instance.new("Frame", G2L["ca"]);
 G2L["cb"]["BorderSizePixel"] = 0;
 G2L["cb"]["BackgroundColor3"] = Color3.fromRGB(42, 46, 59);
@@ -1995,12 +1995,12 @@ G2L["cb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["cb"]["Name"] = [[Culc]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.Culc.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.Thick.Culc.UICorner
 G2L["cc"] = Instance.new("UICorner", G2L["cb"]);
 G2L["cc"]["CornerRadius"] = UDim.new(1, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.True
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.Thick.True
 G2L["cd"] = Instance.new("ImageLabel", G2L["ca"]);
 G2L["cd"]["ZIndex"] = 0;
 G2L["cd"]["BorderSizePixel"] = 0;
@@ -2014,7 +2014,7 @@ G2L["cd"]["Name"] = [[True]];
 G2L["cd"]["Position"] = UDim2.new(0.06667, 0, 0.11111, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.False
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.Thick.False
 G2L["ce"] = Instance.new("ImageLabel", G2L["ca"]);
 G2L["ce"]["ZIndex"] = 0;
 G2L["ce"]["BorderSizePixel"] = 0;
@@ -2028,7 +2028,7 @@ G2L["ce"]["Name"] = [[False]];
 G2L["ce"]["Position"] = UDim2.new(0.54444, 0, 0.11111, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.Button
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.Thick.Button
 G2L["cf"] = Instance.new("TextButton", G2L["ca"]);
 G2L["cf"]["BorderSizePixel"] = 0;
 G2L["cf"]["TextSize"] = 14;
@@ -2042,39 +2042,39 @@ G2L["cf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["cf"]["Text"] = [[]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.ThickClient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.Thick.ThickClient
 G2L["d0"] = Instance.new("LocalScript", G2L["ca"]);
 G2L["d0"]["Name"] = [[ThickClient]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.Click
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.Thick.Click
 G2L["d1"] = Instance.new("Sound", G2L["ca"]);
 G2L["d1"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
 G2L["d1"]["Name"] = [[Click]];
 G2L["d1"]["SoundId"] = [[rbxassetid://15675032796]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.Thick.UICorner
 G2L["d2"] = Instance.new("UICorner", G2L["ca"]);
 G2L["d2"]["CornerRadius"] = UDim.new(1, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.FunctionSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.FunctionSoftware
 G2L["d3"] = Instance.new("LocalScript", G2L["c7"]);
 G2L["d3"]["Name"] = [[FunctionSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.FunctionStatus
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.FunctionStatus
 G2L["d4"] = Instance.new("BoolValue", G2L["c7"]);
 G2L["d4"]["Name"] = [[FunctionStatus]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ScrollSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ScrollSoftware
 G2L["d5"] = Instance.new("LocalScript", G2L["9c"]);
 G2L["d5"]["Name"] = [[ScrollSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information
 G2L["d6"] = Instance.new("Frame", G2L["2c"]);
 G2L["d6"]["Visible"] = false;
 G2L["d6"]["BorderSizePixel"] = 0;
@@ -2085,7 +2085,7 @@ G2L["d6"]["Name"] = [[Information]];
 G2L["d6"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Title
 G2L["d7"] = Instance.new("TextLabel", G2L["d6"]);
 G2L["d7"]["TextWrapped"] = true;
 G2L["d7"]["BorderSizePixel"] = 0;
@@ -2103,7 +2103,7 @@ G2L["d7"]["Name"] = [[Title]];
 G2L["d7"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions
 G2L["d8"] = Instance.new("Frame", G2L["d6"]);
 G2L["d8"]["BorderSizePixel"] = 0;
 G2L["d8"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -2114,7 +2114,7 @@ G2L["d8"]["Name"] = [[Functions]];
 G2L["d8"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll
 G2L["d9"] = Instance.new("ScrollingFrame", G2L["d8"]);
 G2L["d9"]["Active"] = true;
 G2L["d9"]["BorderSizePixel"] = 0;
@@ -2127,13 +2127,13 @@ G2L["d9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["d9"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.UIListLayout
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.UIListLayout
 G2L["da"] = Instance.new("UIListLayout", G2L["d9"]);
 G2L["da"]["Padding"] = UDim.new(0, 10);
 G2L["da"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account
 G2L["db"] = Instance.new("Frame", G2L["d9"]);
 G2L["db"]["BorderSizePixel"] = 0;
 G2L["db"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -2143,7 +2143,7 @@ G2L["db"]["Name"] = [[Account]];
 G2L["db"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.Title
 G2L["dc"] = Instance.new("TextLabel", G2L["db"]);
 G2L["dc"]["TextWrapped"] = true;
 G2L["dc"]["BorderSizePixel"] = 0;
@@ -2161,7 +2161,7 @@ G2L["dc"]["Name"] = [[Title]];
 G2L["dc"]["Position"] = UDim2.new(0.03063, 0, 0.01754, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountStatus
 G2L["dd"] = Instance.new("Frame", G2L["db"]);
 G2L["dd"]["BorderSizePixel"] = 0;
 G2L["dd"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
@@ -2172,12 +2172,12 @@ G2L["dd"]["Name"] = [[AccountStatus]];
 G2L["dd"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountStatus.UICorner
 G2L["de"] = Instance.new("UICorner", G2L["dd"]);
 G2L["de"]["CornerRadius"] = UDim.new(0, 15);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountStatus.Title
 G2L["df"] = Instance.new("TextLabel", G2L["dd"]);
 G2L["df"]["TextWrapped"] = true;
 G2L["df"]["BorderSizePixel"] = 0;
@@ -2195,7 +2195,7 @@ G2L["df"]["Name"] = [[Title]];
 G2L["df"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Title.Verified
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountStatus.Title.Verified
 G2L["e0"] = Instance.new("UIGradient", G2L["df"]);
 G2L["e0"]["Enabled"] = false;
 G2L["e0"]["Rotation"] = 90;
@@ -2203,14 +2203,14 @@ G2L["e0"]["Name"] = [[Verified]];
 G2L["e0"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(179, 202, 255))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Title.Unverified
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountStatus.Title.Unverified
 G2L["e1"] = Instance.new("UIGradient", G2L["df"]);
 G2L["e1"]["Rotation"] = 90;
 G2L["e1"]["Name"] = [[Unverified]];
 G2L["e1"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 125, 125))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Unverified
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountStatus.Unverified
 G2L["e2"] = Instance.new("ImageLabel", G2L["dd"]);
 G2L["e2"]["BorderSizePixel"] = 0;
 G2L["e2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2223,13 +2223,13 @@ G2L["e2"]["Name"] = [[Unverified]];
 G2L["e2"]["Position"] = UDim2.new(0.01346, 0, 0.16, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Unverified.UIGradient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountStatus.Unverified.UIGradient
 G2L["e3"] = Instance.new("UIGradient", G2L["e2"]);
 G2L["e3"]["Rotation"] = 90;
 G2L["e3"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 125, 125))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Verified
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountStatus.Verified
 G2L["e4"] = Instance.new("ImageLabel", G2L["dd"]);
 G2L["e4"]["BorderSizePixel"] = 0;
 G2L["e4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2243,13 +2243,13 @@ G2L["e4"]["Name"] = [[Verified]];
 G2L["e4"]["Position"] = UDim2.new(0.01346, 0, 0.16, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Verified.UIGradient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountStatus.Verified.UIGradient
 G2L["e5"] = Instance.new("UIGradient", G2L["e4"]);
 G2L["e5"]["Rotation"] = 90;
 G2L["e5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(179, 202, 255))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAge
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountAge
 G2L["e6"] = Instance.new("Frame", G2L["db"]);
 G2L["e6"]["BorderSizePixel"] = 0;
 G2L["e6"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
@@ -2260,12 +2260,12 @@ G2L["e6"]["Name"] = [[AccountAge]];
 G2L["e6"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAge.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountAge.UICorner
 G2L["e7"] = Instance.new("UICorner", G2L["e6"]);
 G2L["e7"]["CornerRadius"] = UDim.new(0, 15);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAge.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountAge.Title
 G2L["e8"] = Instance.new("TextLabel", G2L["e6"]);
 G2L["e8"]["TextWrapped"] = true;
 G2L["e8"]["BorderSizePixel"] = 0;
@@ -2283,7 +2283,7 @@ G2L["e8"]["Name"] = [[Title]];
 G2L["e8"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAge.Icon
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountAge.Icon
 G2L["e9"] = Instance.new("ImageLabel", G2L["e6"]);
 G2L["e9"]["BorderSizePixel"] = 0;
 G2L["e9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2296,12 +2296,12 @@ G2L["e9"]["Name"] = [[Icon]];
 G2L["e9"]["Position"] = UDim2.new(0.01291, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.UICorner
 G2L["ea"] = Instance.new("UICorner", G2L["db"]);
 G2L["ea"]["CornerRadius"] = UDim.new(0, 25);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAvatar
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountAvatar
 G2L["eb"] = Instance.new("Frame", G2L["db"]);
 G2L["eb"]["BorderSizePixel"] = 0;
 G2L["eb"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
@@ -2312,7 +2312,7 @@ G2L["eb"]["Name"] = [[AccountAvatar]];
 G2L["eb"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAvatar.Icon
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountAvatar.Icon
 G2L["ec"] = Instance.new("ImageLabel", G2L["eb"]);
 G2L["ec"]["BorderSizePixel"] = 0;
 G2L["ec"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2323,24 +2323,24 @@ G2L["ec"]["BackgroundTransparency"] = 1;
 G2L["ec"]["Name"] = [[Icon]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAvatar.Icon.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountAvatar.Icon.UICorner
 G2L["ed"] = Instance.new("UICorner", G2L["ec"]);
 G2L["ed"]["CornerRadius"] = UDim.new(0, 15);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAvatar.UIListLayout
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountAvatar.UIListLayout
 G2L["ee"] = Instance.new("UIListLayout", G2L["eb"]);
 G2L["ee"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
 G2L["ee"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
 G2L["ee"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAvatar.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountAvatar.UICorner
 G2L["ef"] = Instance.new("UICorner", G2L["eb"]);
 G2L["ef"]["CornerRadius"] = UDim.new(0, 15);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountNickname
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountNickname
 G2L["f0"] = Instance.new("Frame", G2L["db"]);
 G2L["f0"]["BorderSizePixel"] = 0;
 G2L["f0"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
@@ -2351,12 +2351,12 @@ G2L["f0"]["Name"] = [[AccountNickname]];
 G2L["f0"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountNickname.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountNickname.UICorner
 G2L["f1"] = Instance.new("UICorner", G2L["f0"]);
 G2L["f1"]["CornerRadius"] = UDim.new(0, 15);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountNickname.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountNickname.Title
 G2L["f2"] = Instance.new("TextLabel", G2L["f0"]);
 G2L["f2"]["TextWrapped"] = true;
 G2L["f2"]["BorderSizePixel"] = 0;
@@ -2374,7 +2374,7 @@ G2L["f2"]["Name"] = [[Title]];
 G2L["f2"]["Position"] = UDim2.new(0.16703, 0, 0.09333, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountNickname.Icon
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountNickname.Icon
 G2L["f3"] = Instance.new("ImageLabel", G2L["f0"]);
 G2L["f3"]["BorderSizePixel"] = 0;
 G2L["f3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2387,7 +2387,7 @@ G2L["f3"]["Name"] = [[Icon]];
 G2L["f3"]["Position"] = UDim2.new(0.0206, 0, 0.09333, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountSubscription
 G2L["f4"] = Instance.new("Frame", G2L["db"]);
 G2L["f4"]["BorderSizePixel"] = 0;
 G2L["f4"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
@@ -2398,12 +2398,12 @@ G2L["f4"]["Name"] = [[AccountSubscription]];
 G2L["f4"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountSubscription.UICorner
 G2L["f5"] = Instance.new("UICorner", G2L["f4"]);
 G2L["f5"]["CornerRadius"] = UDim.new(0, 15);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountSubscription.Title
 G2L["f6"] = Instance.new("TextLabel", G2L["f4"]);
 G2L["f6"]["TextWrapped"] = true;
 G2L["f6"]["BorderSizePixel"] = 0;
@@ -2421,7 +2421,7 @@ G2L["f6"]["Name"] = [[Title]];
 G2L["f6"]["Position"] = UDim2.new(0.16703, 0, 0.10444, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription.Title.Premium
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountSubscription.Title.Premium
 G2L["f7"] = Instance.new("UIGradient", G2L["f6"]);
 G2L["f7"]["Enabled"] = false;
 G2L["f7"]["Rotation"] = -90;
@@ -2429,7 +2429,7 @@ G2L["f7"]["Name"] = [[Premium]];
 G2L["f7"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(111, 176, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription.Icon
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountSubscription.Icon
 G2L["f8"] = Instance.new("ImageLabel", G2L["f4"]);
 G2L["f8"]["BorderSizePixel"] = 0;
 G2L["f8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2442,7 +2442,7 @@ G2L["f8"]["Name"] = [[Icon]];
 G2L["f8"]["Position"] = UDim2.new(0.0206, 0, 0.10444, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription.Icon.Premium
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Account.AccountSubscription.Icon.Premium
 G2L["f9"] = Instance.new("UIGradient", G2L["f8"]);
 G2L["f9"]["Enabled"] = false;
 G2L["f9"]["Rotation"] = -90;
@@ -2450,7 +2450,7 @@ G2L["f9"]["Name"] = [[Premium]];
 G2L["f9"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(111, 176, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Client
 G2L["fa"] = Instance.new("Frame", G2L["d9"]);
 G2L["fa"]["BorderSizePixel"] = 0;
 G2L["fa"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
@@ -2461,7 +2461,7 @@ G2L["fa"]["Name"] = [[Client]];
 G2L["fa"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Client.Title
 G2L["fb"] = Instance.new("TextLabel", G2L["fa"]);
 G2L["fb"]["TextWrapped"] = true;
 G2L["fb"]["BorderSizePixel"] = 0;
@@ -2479,12 +2479,12 @@ G2L["fb"]["Name"] = [[Title]];
 G2L["fb"]["Position"] = UDim2.new(0.03063, 0, 0.02892, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Client.UICorner
 G2L["fc"] = Instance.new("UICorner", G2L["fa"]);
 G2L["fc"]["CornerRadius"] = UDim.new(0, 25);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.ClientVersion
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Client.ClientVersion
 G2L["fd"] = Instance.new("Frame", G2L["fa"]);
 G2L["fd"]["BorderSizePixel"] = 0;
 G2L["fd"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
@@ -2495,12 +2495,12 @@ G2L["fd"]["Name"] = [[ClientVersion]];
 G2L["fd"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.ClientVersion.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Client.ClientVersion.UICorner
 G2L["fe"] = Instance.new("UICorner", G2L["fd"]);
 G2L["fe"]["CornerRadius"] = UDim.new(0, 15);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.ClientVersion.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Client.ClientVersion.Title
 G2L["ff"] = Instance.new("TextLabel", G2L["fd"]);
 G2L["ff"]["TextWrapped"] = true;
 G2L["ff"]["BorderSizePixel"] = 0;
@@ -2518,7 +2518,7 @@ G2L["ff"]["Name"] = [[Title]];
 G2L["ff"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.ClientVersion.Icon
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Client.ClientVersion.Icon
 G2L["100"] = Instance.new("ImageLabel", G2L["fd"]);
 G2L["100"]["BorderSizePixel"] = 0;
 G2L["100"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2531,7 +2531,7 @@ G2L["100"]["Name"] = [[Icon]];
 G2L["100"]["Position"] = UDim2.new(0.01291, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.Timeplay
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Client.Timeplay
 G2L["101"] = Instance.new("Frame", G2L["fa"]);
 G2L["101"]["BorderSizePixel"] = 0;
 G2L["101"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
@@ -2542,12 +2542,12 @@ G2L["101"]["Name"] = [[Timeplay]];
 G2L["101"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.Timeplay.UICorner
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Client.Timeplay.UICorner
 G2L["102"] = Instance.new("UICorner", G2L["101"]);
 G2L["102"]["CornerRadius"] = UDim.new(0, 15);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.Timeplay.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Client.Timeplay.Title
 G2L["103"] = Instance.new("TextLabel", G2L["101"]);
 G2L["103"]["TextWrapped"] = true;
 G2L["103"]["BorderSizePixel"] = 0;
@@ -2565,7 +2565,7 @@ G2L["103"]["Name"] = [[Title]];
 G2L["103"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.Timeplay.Icon
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.Client.Timeplay.Icon
 G2L["104"] = Instance.new("ImageLabel", G2L["101"]);
 G2L["104"]["BorderSizePixel"] = 0;
 G2L["104"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2578,17 +2578,17 @@ G2L["104"]["Name"] = [[Icon]];
 G2L["104"]["Position"] = UDim2.new(0.01291, 0, 0.14, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.DataSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.DataSoftware
 G2L["105"] = Instance.new("LocalScript", G2L["d9"]);
 G2L["105"]["Name"] = [[DataSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.ScrollSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.ScrollSoftware
 G2L["106"] = Instance.new("LocalScript", G2L["d9"]);
 G2L["106"]["Name"] = [[ScrollSoftware]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Home
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Home
 G2L["107"] = Instance.new("Frame", G2L["2c"]);
 G2L["107"]["Visible"] = false;
 G2L["107"]["BorderSizePixel"] = 0;
@@ -2599,7 +2599,7 @@ G2L["107"]["Name"] = [[Home]];
 G2L["107"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Home.Title
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Home.Title
 G2L["108"] = Instance.new("TextLabel", G2L["107"]);
 G2L["108"]["TextWrapped"] = true;
 G2L["108"]["BorderSizePixel"] = 0;
@@ -2617,7 +2617,7 @@ G2L["108"]["Name"] = [[Title]];
 G2L["108"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Home.Description
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Home.Description
 G2L["109"] = Instance.new("TextLabel", G2L["107"]);
 G2L["109"]["TextWrapped"] = true;
 G2L["109"]["BorderSizePixel"] = 0;
@@ -2897,7 +2897,7 @@ G2L["129"]["Name"] = [[AtomVersion]];
 G2L["129"]["Value"] = [[0.01]];
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick.ThickClient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.Thick.ThickClient
 local function C_39()
 	local script = G2L["39"];
 	local TweenService = game:GetService("TweenService")
@@ -2984,7 +2984,7 @@ local function C_39()
 	end)
 end;
 task.spawn(C_39);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.FunctionSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.AIM.FunctionSoftware
 local function C_3e()
 	local script = G2L["3e"];
 	local UserInputService = game:GetService("UserInputService")
@@ -3081,7 +3081,7 @@ local function C_3e()
 
 end;
 task.spawn(C_3e);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.Thick.ThickClient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.Thick.ThickClient
 local function C_48()
 	local script = G2L["48"];
 	local TweenService = game:GetService("TweenService")
@@ -3168,7 +3168,7 @@ local function C_48()
 	end)
 end;
 task.spawn(C_48);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ESP.FunctionSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ESP.FunctionSoftware
 local function C_4d()
 	local script = G2L["4d"];
 	local Players = game:GetService("Players")
@@ -3394,7 +3394,7 @@ local function C_4d()
 
 end;
 task.spawn(C_4d);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ScrollSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Legit.Functions.Scroll.ScrollSoftware
 local function C_7c()
 	local script = G2L["7c"];
 	local ScrollingFrame = script.Parent
@@ -3409,7 +3409,7 @@ local function C_7c()
 
 end;
 task.spawn(C_7c);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.ScrollSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.ScrollSoftware
 local function C_86()
 	local script = G2L["86"];
 	local ScrollingFrame = script.Parent
@@ -3424,7 +3424,7 @@ local function C_86()
 
 end;
 task.spawn(C_86);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.WalkSpeed.FunctionSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.WalkSpeed.FunctionSoftware
 local function C_8d()
 	local script = G2L["8d"];
 	local Players = game:GetService("Players")
@@ -3470,7 +3470,7 @@ local function C_8d()
 	end)
 end;
 task.spawn(C_8d);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Functions.Scroll.JumpPower.FunctionSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Rage.Functions.Scroll.JumpPower.FunctionSoftware
 local function C_94()
 	local script = G2L["94"];
 	local Players = game:GetService("Players")
@@ -3517,7 +3517,7 @@ local function C_94()
 	end)
 end;
 task.spawn(C_94);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.KeycodeSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.AIM.KeycodeSoftware
 local function C_a5()
 	local script = G2L["a5"];
 	local UserInputService = game:GetService("UserInputService")
@@ -3593,7 +3593,7 @@ local function C_a5()
 
 end;
 task.spawn(C_a5);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.KeycodeSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ESP.KeycodeSoftware
 local function C_b5()
 	local script = G2L["b5"];
 	local UserInputService = game:GetService("UserInputService")
@@ -3669,7 +3669,7 @@ local function C_b5()
 
 end;
 task.spawn(C_b5);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.KeycodeSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.CLIENT.KeycodeSoftware
 local function C_c4()
 	local script = G2L["c4"];
 	local UserInputService = game:GetService("UserInputService")
@@ -3745,7 +3745,7 @@ local function C_c4()
 
 end;
 task.spawn(C_c4);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.ThickClient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.Thick.ThickClient
 local function C_d0()
 	local script = G2L["d0"];
 	local TweenService = game:GetService("TweenService")
@@ -3832,7 +3832,7 @@ local function C_d0()
 	end)
 end;
 task.spawn(C_d0);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.FunctionSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.POTATO.FunctionSoftware
 local function C_d3()
 	local script = G2L["d3"];
 	local UserInputService = game:GetService("UserInputService")
@@ -4026,7 +4026,7 @@ local function C_d3()
 	end)
 end;
 task.spawn(C_d3);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ScrollSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Config.Functions.Scroll.ScrollSoftware
 local function C_d5()
 	local script = G2L["d5"];
 	local ScrollingFrame = script.Parent
@@ -4041,7 +4041,7 @@ local function C_d5()
 
 end;
 task.spawn(C_d5);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.DataSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.DataSoftware
 local function C_105()
 	local script = G2L["105"];
 	local CoreGui = game:GetService("CoreGui")
@@ -4139,7 +4139,7 @@ local function C_105()
 	end
 end;
 task.spawn(C_105);
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.ScrollSoftware
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screens.Information.Functions.Scroll.ScrollSoftware
 local function C_106()
 	local script = G2L["106"];
 	local ScrollingFrame = script.Parent
@@ -4160,7 +4160,7 @@ local function C_10d()
 	local TweenService = game:GetService("TweenService")
 	local UserInputService = game:GetService("UserInputService")
 
-	local ScreenFrames = script.Parent.Screen
+	local ScreenFrames = script.Parent.Screens
 	local PanelFrame = script.Parent.Panel
 	local PanelButtons = PanelFrame.Buttons.Container
 
