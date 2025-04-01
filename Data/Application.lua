@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 265 | Scripts: 13 | Modules: 0 | Tags: 0
+-- Instances: 268 | Scripts: 16 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.AtomKillwave
@@ -1138,996 +1138,985 @@ G2L["7b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["7b"]["Name"] = [[Zone]];
 
 
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ScrollSoftware
+G2L["7c"] = Instance.new("LocalScript", G2L["30"]);
+G2L["7c"]["Name"] = [[ScrollSoftware]];
+
+
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage
-G2L["7c"] = Instance.new("Frame", G2L["2c"]);
-G2L["7c"]["Visible"] = false;
-G2L["7c"]["BorderSizePixel"] = 0;
-G2L["7c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7c"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["7c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7c"]["Name"] = [[Rage]];
-G2L["7c"]["BackgroundTransparency"] = 1;
+G2L["7d"] = Instance.new("Frame", G2L["2c"]);
+G2L["7d"]["Visible"] = false;
+G2L["7d"]["BorderSizePixel"] = 0;
+G2L["7d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7d"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["7d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7d"]["Name"] = [[Rage]];
+G2L["7d"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Rage.Title
-G2L["7d"] = Instance.new("TextLabel", G2L["7c"]);
-G2L["7d"]["TextWrapped"] = true;
-G2L["7d"]["BorderSizePixel"] = 0;
-G2L["7d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["7d"]["TextScaled"] = true;
-G2L["7d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7d"]["TextSize"] = 45;
-G2L["7d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["7d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7d"]["BackgroundTransparency"] = 1;
-G2L["7d"]["Size"] = UDim2.new(0, 523, 0, 55);
-G2L["7d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7d"]["Text"] = [[RAGE]];
-G2L["7d"]["Name"] = [[Title]];
-G2L["7d"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
+G2L["7e"] = Instance.new("TextLabel", G2L["7d"]);
+G2L["7e"]["TextWrapped"] = true;
+G2L["7e"]["BorderSizePixel"] = 0;
+G2L["7e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["7e"]["TextScaled"] = true;
+G2L["7e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7e"]["TextSize"] = 45;
+G2L["7e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["7e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7e"]["BackgroundTransparency"] = 1;
+G2L["7e"]["Size"] = UDim2.new(0, 523, 0, 55);
+G2L["7e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7e"]["Text"] = [[RAGE]];
+G2L["7e"]["Name"] = [[Title]];
+G2L["7e"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config
-G2L["7e"] = Instance.new("Frame", G2L["2c"]);
-G2L["7e"]["Visible"] = false;
-G2L["7e"]["BorderSizePixel"] = 0;
-G2L["7e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7e"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["7e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7e"]["Name"] = [[Config]];
-G2L["7e"]["BackgroundTransparency"] = 1;
+G2L["7f"] = Instance.new("Frame", G2L["2c"]);
+G2L["7f"]["Visible"] = false;
+G2L["7f"]["BorderSizePixel"] = 0;
+G2L["7f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7f"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["7f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7f"]["Name"] = [[Config]];
+G2L["7f"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Title
-G2L["7f"] = Instance.new("TextLabel", G2L["7e"]);
-G2L["7f"]["TextWrapped"] = true;
-G2L["7f"]["BorderSizePixel"] = 0;
-G2L["7f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["7f"]["TextScaled"] = true;
-G2L["7f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7f"]["TextSize"] = 45;
-G2L["7f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["7f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7f"]["BackgroundTransparency"] = 1;
-G2L["7f"]["Size"] = UDim2.new(0, 523, 0, 55);
-G2L["7f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7f"]["Text"] = [[CONFIG]];
-G2L["7f"]["Name"] = [[Title]];
-G2L["7f"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
+G2L["80"] = Instance.new("TextLabel", G2L["7f"]);
+G2L["80"]["TextWrapped"] = true;
+G2L["80"]["BorderSizePixel"] = 0;
+G2L["80"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["80"]["TextScaled"] = true;
+G2L["80"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["80"]["TextSize"] = 45;
+G2L["80"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["80"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["80"]["BackgroundTransparency"] = 1;
+G2L["80"]["Size"] = UDim2.new(0, 523, 0, 55);
+G2L["80"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["80"]["Text"] = [[CONFIG]];
+G2L["80"]["Name"] = [[Title]];
+G2L["80"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions
-G2L["80"] = Instance.new("Frame", G2L["7e"]);
-G2L["80"]["BorderSizePixel"] = 0;
-G2L["80"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
-G2L["80"]["Size"] = UDim2.new(0, 580, 0, 315);
-G2L["80"]["Position"] = UDim2.new(0.01695, 0, 0.16145, 0);
-G2L["80"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["80"]["Name"] = [[Functions]];
-G2L["80"]["BackgroundTransparency"] = 1;
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll
-G2L["81"] = Instance.new("ScrollingFrame", G2L["80"]);
-G2L["81"]["Active"] = true;
+G2L["81"] = Instance.new("Frame", G2L["7f"]);
 G2L["81"]["BorderSizePixel"] = 0;
-G2L["81"]["CanvasSize"] = UDim2.new(0, 0, 1, 20);
-G2L["81"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["81"]["Name"] = [[Scroll]];
-G2L["81"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["81"]["ScrollBarImageColor3"] = Color3.fromRGB(49, 54, 69);
+G2L["81"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
+G2L["81"]["Size"] = UDim2.new(0, 580, 0, 315);
+G2L["81"]["Position"] = UDim2.new(0.01695, 0, 0.16145, 0);
 G2L["81"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["81"]["Name"] = [[Functions]];
 G2L["81"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM
-G2L["82"] = Instance.new("Frame", G2L["81"]);
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll
+G2L["82"] = Instance.new("ScrollingFrame", G2L["81"]);
+G2L["82"]["Active"] = true;
 G2L["82"]["BorderSizePixel"] = 0;
-G2L["82"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
-G2L["82"]["Size"] = UDim2.new(0, 570, 0, 50);
-G2L["82"]["Position"] = UDim2.new(0.01724, 0, -0.39365, 0);
+G2L["82"]["CanvasSize"] = UDim2.new(0, 0, 1, 20);
+G2L["82"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["82"]["Name"] = [[Scroll]];
+G2L["82"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["82"]["ScrollBarImageColor3"] = Color3.fromRGB(49, 54, 69);
 G2L["82"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["82"]["Name"] = [[AIM]];
-G2L["82"]["LayoutOrder"] = 2;
-G2L["82"]["BackgroundTransparency"] = 0.4;
+G2L["82"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM
+G2L["83"] = Instance.new("Frame", G2L["82"]);
+G2L["83"]["BorderSizePixel"] = 0;
+G2L["83"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
+G2L["83"]["Size"] = UDim2.new(0, 570, 0, 50);
+G2L["83"]["Position"] = UDim2.new(0.01724, 0, -0.39365, 0);
+G2L["83"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["83"]["Name"] = [[AIM]];
+G2L["83"]["LayoutOrder"] = 2;
+G2L["83"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.UICorner
-G2L["83"] = Instance.new("UICorner", G2L["82"]);
-G2L["83"]["CornerRadius"] = UDim.new(0, 10);
+G2L["84"] = Instance.new("UICorner", G2L["83"]);
+G2L["84"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.Title
-G2L["84"] = Instance.new("TextLabel", G2L["82"]);
-G2L["84"]["TextWrapped"] = true;
-G2L["84"]["BorderSizePixel"] = 0;
-G2L["84"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["84"]["TextScaled"] = true;
-G2L["84"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["84"]["TextSize"] = 14;
-G2L["84"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["84"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["84"]["BackgroundTransparency"] = 1;
-G2L["84"]["Size"] = UDim2.new(0, 250, 0, 35);
-G2L["84"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["84"]["Text"] = [[AIM-BOT]];
-G2L["84"]["Name"] = [[Title]];
-G2L["84"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
+G2L["85"] = Instance.new("TextLabel", G2L["83"]);
+G2L["85"]["TextWrapped"] = true;
+G2L["85"]["BorderSizePixel"] = 0;
+G2L["85"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["85"]["TextScaled"] = true;
+G2L["85"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["85"]["TextSize"] = 14;
+G2L["85"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["85"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["85"]["BackgroundTransparency"] = 1;
+G2L["85"]["Size"] = UDim2.new(0, 250, 0, 35);
+G2L["85"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["85"]["Text"] = [[AIM-BOT]];
+G2L["85"]["Name"] = [[Title]];
+G2L["85"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.Keybind
-G2L["85"] = Instance.new("Frame", G2L["82"]);
-G2L["85"]["BorderSizePixel"] = 0;
-G2L["85"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
-G2L["85"]["Size"] = UDim2.new(0, 100, 0, 35);
-G2L["85"]["Position"] = UDim2.new(0.78947, 0, 0.14, 0);
-G2L["85"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["85"]["Name"] = [[Keybind]];
-G2L["85"]["BackgroundTransparency"] = 0.4;
+G2L["86"] = Instance.new("Frame", G2L["83"]);
+G2L["86"]["BorderSizePixel"] = 0;
+G2L["86"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
+G2L["86"]["Size"] = UDim2.new(0, 100, 0, 35);
+G2L["86"]["Position"] = UDim2.new(0.78947, 0, 0.14, 0);
+G2L["86"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["86"]["Name"] = [[Keybind]];
+G2L["86"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.Keybind.UICorner
-G2L["86"] = Instance.new("UICorner", G2L["85"]);
-G2L["86"]["CornerRadius"] = UDim.new(0, 10);
+G2L["87"] = Instance.new("UICorner", G2L["86"]);
+G2L["87"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.Keybind.Button
-G2L["87"] = Instance.new("TextButton", G2L["85"]);
-G2L["87"]["BorderSizePixel"] = 0;
-G2L["87"]["TextSize"] = 14;
-G2L["87"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["87"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["87"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["87"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["87"]["BackgroundTransparency"] = 1;
-G2L["87"]["Name"] = [[Button]];
-G2L["87"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["87"]["Text"] = [[]];
+G2L["88"] = Instance.new("TextButton", G2L["86"]);
+G2L["88"]["BorderSizePixel"] = 0;
+G2L["88"]["TextSize"] = 14;
+G2L["88"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["88"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["88"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["88"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["88"]["BackgroundTransparency"] = 1;
+G2L["88"]["Name"] = [[Button]];
+G2L["88"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["88"]["Text"] = [[]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.Keybind.Title
-G2L["88"] = Instance.new("TextLabel", G2L["85"]);
-G2L["88"]["TextWrapped"] = true;
-G2L["88"]["BorderSizePixel"] = 0;
-G2L["88"]["TextScaled"] = true;
-G2L["88"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["88"]["TextSize"] = 14;
-G2L["88"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["88"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["88"]["BackgroundTransparency"] = 1;
-G2L["88"]["Size"] = UDim2.new(0.85, 0, 1, 0);
-G2L["88"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["88"]["Text"] = [[?]];
-G2L["88"]["Name"] = [[Title]];
-G2L["88"]["Position"] = UDim2.new(0.07, 0, 0, 0);
+G2L["89"] = Instance.new("TextLabel", G2L["86"]);
+G2L["89"]["TextWrapped"] = true;
+G2L["89"]["BorderSizePixel"] = 0;
+G2L["89"]["TextScaled"] = true;
+G2L["89"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["89"]["TextSize"] = 14;
+G2L["89"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["89"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["89"]["BackgroundTransparency"] = 1;
+G2L["89"]["Size"] = UDim2.new(0.85, 0, 1, 0);
+G2L["89"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["89"]["Text"] = [[?]];
+G2L["89"]["Name"] = [[Title]];
+G2L["89"]["Position"] = UDim2.new(0.07, 0, 0, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.Keybind.UIStroke
-G2L["89"] = Instance.new("UIStroke", G2L["85"]);
-G2L["89"]["Enabled"] = false;
-G2L["89"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["89"]["Thickness"] = 2;
-G2L["89"]["Color"] = Color3.fromRGB(60, 68, 86);
+G2L["8a"] = Instance.new("UIStroke", G2L["86"]);
+G2L["8a"]["Enabled"] = false;
+G2L["8a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["8a"]["Thickness"] = 2;
+G2L["8a"]["Color"] = Color3.fromRGB(60, 68, 86);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.KeycodeSoftware
-G2L["8a"] = Instance.new("LocalScript", G2L["82"]);
-G2L["8a"]["Name"] = [[KeycodeSoftware]];
+G2L["8b"] = Instance.new("LocalScript", G2L["83"]);
+G2L["8b"]["Name"] = [[KeycodeSoftware]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.KeycodeSoftware.KeycodeSet
-G2L["8b"] = Instance.new("Sound", G2L["8a"]);
-G2L["8b"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
-G2L["8b"]["Name"] = [[KeycodeSet]];
-G2L["8b"]["SoundId"] = [[rbxassetid://17582213219]];
+G2L["8c"] = Instance.new("Sound", G2L["8b"]);
+G2L["8c"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["8c"]["Name"] = [[KeycodeSet]];
+G2L["8c"]["SoundId"] = [[rbxassetid://17582213219]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.UIListLayout
-G2L["8c"] = Instance.new("UIListLayout", G2L["81"]);
-G2L["8c"]["Padding"] = UDim.new(0, 5);
-G2L["8c"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["8d"] = Instance.new("UIListLayout", G2L["82"]);
+G2L["8d"]["Padding"] = UDim.new(0, 5);
+G2L["8d"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY
-G2L["8d"] = Instance.new("Frame", G2L["81"]);
-G2L["8d"]["BorderSizePixel"] = 0;
-G2L["8d"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
-G2L["8d"]["Size"] = UDim2.new(0, 570, 0, 50);
-G2L["8d"]["Position"] = UDim2.new(0.01724, 0, -0.39365, 0);
-G2L["8d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8d"]["Name"] = [[CATEGORY]];
-G2L["8d"]["LayoutOrder"] = 1;
-G2L["8d"]["BackgroundTransparency"] = 0.4;
+G2L["8e"] = Instance.new("Frame", G2L["82"]);
+G2L["8e"]["BorderSizePixel"] = 0;
+G2L["8e"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
+G2L["8e"]["Size"] = UDim2.new(0, 570, 0, 50);
+G2L["8e"]["Position"] = UDim2.new(0.01724, 0, -0.39365, 0);
+G2L["8e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8e"]["Name"] = [[CATEGORY]];
+G2L["8e"]["LayoutOrder"] = 1;
+G2L["8e"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY.UICorner
-G2L["8e"] = Instance.new("UICorner", G2L["8d"]);
-G2L["8e"]["CornerRadius"] = UDim.new(0, 10);
+G2L["8f"] = Instance.new("UICorner", G2L["8e"]);
+G2L["8f"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY.Title
-G2L["8f"] = Instance.new("TextLabel", G2L["8d"]);
-G2L["8f"]["TextWrapped"] = true;
-G2L["8f"]["BorderSizePixel"] = 0;
-G2L["8f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["8f"]["TextScaled"] = true;
-G2L["8f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8f"]["TextSize"] = 14;
-G2L["8f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["8f"]["TextColor3"] = Color3.fromRGB(56, 62, 80);
-G2L["8f"]["BackgroundTransparency"] = 1;
-G2L["8f"]["Size"] = UDim2.new(0, 510, 0, 35);
-G2L["8f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8f"]["Text"] = [[KEYBINDS]];
-G2L["8f"]["Name"] = [[Title]];
-G2L["8f"]["Position"] = UDim2.new(0.08947, 0, 0.14, 0);
+G2L["90"] = Instance.new("TextLabel", G2L["8e"]);
+G2L["90"]["TextWrapped"] = true;
+G2L["90"]["BorderSizePixel"] = 0;
+G2L["90"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["90"]["TextScaled"] = true;
+G2L["90"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["90"]["TextSize"] = 14;
+G2L["90"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["90"]["TextColor3"] = Color3.fromRGB(56, 62, 80);
+G2L["90"]["BackgroundTransparency"] = 1;
+G2L["90"]["Size"] = UDim2.new(0, 510, 0, 35);
+G2L["90"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["90"]["Text"] = [[KEYBINDS]];
+G2L["90"]["Name"] = [[Title]];
+G2L["90"]["Position"] = UDim2.new(0.08947, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY.Icon
-G2L["90"] = Instance.new("ImageLabel", G2L["8d"]);
-G2L["90"]["BorderSizePixel"] = 0;
-G2L["90"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["90"]["ScaleType"] = Enum.ScaleType.Crop;
-G2L["90"]["ImageColor3"] = Color3.fromRGB(56, 62, 80);
-G2L["90"]["Image"] = [[rbxassetid://18110868029]];
-G2L["90"]["Size"] = UDim2.new(0, 40, 0, 40);
-G2L["90"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["90"]["BackgroundTransparency"] = 1;
-G2L["90"]["Name"] = [[Icon]];
-G2L["90"]["Position"] = UDim2.new(0.0193, 0, 0.1, 0);
+G2L["91"] = Instance.new("ImageLabel", G2L["8e"]);
+G2L["91"]["BorderSizePixel"] = 0;
+G2L["91"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["91"]["ScaleType"] = Enum.ScaleType.Crop;
+G2L["91"]["ImageColor3"] = Color3.fromRGB(56, 62, 80);
+G2L["91"]["Image"] = [[rbxassetid://18110868029]];
+G2L["91"]["Size"] = UDim2.new(0, 40, 0, 40);
+G2L["91"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["91"]["BackgroundTransparency"] = 1;
+G2L["91"]["Name"] = [[Icon]];
+G2L["91"]["Position"] = UDim2.new(0.0193, 0, 0.1, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP
-G2L["91"] = Instance.new("Frame", G2L["81"]);
-G2L["91"]["BorderSizePixel"] = 0;
-G2L["91"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
-G2L["91"]["Size"] = UDim2.new(0, 570, 0, 50);
-G2L["91"]["Position"] = UDim2.new(0.01724, 0, -0.39365, 0);
-G2L["91"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["91"]["Name"] = [[ESP]];
-G2L["91"]["LayoutOrder"] = 3;
-G2L["91"]["BackgroundTransparency"] = 0.4;
+G2L["92"] = Instance.new("Frame", G2L["82"]);
+G2L["92"]["BorderSizePixel"] = 0;
+G2L["92"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
+G2L["92"]["Size"] = UDim2.new(0, 570, 0, 50);
+G2L["92"]["Position"] = UDim2.new(0.01724, 0, -0.39365, 0);
+G2L["92"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["92"]["Name"] = [[ESP]];
+G2L["92"]["LayoutOrder"] = 3;
+G2L["92"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.UICorner
-G2L["92"] = Instance.new("UICorner", G2L["91"]);
-G2L["92"]["CornerRadius"] = UDim.new(0, 10);
+G2L["93"] = Instance.new("UICorner", G2L["92"]);
+G2L["93"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.Title
-G2L["93"] = Instance.new("TextLabel", G2L["91"]);
-G2L["93"]["TextWrapped"] = true;
-G2L["93"]["BorderSizePixel"] = 0;
-G2L["93"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["93"]["TextScaled"] = true;
-G2L["93"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["93"]["TextSize"] = 14;
-G2L["93"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["93"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["93"]["BackgroundTransparency"] = 1;
-G2L["93"]["Size"] = UDim2.new(0, 250, 0, 35);
-G2L["93"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["93"]["Text"] = [[ESP]];
-G2L["93"]["Name"] = [[Title]];
-G2L["93"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
+G2L["94"] = Instance.new("TextLabel", G2L["92"]);
+G2L["94"]["TextWrapped"] = true;
+G2L["94"]["BorderSizePixel"] = 0;
+G2L["94"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["94"]["TextScaled"] = true;
+G2L["94"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["94"]["TextSize"] = 14;
+G2L["94"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["94"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["94"]["BackgroundTransparency"] = 1;
+G2L["94"]["Size"] = UDim2.new(0, 250, 0, 35);
+G2L["94"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["94"]["Text"] = [[ESP]];
+G2L["94"]["Name"] = [[Title]];
+G2L["94"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.Keybind
-G2L["94"] = Instance.new("Frame", G2L["91"]);
-G2L["94"]["BorderSizePixel"] = 0;
-G2L["94"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
-G2L["94"]["Size"] = UDim2.new(0, 100, 0, 35);
-G2L["94"]["Position"] = UDim2.new(0.78947, 0, 0.14, 0);
-G2L["94"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["94"]["Name"] = [[Keybind]];
-G2L["94"]["BackgroundTransparency"] = 0.4;
+G2L["95"] = Instance.new("Frame", G2L["92"]);
+G2L["95"]["BorderSizePixel"] = 0;
+G2L["95"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
+G2L["95"]["Size"] = UDim2.new(0, 100, 0, 35);
+G2L["95"]["Position"] = UDim2.new(0.78947, 0, 0.14, 0);
+G2L["95"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["95"]["Name"] = [[Keybind]];
+G2L["95"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.Keybind.UICorner
-G2L["95"] = Instance.new("UICorner", G2L["94"]);
-G2L["95"]["CornerRadius"] = UDim.new(0, 10);
+G2L["96"] = Instance.new("UICorner", G2L["95"]);
+G2L["96"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.Keybind.Button
-G2L["96"] = Instance.new("TextButton", G2L["94"]);
-G2L["96"]["BorderSizePixel"] = 0;
-G2L["96"]["TextSize"] = 14;
-G2L["96"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["96"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["96"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["96"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["96"]["BackgroundTransparency"] = 1;
-G2L["96"]["Name"] = [[Button]];
-G2L["96"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["96"]["Text"] = [[]];
+G2L["97"] = Instance.new("TextButton", G2L["95"]);
+G2L["97"]["BorderSizePixel"] = 0;
+G2L["97"]["TextSize"] = 14;
+G2L["97"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["97"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["97"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["97"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["97"]["BackgroundTransparency"] = 1;
+G2L["97"]["Name"] = [[Button]];
+G2L["97"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["97"]["Text"] = [[]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.Keybind.Title
-G2L["97"] = Instance.new("TextLabel", G2L["94"]);
-G2L["97"]["TextWrapped"] = true;
-G2L["97"]["BorderSizePixel"] = 0;
-G2L["97"]["TextScaled"] = true;
-G2L["97"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["97"]["TextSize"] = 14;
-G2L["97"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["97"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["97"]["BackgroundTransparency"] = 1;
-G2L["97"]["Size"] = UDim2.new(0.85, 0, 1, 0);
-G2L["97"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["97"]["Text"] = [[?]];
-G2L["97"]["Name"] = [[Title]];
-G2L["97"]["Position"] = UDim2.new(0.07, 0, 0, 0);
+G2L["98"] = Instance.new("TextLabel", G2L["95"]);
+G2L["98"]["TextWrapped"] = true;
+G2L["98"]["BorderSizePixel"] = 0;
+G2L["98"]["TextScaled"] = true;
+G2L["98"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["98"]["TextSize"] = 14;
+G2L["98"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["98"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["98"]["BackgroundTransparency"] = 1;
+G2L["98"]["Size"] = UDim2.new(0.85, 0, 1, 0);
+G2L["98"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["98"]["Text"] = [[?]];
+G2L["98"]["Name"] = [[Title]];
+G2L["98"]["Position"] = UDim2.new(0.07, 0, 0, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.Keybind.UIStroke
-G2L["98"] = Instance.new("UIStroke", G2L["94"]);
-G2L["98"]["Enabled"] = false;
-G2L["98"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["98"]["Thickness"] = 2;
-G2L["98"]["Color"] = Color3.fromRGB(60, 68, 86);
+G2L["99"] = Instance.new("UIStroke", G2L["95"]);
+G2L["99"]["Enabled"] = false;
+G2L["99"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["99"]["Thickness"] = 2;
+G2L["99"]["Color"] = Color3.fromRGB(60, 68, 86);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.KeycodeSoftware
-G2L["99"] = Instance.new("LocalScript", G2L["91"]);
-G2L["99"]["Name"] = [[KeycodeSoftware]];
+G2L["9a"] = Instance.new("LocalScript", G2L["92"]);
+G2L["9a"]["Name"] = [[KeycodeSoftware]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.KeycodeSoftware.KeycodeSet
-G2L["9a"] = Instance.new("Sound", G2L["99"]);
-G2L["9a"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
-G2L["9a"]["Name"] = [[KeycodeSet]];
-G2L["9a"]["SoundId"] = [[rbxassetid://17582213219]];
+G2L["9b"] = Instance.new("Sound", G2L["9a"]);
+G2L["9b"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["9b"]["Name"] = [[KeycodeSet]];
+G2L["9b"]["SoundId"] = [[rbxassetid://17582213219]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY
-G2L["9b"] = Instance.new("Frame", G2L["81"]);
-G2L["9b"]["BorderSizePixel"] = 0;
-G2L["9b"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
-G2L["9b"]["Size"] = UDim2.new(0, 570, 0, 50);
-G2L["9b"]["Position"] = UDim2.new(0.01724, 0, -0.39365, 0);
-G2L["9b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9b"]["Name"] = [[CATEGORY]];
-G2L["9b"]["LayoutOrder"] = 4;
-G2L["9b"]["BackgroundTransparency"] = 0.4;
+G2L["9c"] = Instance.new("Frame", G2L["82"]);
+G2L["9c"]["BorderSizePixel"] = 0;
+G2L["9c"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
+G2L["9c"]["Size"] = UDim2.new(0, 570, 0, 50);
+G2L["9c"]["Position"] = UDim2.new(0.01724, 0, -0.39365, 0);
+G2L["9c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9c"]["Name"] = [[CATEGORY]];
+G2L["9c"]["LayoutOrder"] = 4;
+G2L["9c"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY.UICorner
-G2L["9c"] = Instance.new("UICorner", G2L["9b"]);
-G2L["9c"]["CornerRadius"] = UDim.new(0, 10);
+G2L["9d"] = Instance.new("UICorner", G2L["9c"]);
+G2L["9d"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY.Title
-G2L["9d"] = Instance.new("TextLabel", G2L["9b"]);
-G2L["9d"]["TextWrapped"] = true;
-G2L["9d"]["BorderSizePixel"] = 0;
-G2L["9d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["9d"]["TextScaled"] = true;
-G2L["9d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9d"]["TextSize"] = 14;
-G2L["9d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["9d"]["TextColor3"] = Color3.fromRGB(56, 62, 80);
-G2L["9d"]["BackgroundTransparency"] = 1;
-G2L["9d"]["Size"] = UDim2.new(0, 510, 0, 35);
-G2L["9d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9d"]["Text"] = [[CLIENT]];
-G2L["9d"]["Name"] = [[Title]];
-G2L["9d"]["Position"] = UDim2.new(0.08947, 0, 0.14, 0);
+G2L["9e"] = Instance.new("TextLabel", G2L["9c"]);
+G2L["9e"]["TextWrapped"] = true;
+G2L["9e"]["BorderSizePixel"] = 0;
+G2L["9e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["9e"]["TextScaled"] = true;
+G2L["9e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9e"]["TextSize"] = 14;
+G2L["9e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["9e"]["TextColor3"] = Color3.fromRGB(56, 62, 80);
+G2L["9e"]["BackgroundTransparency"] = 1;
+G2L["9e"]["Size"] = UDim2.new(0, 510, 0, 35);
+G2L["9e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9e"]["Text"] = [[CLIENT]];
+G2L["9e"]["Name"] = [[Title]];
+G2L["9e"]["Position"] = UDim2.new(0.08947, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CATEGORY.Icon
-G2L["9e"] = Instance.new("ImageLabel", G2L["9b"]);
-G2L["9e"]["BorderSizePixel"] = 0;
-G2L["9e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9e"]["ScaleType"] = Enum.ScaleType.Crop;
-G2L["9e"]["ImageColor3"] = Color3.fromRGB(56, 62, 80);
-G2L["9e"]["Image"] = [[rbxassetid://18389256366]];
-G2L["9e"]["Size"] = UDim2.new(0, 40, 0, 40);
-G2L["9e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9e"]["BackgroundTransparency"] = 1;
-G2L["9e"]["Name"] = [[Icon]];
-G2L["9e"]["Position"] = UDim2.new(0.0193, 0, 0.1, 0);
+G2L["9f"] = Instance.new("ImageLabel", G2L["9c"]);
+G2L["9f"]["BorderSizePixel"] = 0;
+G2L["9f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9f"]["ScaleType"] = Enum.ScaleType.Crop;
+G2L["9f"]["ImageColor3"] = Color3.fromRGB(56, 62, 80);
+G2L["9f"]["Image"] = [[rbxassetid://18389256366]];
+G2L["9f"]["Size"] = UDim2.new(0, 40, 0, 40);
+G2L["9f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9f"]["BackgroundTransparency"] = 1;
+G2L["9f"]["Name"] = [[Icon]];
+G2L["9f"]["Position"] = UDim2.new(0.0193, 0, 0.1, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT
-G2L["9f"] = Instance.new("Frame", G2L["81"]);
-G2L["9f"]["BorderSizePixel"] = 0;
-G2L["9f"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
-G2L["9f"]["Size"] = UDim2.new(0, 570, 0, 50);
-G2L["9f"]["Position"] = UDim2.new(0.01724, 0, -0.39365, 0);
-G2L["9f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9f"]["Name"] = [[CLIENT]];
-G2L["9f"]["LayoutOrder"] = 5;
-G2L["9f"]["BackgroundTransparency"] = 0.4;
+G2L["a0"] = Instance.new("Frame", G2L["82"]);
+G2L["a0"]["BorderSizePixel"] = 0;
+G2L["a0"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
+G2L["a0"]["Size"] = UDim2.new(0, 570, 0, 50);
+G2L["a0"]["Position"] = UDim2.new(0.01724, 0, -0.39365, 0);
+G2L["a0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a0"]["Name"] = [[CLIENT]];
+G2L["a0"]["LayoutOrder"] = 5;
+G2L["a0"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.UICorner
-G2L["a0"] = Instance.new("UICorner", G2L["9f"]);
-G2L["a0"]["CornerRadius"] = UDim.new(0, 10);
+G2L["a1"] = Instance.new("UICorner", G2L["a0"]);
+G2L["a1"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.Title
-G2L["a1"] = Instance.new("TextLabel", G2L["9f"]);
-G2L["a1"]["TextWrapped"] = true;
-G2L["a1"]["BorderSizePixel"] = 0;
-G2L["a1"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["a1"]["TextScaled"] = true;
-G2L["a1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a1"]["TextSize"] = 14;
-G2L["a1"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["a1"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a1"]["BackgroundTransparency"] = 1;
-G2L["a1"]["Size"] = UDim2.new(0, 250, 0, 35);
-G2L["a1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a1"]["Text"] = [[CLIENT KEYBIND]];
-G2L["a1"]["Name"] = [[Title]];
-G2L["a1"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
+G2L["a2"] = Instance.new("TextLabel", G2L["a0"]);
+G2L["a2"]["TextWrapped"] = true;
+G2L["a2"]["BorderSizePixel"] = 0;
+G2L["a2"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["a2"]["TextScaled"] = true;
+G2L["a2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a2"]["TextSize"] = 14;
+G2L["a2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["a2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a2"]["BackgroundTransparency"] = 1;
+G2L["a2"]["Size"] = UDim2.new(0, 250, 0, 35);
+G2L["a2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a2"]["Text"] = [[CLIENT KEYBIND]];
+G2L["a2"]["Name"] = [[Title]];
+G2L["a2"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.Keybind
-G2L["a2"] = Instance.new("Frame", G2L["9f"]);
-G2L["a2"]["BorderSizePixel"] = 0;
-G2L["a2"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
-G2L["a2"]["Size"] = UDim2.new(0, 100, 0, 35);
-G2L["a2"]["Position"] = UDim2.new(0.78947, 0, 0.14, 0);
-G2L["a2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a2"]["Name"] = [[Keybind]];
-G2L["a2"]["BackgroundTransparency"] = 0.4;
+G2L["a3"] = Instance.new("Frame", G2L["a0"]);
+G2L["a3"]["BorderSizePixel"] = 0;
+G2L["a3"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
+G2L["a3"]["Size"] = UDim2.new(0, 100, 0, 35);
+G2L["a3"]["Position"] = UDim2.new(0.78947, 0, 0.14, 0);
+G2L["a3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a3"]["Name"] = [[Keybind]];
+G2L["a3"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.Keybind.UICorner
-G2L["a3"] = Instance.new("UICorner", G2L["a2"]);
-G2L["a3"]["CornerRadius"] = UDim.new(0, 10);
+G2L["a4"] = Instance.new("UICorner", G2L["a3"]);
+G2L["a4"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.Keybind.Button
-G2L["a4"] = Instance.new("TextButton", G2L["a2"]);
-G2L["a4"]["BorderSizePixel"] = 0;
-G2L["a4"]["TextSize"] = 14;
-G2L["a4"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["a4"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["a4"]["BackgroundTransparency"] = 1;
-G2L["a4"]["Name"] = [[Button]];
-G2L["a4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a4"]["Text"] = [[]];
+G2L["a5"] = Instance.new("TextButton", G2L["a3"]);
+G2L["a5"]["BorderSizePixel"] = 0;
+G2L["a5"]["TextSize"] = 14;
+G2L["a5"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["a5"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["a5"]["BackgroundTransparency"] = 1;
+G2L["a5"]["Name"] = [[Button]];
+G2L["a5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a5"]["Text"] = [[]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.Keybind.Title
-G2L["a5"] = Instance.new("TextLabel", G2L["a2"]);
-G2L["a5"]["TextWrapped"] = true;
-G2L["a5"]["BorderSizePixel"] = 0;
-G2L["a5"]["TextScaled"] = true;
-G2L["a5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a5"]["TextSize"] = 14;
-G2L["a5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["a5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a5"]["BackgroundTransparency"] = 1;
-G2L["a5"]["Size"] = UDim2.new(0.85, 0, 1, 0);
-G2L["a5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a5"]["Text"] = [[?]];
-G2L["a5"]["Name"] = [[Title]];
-G2L["a5"]["Position"] = UDim2.new(0.07, 0, 0, 0);
+G2L["a6"] = Instance.new("TextLabel", G2L["a3"]);
+G2L["a6"]["TextWrapped"] = true;
+G2L["a6"]["BorderSizePixel"] = 0;
+G2L["a6"]["TextScaled"] = true;
+G2L["a6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a6"]["TextSize"] = 14;
+G2L["a6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["a6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a6"]["BackgroundTransparency"] = 1;
+G2L["a6"]["Size"] = UDim2.new(0.85, 0, 1, 0);
+G2L["a6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a6"]["Text"] = [[?]];
+G2L["a6"]["Name"] = [[Title]];
+G2L["a6"]["Position"] = UDim2.new(0.07, 0, 0, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.Keybind.UIStroke
-G2L["a6"] = Instance.new("UIStroke", G2L["a2"]);
-G2L["a6"]["Enabled"] = false;
-G2L["a6"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["a6"]["Thickness"] = 2;
-G2L["a6"]["Color"] = Color3.fromRGB(60, 68, 86);
+G2L["a7"] = Instance.new("UIStroke", G2L["a3"]);
+G2L["a7"]["Enabled"] = false;
+G2L["a7"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["a7"]["Thickness"] = 2;
+G2L["a7"]["Color"] = Color3.fromRGB(60, 68, 86);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.KeycodeSoftware
-G2L["a7"] = Instance.new("LocalScript", G2L["9f"]);
-G2L["a7"]["Name"] = [[KeycodeSoftware]];
+G2L["a8"] = Instance.new("LocalScript", G2L["a0"]);
+G2L["a8"]["Name"] = [[KeycodeSoftware]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.KeycodeSoftware.KeycodeSet
-G2L["a8"] = Instance.new("Sound", G2L["a7"]);
-G2L["a8"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
-G2L["a8"]["Name"] = [[KeycodeSet]];
-G2L["a8"]["SoundId"] = [[rbxassetid://17582213219]];
+G2L["a9"] = Instance.new("Sound", G2L["a8"]);
+G2L["a9"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["a9"]["Name"] = [[KeycodeSet]];
+G2L["a9"]["SoundId"] = [[rbxassetid://17582213219]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO
-G2L["a9"] = Instance.new("Frame", G2L["81"]);
-G2L["a9"]["BorderSizePixel"] = 0;
-G2L["a9"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
-G2L["a9"]["Size"] = UDim2.new(0, 570, 0, 50);
-G2L["a9"]["Position"] = UDim2.new(0.01724, 0, -0.39365, 0);
-G2L["a9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a9"]["Name"] = [[POTATO]];
-G2L["a9"]["LayoutOrder"] = 5;
-G2L["a9"]["BackgroundTransparency"] = 0.4;
+G2L["aa"] = Instance.new("Frame", G2L["82"]);
+G2L["aa"]["BorderSizePixel"] = 0;
+G2L["aa"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
+G2L["aa"]["Size"] = UDim2.new(0, 570, 0, 50);
+G2L["aa"]["Position"] = UDim2.new(0.01724, 0, -0.39365, 0);
+G2L["aa"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["aa"]["Name"] = [[POTATO]];
+G2L["aa"]["LayoutOrder"] = 5;
+G2L["aa"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.UICorner
-G2L["aa"] = Instance.new("UICorner", G2L["a9"]);
-G2L["aa"]["CornerRadius"] = UDim.new(0, 10);
+G2L["ab"] = Instance.new("UICorner", G2L["aa"]);
+G2L["ab"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Title
-G2L["ab"] = Instance.new("TextLabel", G2L["a9"]);
-G2L["ab"]["TextWrapped"] = true;
-G2L["ab"]["BorderSizePixel"] = 0;
-G2L["ab"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["ab"]["TextScaled"] = true;
-G2L["ab"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ab"]["TextSize"] = 14;
-G2L["ab"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["ab"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ab"]["BackgroundTransparency"] = 1;
-G2L["ab"]["Size"] = UDim2.new(0, 250, 0, 35);
-G2L["ab"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ab"]["Text"] = [[POTATO GRAPHICS]];
-G2L["ab"]["Name"] = [[Title]];
-G2L["ab"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
+G2L["ac"] = Instance.new("TextLabel", G2L["aa"]);
+G2L["ac"]["TextWrapped"] = true;
+G2L["ac"]["BorderSizePixel"] = 0;
+G2L["ac"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["ac"]["TextScaled"] = true;
+G2L["ac"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ac"]["TextSize"] = 14;
+G2L["ac"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["ac"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ac"]["BackgroundTransparency"] = 1;
+G2L["ac"]["Size"] = UDim2.new(0, 250, 0, 35);
+G2L["ac"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ac"]["Text"] = [[POTATO GRAPHICS]];
+G2L["ac"]["Name"] = [[Title]];
+G2L["ac"]["Position"] = UDim2.new(0.0193, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick
-G2L["ac"] = Instance.new("Frame", G2L["a9"]);
-G2L["ac"]["BorderSizePixel"] = 0;
-G2L["ac"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
-G2L["ac"]["Size"] = UDim2.new(0, 90, 0, 45);
-G2L["ac"]["Position"] = UDim2.new(0.79755, 0, 0.04932, 0);
-G2L["ac"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ac"]["Name"] = [[Thick]];
-G2L["ac"]["BackgroundTransparency"] = 0.4;
+G2L["ad"] = Instance.new("Frame", G2L["aa"]);
+G2L["ad"]["BorderSizePixel"] = 0;
+G2L["ad"]["BackgroundColor3"] = Color3.fromRGB(24, 27, 34);
+G2L["ad"]["Size"] = UDim2.new(0, 90, 0, 45);
+G2L["ad"]["Position"] = UDim2.new(0.79755, 0, 0.04932, 0);
+G2L["ad"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ad"]["Name"] = [[Thick]];
+G2L["ad"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.Culc
-G2L["ad"] = Instance.new("Frame", G2L["ac"]);
-G2L["ad"]["BorderSizePixel"] = 0;
-G2L["ad"]["BackgroundColor3"] = Color3.fromRGB(42, 46, 59);
-G2L["ad"]["Size"] = UDim2.new(0, 45, 0, 45);
-G2L["ad"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ad"]["Name"] = [[Culc]];
+G2L["ae"] = Instance.new("Frame", G2L["ad"]);
+G2L["ae"]["BorderSizePixel"] = 0;
+G2L["ae"]["BackgroundColor3"] = Color3.fromRGB(42, 46, 59);
+G2L["ae"]["Size"] = UDim2.new(0, 45, 0, 45);
+G2L["ae"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ae"]["Name"] = [[Culc]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.Culc.UICorner
-G2L["ae"] = Instance.new("UICorner", G2L["ad"]);
-G2L["ae"]["CornerRadius"] = UDim.new(1, 0);
+G2L["af"] = Instance.new("UICorner", G2L["ae"]);
+G2L["af"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.True
-G2L["af"] = Instance.new("ImageLabel", G2L["ac"]);
-G2L["af"]["ZIndex"] = 0;
-G2L["af"]["BorderSizePixel"] = 0;
-G2L["af"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["af"]["ScaleType"] = Enum.ScaleType.Crop;
-G2L["af"]["Image"] = [[rbxassetid://84999104681862]];
-G2L["af"]["Size"] = UDim2.new(0, 35, 0, 35);
-G2L["af"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["af"]["BackgroundTransparency"] = 1;
-G2L["af"]["Name"] = [[True]];
-G2L["af"]["Position"] = UDim2.new(0.06667, 0, 0.11111, 0);
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.False
-G2L["b0"] = Instance.new("ImageLabel", G2L["ac"]);
+G2L["b0"] = Instance.new("ImageLabel", G2L["ad"]);
 G2L["b0"]["ZIndex"] = 0;
 G2L["b0"]["BorderSizePixel"] = 0;
 G2L["b0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["b0"]["ScaleType"] = Enum.ScaleType.Crop;
-G2L["b0"]["Image"] = [[rbxassetid://110645495403298]];
+G2L["b0"]["Image"] = [[rbxassetid://84999104681862]];
 G2L["b0"]["Size"] = UDim2.new(0, 35, 0, 35);
 G2L["b0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["b0"]["BackgroundTransparency"] = 1;
-G2L["b0"]["Name"] = [[False]];
-G2L["b0"]["Position"] = UDim2.new(0.54444, 0, 0.11111, 0);
+G2L["b0"]["Name"] = [[True]];
+G2L["b0"]["Position"] = UDim2.new(0.06667, 0, 0.11111, 0);
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.False
+G2L["b1"] = Instance.new("ImageLabel", G2L["ad"]);
+G2L["b1"]["ZIndex"] = 0;
+G2L["b1"]["BorderSizePixel"] = 0;
+G2L["b1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b1"]["ScaleType"] = Enum.ScaleType.Crop;
+G2L["b1"]["Image"] = [[rbxassetid://110645495403298]];
+G2L["b1"]["Size"] = UDim2.new(0, 35, 0, 35);
+G2L["b1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b1"]["BackgroundTransparency"] = 1;
+G2L["b1"]["Name"] = [[False]];
+G2L["b1"]["Position"] = UDim2.new(0.54444, 0, 0.11111, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.Button
-G2L["b1"] = Instance.new("TextButton", G2L["ac"]);
-G2L["b1"]["BorderSizePixel"] = 0;
-G2L["b1"]["TextSize"] = 14;
-G2L["b1"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b1"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["b1"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["b1"]["BackgroundTransparency"] = 1;
-G2L["b1"]["Name"] = [[Button]];
-G2L["b1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b1"]["Text"] = [[]];
+G2L["b2"] = Instance.new("TextButton", G2L["ad"]);
+G2L["b2"]["BorderSizePixel"] = 0;
+G2L["b2"]["TextSize"] = 14;
+G2L["b2"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["b2"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["b2"]["BackgroundTransparency"] = 1;
+G2L["b2"]["Name"] = [[Button]];
+G2L["b2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b2"]["Text"] = [[]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.ThickClient
-G2L["b2"] = Instance.new("LocalScript", G2L["ac"]);
-G2L["b2"]["Name"] = [[ThickClient]];
+G2L["b3"] = Instance.new("LocalScript", G2L["ad"]);
+G2L["b3"]["Name"] = [[ThickClient]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.Click
-G2L["b3"] = Instance.new("Sound", G2L["ac"]);
-G2L["b3"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
-G2L["b3"]["Name"] = [[Click]];
-G2L["b3"]["SoundId"] = [[rbxassetid://15675032796]];
+G2L["b4"] = Instance.new("Sound", G2L["ad"]);
+G2L["b4"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["b4"]["Name"] = [[Click]];
+G2L["b4"]["SoundId"] = [[rbxassetid://15675032796]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.UICorner
-G2L["b4"] = Instance.new("UICorner", G2L["ac"]);
-G2L["b4"]["CornerRadius"] = UDim.new(1, 0);
+G2L["b5"] = Instance.new("UICorner", G2L["ad"]);
+G2L["b5"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.FunctionSoftware
-G2L["b5"] = Instance.new("LocalScript", G2L["a9"]);
-G2L["b5"]["Name"] = [[FunctionSoftware]];
+G2L["b6"] = Instance.new("LocalScript", G2L["aa"]);
+G2L["b6"]["Name"] = [[FunctionSoftware]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.FunctionStatus
-G2L["b6"] = Instance.new("BoolValue", G2L["a9"]);
-G2L["b6"]["Name"] = [[FunctionStatus]];
+G2L["b7"] = Instance.new("BoolValue", G2L["aa"]);
+G2L["b7"]["Name"] = [[FunctionStatus]];
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ScrollSoftware
+G2L["b8"] = Instance.new("LocalScript", G2L["82"]);
+G2L["b8"]["Name"] = [[ScrollSoftware]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information
-G2L["b7"] = Instance.new("Frame", G2L["2c"]);
-G2L["b7"]["Visible"] = false;
-G2L["b7"]["BorderSizePixel"] = 0;
-G2L["b7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b7"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["b7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b7"]["Name"] = [[Information]];
-G2L["b7"]["BackgroundTransparency"] = 1;
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Title
-G2L["b8"] = Instance.new("TextLabel", G2L["b7"]);
-G2L["b8"]["TextWrapped"] = true;
-G2L["b8"]["BorderSizePixel"] = 0;
-G2L["b8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["b8"]["TextScaled"] = true;
-G2L["b8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b8"]["TextSize"] = 45;
-G2L["b8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["b8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b8"]["BackgroundTransparency"] = 1;
-G2L["b8"]["Size"] = UDim2.new(0, 523, 0, 55);
-G2L["b8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b8"]["Text"] = [[INFORMATION]];
-G2L["b8"]["Name"] = [[Title]];
-G2L["b8"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions
-G2L["b9"] = Instance.new("Frame", G2L["b7"]);
+G2L["b9"] = Instance.new("Frame", G2L["2c"]);
+G2L["b9"]["Visible"] = false;
 G2L["b9"]["BorderSizePixel"] = 0;
-G2L["b9"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
-G2L["b9"]["Size"] = UDim2.new(0, 580, 0, 315);
-G2L["b9"]["Position"] = UDim2.new(0.01695, 0, 0.16145, 0);
+G2L["b9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b9"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["b9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b9"]["Name"] = [[Functions]];
+G2L["b9"]["Name"] = [[Information]];
 G2L["b9"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll
-G2L["ba"] = Instance.new("ScrollingFrame", G2L["b9"]);
-G2L["ba"]["Active"] = true;
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Title
+G2L["ba"] = Instance.new("TextLabel", G2L["b9"]);
+G2L["ba"]["TextWrapped"] = true;
 G2L["ba"]["BorderSizePixel"] = 0;
-G2L["ba"]["CanvasSize"] = UDim2.new(0, 0, 1, 160);
+G2L["ba"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["ba"]["TextScaled"] = true;
 G2L["ba"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ba"]["Name"] = [[Scroll]];
-G2L["ba"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["ba"]["ScrollBarImageColor3"] = Color3.fromRGB(49, 54, 69);
-G2L["ba"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ba"]["TextSize"] = 45;
+G2L["ba"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["ba"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["ba"]["BackgroundTransparency"] = 1;
+G2L["ba"]["Size"] = UDim2.new(0, 523, 0, 55);
+G2L["ba"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ba"]["Text"] = [[INFORMATION]];
+G2L["ba"]["Name"] = [[Title]];
+G2L["ba"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions
+G2L["bb"] = Instance.new("Frame", G2L["b9"]);
+G2L["bb"]["BorderSizePixel"] = 0;
+G2L["bb"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
+G2L["bb"]["Size"] = UDim2.new(0, 580, 0, 315);
+G2L["bb"]["Position"] = UDim2.new(0.01695, 0, 0.16145, 0);
+G2L["bb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["bb"]["Name"] = [[Functions]];
+G2L["bb"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll
+G2L["bc"] = Instance.new("ScrollingFrame", G2L["bb"]);
+G2L["bc"]["Active"] = true;
+G2L["bc"]["BorderSizePixel"] = 0;
+G2L["bc"]["CanvasSize"] = UDim2.new(0, 0, 1, 160);
+G2L["bc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["bc"]["Name"] = [[Scroll]];
+G2L["bc"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["bc"]["ScrollBarImageColor3"] = Color3.fromRGB(49, 54, 69);
+G2L["bc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["bc"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.UIListLayout
-G2L["bb"] = Instance.new("UIListLayout", G2L["ba"]);
-G2L["bb"]["Padding"] = UDim.new(0, 10);
-G2L["bb"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["bd"] = Instance.new("UIListLayout", G2L["bc"]);
+G2L["bd"]["Padding"] = UDim.new(0, 10);
+G2L["bd"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account
-G2L["bc"] = Instance.new("Frame", G2L["ba"]);
-G2L["bc"]["BorderSizePixel"] = 0;
-G2L["bc"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
-G2L["bc"]["Size"] = UDim2.new(0, 555, 0, 285);
-G2L["bc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["bc"]["Name"] = [[Account]];
-G2L["bc"]["BackgroundTransparency"] = 0.4;
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.Title
-G2L["bd"] = Instance.new("TextLabel", G2L["bc"]);
-G2L["bd"]["TextWrapped"] = true;
-G2L["bd"]["BorderSizePixel"] = 0;
-G2L["bd"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["bd"]["TextScaled"] = true;
-G2L["bd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["bd"]["TextSize"] = 14;
-G2L["bd"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["bd"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["bd"]["BackgroundTransparency"] = 1;
-G2L["bd"]["Size"] = UDim2.new(0, 520, 0, 40);
-G2L["bd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["bd"]["Text"] = [[ACCOUNT]];
-G2L["bd"]["Name"] = [[Title]];
-G2L["bd"]["Position"] = UDim2.new(0.03063, 0, 0.01754, 0);
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus
 G2L["be"] = Instance.new("Frame", G2L["bc"]);
 G2L["be"]["BorderSizePixel"] = 0;
-G2L["be"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
-G2L["be"]["Size"] = UDim2.new(0, 520, 0, 50);
-G2L["be"]["Position"] = UDim2.new(0.03063, 0, 0.57895, 0);
+G2L["be"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
+G2L["be"]["Size"] = UDim2.new(0, 555, 0, 285);
 G2L["be"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["be"]["Name"] = [[AccountStatus]];
+G2L["be"]["Name"] = [[Account]];
 G2L["be"]["BackgroundTransparency"] = 0.4;
 
 
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.Title
+G2L["bf"] = Instance.new("TextLabel", G2L["be"]);
+G2L["bf"]["TextWrapped"] = true;
+G2L["bf"]["BorderSizePixel"] = 0;
+G2L["bf"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["bf"]["TextScaled"] = true;
+G2L["bf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["bf"]["TextSize"] = 14;
+G2L["bf"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["bf"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["bf"]["BackgroundTransparency"] = 1;
+G2L["bf"]["Size"] = UDim2.new(0, 520, 0, 40);
+G2L["bf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["bf"]["Text"] = [[ACCOUNT]];
+G2L["bf"]["Name"] = [[Title]];
+G2L["bf"]["Position"] = UDim2.new(0.03063, 0, 0.01754, 0);
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus
+G2L["c0"] = Instance.new("Frame", G2L["be"]);
+G2L["c0"]["BorderSizePixel"] = 0;
+G2L["c0"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
+G2L["c0"]["Size"] = UDim2.new(0, 520, 0, 50);
+G2L["c0"]["Position"] = UDim2.new(0.03063, 0, 0.57895, 0);
+G2L["c0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c0"]["Name"] = [[AccountStatus]];
+G2L["c0"]["BackgroundTransparency"] = 0.4;
+
+
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.UICorner
-G2L["bf"] = Instance.new("UICorner", G2L["be"]);
-G2L["bf"]["CornerRadius"] = UDim.new(0, 15);
+G2L["c1"] = Instance.new("UICorner", G2L["c0"]);
+G2L["c1"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Title
-G2L["c0"] = Instance.new("TextLabel", G2L["be"]);
-G2L["c0"]["TextWrapped"] = true;
-G2L["c0"]["BorderSizePixel"] = 0;
-G2L["c0"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["c0"]["TextScaled"] = true;
-G2L["c0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c0"]["TextSize"] = 14;
-G2L["c0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["c0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c0"]["BackgroundTransparency"] = 1;
-G2L["c0"]["Size"] = UDim2.new(0, 230, 0, 35);
-G2L["c0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c0"]["Text"] = [[]];
-G2L["c0"]["Name"] = [[Title]];
-G2L["c0"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
+G2L["c2"] = Instance.new("TextLabel", G2L["c0"]);
+G2L["c2"]["TextWrapped"] = true;
+G2L["c2"]["BorderSizePixel"] = 0;
+G2L["c2"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["c2"]["TextScaled"] = true;
+G2L["c2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c2"]["TextSize"] = 14;
+G2L["c2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["c2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c2"]["BackgroundTransparency"] = 1;
+G2L["c2"]["Size"] = UDim2.new(0, 230, 0, 35);
+G2L["c2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c2"]["Text"] = [[]];
+G2L["c2"]["Name"] = [[Title]];
+G2L["c2"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Title.Verified
-G2L["c1"] = Instance.new("UIGradient", G2L["c0"]);
-G2L["c1"]["Enabled"] = false;
-G2L["c1"]["Rotation"] = 90;
-G2L["c1"]["Name"] = [[Verified]];
-G2L["c1"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(179, 202, 255))};
+G2L["c3"] = Instance.new("UIGradient", G2L["c2"]);
+G2L["c3"]["Enabled"] = false;
+G2L["c3"]["Rotation"] = 90;
+G2L["c3"]["Name"] = [[Verified]];
+G2L["c3"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(179, 202, 255))};
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Title.Unverified
-G2L["c2"] = Instance.new("UIGradient", G2L["c0"]);
-G2L["c2"]["Rotation"] = 90;
-G2L["c2"]["Name"] = [[Unverified]];
-G2L["c2"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 125, 125))};
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Unverified
-G2L["c3"] = Instance.new("ImageLabel", G2L["be"]);
-G2L["c3"]["BorderSizePixel"] = 0;
-G2L["c3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c3"]["ScaleType"] = Enum.ScaleType.Fit;
-G2L["c3"]["Image"] = [[rbxassetid://90287689173454]];
-G2L["c3"]["Size"] = UDim2.new(0, 35, 0, 35);
-G2L["c3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c3"]["BackgroundTransparency"] = 1;
-G2L["c3"]["Name"] = [[Unverified]];
-G2L["c3"]["Position"] = UDim2.new(0.01346, 0, 0.16, 0);
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Unverified.UIGradient
-G2L["c4"] = Instance.new("UIGradient", G2L["c3"]);
+G2L["c4"] = Instance.new("UIGradient", G2L["c2"]);
 G2L["c4"]["Rotation"] = 90;
+G2L["c4"]["Name"] = [[Unverified]];
 G2L["c4"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 125, 125))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Verified
-G2L["c5"] = Instance.new("ImageLabel", G2L["be"]);
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Unverified
+G2L["c5"] = Instance.new("ImageLabel", G2L["c0"]);
 G2L["c5"]["BorderSizePixel"] = 0;
 G2L["c5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c5"]["ScaleType"] = Enum.ScaleType.Fit;
-G2L["c5"]["Image"] = [[rbxassetid://115370487693712]];
+G2L["c5"]["Image"] = [[rbxassetid://90287689173454]];
 G2L["c5"]["Size"] = UDim2.new(0, 35, 0, 35);
-G2L["c5"]["Visible"] = false;
 G2L["c5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["c5"]["BackgroundTransparency"] = 1;
-G2L["c5"]["Name"] = [[Verified]];
+G2L["c5"]["Name"] = [[Unverified]];
 G2L["c5"]["Position"] = UDim2.new(0.01346, 0, 0.16, 0);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Verified.UIGradient
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Unverified.UIGradient
 G2L["c6"] = Instance.new("UIGradient", G2L["c5"]);
 G2L["c6"]["Rotation"] = 90;
-G2L["c6"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(179, 202, 255))};
+G2L["c6"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 125, 125))};
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Verified
+G2L["c7"] = Instance.new("ImageLabel", G2L["c0"]);
+G2L["c7"]["BorderSizePixel"] = 0;
+G2L["c7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c7"]["ScaleType"] = Enum.ScaleType.Fit;
+G2L["c7"]["Image"] = [[rbxassetid://115370487693712]];
+G2L["c7"]["Size"] = UDim2.new(0, 35, 0, 35);
+G2L["c7"]["Visible"] = false;
+G2L["c7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c7"]["BackgroundTransparency"] = 1;
+G2L["c7"]["Name"] = [[Verified]];
+G2L["c7"]["Position"] = UDim2.new(0.01346, 0, 0.16, 0);
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountStatus.Verified.UIGradient
+G2L["c8"] = Instance.new("UIGradient", G2L["c7"]);
+G2L["c8"]["Rotation"] = 90;
+G2L["c8"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(179, 202, 255))};
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAge
-G2L["c7"] = Instance.new("Frame", G2L["bc"]);
-G2L["c7"]["BorderSizePixel"] = 0;
-G2L["c7"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
-G2L["c7"]["Size"] = UDim2.new(0, 520, 0, 50);
-G2L["c7"]["Position"] = UDim2.new(0.03063, 0, 0.77646, 0);
-G2L["c7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c7"]["Name"] = [[AccountAge]];
-G2L["c7"]["BackgroundTransparency"] = 0.4;
+G2L["c9"] = Instance.new("Frame", G2L["be"]);
+G2L["c9"]["BorderSizePixel"] = 0;
+G2L["c9"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
+G2L["c9"]["Size"] = UDim2.new(0, 520, 0, 50);
+G2L["c9"]["Position"] = UDim2.new(0.03063, 0, 0.77646, 0);
+G2L["c9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c9"]["Name"] = [[AccountAge]];
+G2L["c9"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAge.UICorner
-G2L["c8"] = Instance.new("UICorner", G2L["c7"]);
-G2L["c8"]["CornerRadius"] = UDim.new(0, 15);
+G2L["ca"] = Instance.new("UICorner", G2L["c9"]);
+G2L["ca"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAge.Title
-G2L["c9"] = Instance.new("TextLabel", G2L["c7"]);
-G2L["c9"]["TextWrapped"] = true;
-G2L["c9"]["BorderSizePixel"] = 0;
-G2L["c9"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["c9"]["TextScaled"] = true;
-G2L["c9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c9"]["TextSize"] = 14;
-G2L["c9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["c9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c9"]["BackgroundTransparency"] = 1;
-G2L["c9"]["Size"] = UDim2.new(0, 450, 0, 35);
-G2L["c9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c9"]["Text"] = [[]];
-G2L["c9"]["Name"] = [[Title]];
-G2L["c9"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
+G2L["cb"] = Instance.new("TextLabel", G2L["c9"]);
+G2L["cb"]["TextWrapped"] = true;
+G2L["cb"]["BorderSizePixel"] = 0;
+G2L["cb"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["cb"]["TextScaled"] = true;
+G2L["cb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["cb"]["TextSize"] = 14;
+G2L["cb"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["cb"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["cb"]["BackgroundTransparency"] = 1;
+G2L["cb"]["Size"] = UDim2.new(0, 450, 0, 35);
+G2L["cb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["cb"]["Text"] = [[]];
+G2L["cb"]["Name"] = [[Title]];
+G2L["cb"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAge.Icon
-G2L["ca"] = Instance.new("ImageLabel", G2L["c7"]);
-G2L["ca"]["BorderSizePixel"] = 0;
-G2L["ca"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ca"]["ScaleType"] = Enum.ScaleType.Crop;
-G2L["ca"]["Image"] = [[rbxassetid://114323472222930]];
-G2L["ca"]["Size"] = UDim2.new(0, 35, 0, 35);
-G2L["ca"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ca"]["BackgroundTransparency"] = 1;
-G2L["ca"]["Name"] = [[Icon]];
-G2L["ca"]["Position"] = UDim2.new(0.01291, 0, 0.14, 0);
+G2L["cc"] = Instance.new("ImageLabel", G2L["c9"]);
+G2L["cc"]["BorderSizePixel"] = 0;
+G2L["cc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["cc"]["ScaleType"] = Enum.ScaleType.Crop;
+G2L["cc"]["Image"] = [[rbxassetid://114323472222930]];
+G2L["cc"]["Size"] = UDim2.new(0, 35, 0, 35);
+G2L["cc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["cc"]["BackgroundTransparency"] = 1;
+G2L["cc"]["Name"] = [[Icon]];
+G2L["cc"]["Position"] = UDim2.new(0.01291, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.UICorner
-G2L["cb"] = Instance.new("UICorner", G2L["bc"]);
-G2L["cb"]["CornerRadius"] = UDim.new(0, 25);
+G2L["cd"] = Instance.new("UICorner", G2L["be"]);
+G2L["cd"]["CornerRadius"] = UDim.new(0, 25);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAvatar
-G2L["cc"] = Instance.new("Frame", G2L["bc"]);
-G2L["cc"]["BorderSizePixel"] = 0;
-G2L["cc"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
-G2L["cc"]["Size"] = UDim2.new(0, 100, 0, 100);
-G2L["cc"]["Position"] = UDim2.new(0.03063, 0, 0.17719, 0);
-G2L["cc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cc"]["Name"] = [[AccountAvatar]];
-G2L["cc"]["BackgroundTransparency"] = 0.4;
+G2L["ce"] = Instance.new("Frame", G2L["be"]);
+G2L["ce"]["BorderSizePixel"] = 0;
+G2L["ce"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
+G2L["ce"]["Size"] = UDim2.new(0, 100, 0, 100);
+G2L["ce"]["Position"] = UDim2.new(0.03063, 0, 0.17719, 0);
+G2L["ce"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ce"]["Name"] = [[AccountAvatar]];
+G2L["ce"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAvatar.Icon
-G2L["cd"] = Instance.new("ImageLabel", G2L["cc"]);
-G2L["cd"]["BorderSizePixel"] = 0;
-G2L["cd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["cd"]["Image"] = [[rbxassetid://79751284853178]];
-G2L["cd"]["Size"] = UDim2.new(0, 85, 0, 85);
-G2L["cd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cd"]["BackgroundTransparency"] = 1;
-G2L["cd"]["Name"] = [[Icon]];
+G2L["cf"] = Instance.new("ImageLabel", G2L["ce"]);
+G2L["cf"]["BorderSizePixel"] = 0;
+G2L["cf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["cf"]["Image"] = [[rbxassetid://79751284853178]];
+G2L["cf"]["Size"] = UDim2.new(0, 85, 0, 85);
+G2L["cf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["cf"]["BackgroundTransparency"] = 1;
+G2L["cf"]["Name"] = [[Icon]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAvatar.Icon.UICorner
-G2L["ce"] = Instance.new("UICorner", G2L["cd"]);
-G2L["ce"]["CornerRadius"] = UDim.new(0, 15);
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAvatar.UIListLayout
-G2L["cf"] = Instance.new("UIListLayout", G2L["cc"]);
-G2L["cf"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
-G2L["cf"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
-G2L["cf"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAvatar.UICorner
-G2L["d0"] = Instance.new("UICorner", G2L["cc"]);
+G2L["d0"] = Instance.new("UICorner", G2L["cf"]);
 G2L["d0"]["CornerRadius"] = UDim.new(0, 15);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountNickname
-G2L["d1"] = Instance.new("Frame", G2L["bc"]);
-G2L["d1"]["BorderSizePixel"] = 0;
-G2L["d1"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
-G2L["d1"]["Size"] = UDim2.new(0, 280, 0, 45);
-G2L["d1"]["Position"] = UDim2.new(0.23423, 0, 0.17544, 0);
-G2L["d1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d1"]["Name"] = [[AccountNickname]];
-G2L["d1"]["BackgroundTransparency"] = 0.4;
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAvatar.UIListLayout
+G2L["d1"] = Instance.new("UIListLayout", G2L["ce"]);
+G2L["d1"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+G2L["d1"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+G2L["d1"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountNickname.UICorner
-G2L["d2"] = Instance.new("UICorner", G2L["d1"]);
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountAvatar.UICorner
+G2L["d2"] = Instance.new("UICorner", G2L["ce"]);
 G2L["d2"]["CornerRadius"] = UDim.new(0, 15);
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountNickname.Title
-G2L["d3"] = Instance.new("TextLabel", G2L["d1"]);
-G2L["d3"]["TextWrapped"] = true;
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountNickname
+G2L["d3"] = Instance.new("Frame", G2L["be"]);
 G2L["d3"]["BorderSizePixel"] = 0;
-G2L["d3"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["d3"]["TextScaled"] = true;
-G2L["d3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d3"]["TextSize"] = 14;
-G2L["d3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["d3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d3"]["BackgroundTransparency"] = 1;
-G2L["d3"]["Size"] = UDim2.new(0, 230, 0, 35);
+G2L["d3"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
+G2L["d3"]["Size"] = UDim2.new(0, 280, 0, 45);
+G2L["d3"]["Position"] = UDim2.new(0.23423, 0, 0.17544, 0);
 G2L["d3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d3"]["Text"] = [[]];
-G2L["d3"]["Name"] = [[Title]];
-G2L["d3"]["Position"] = UDim2.new(0.16703, 0, 0.09333, 0);
+G2L["d3"]["Name"] = [[AccountNickname]];
+G2L["d3"]["BackgroundTransparency"] = 0.4;
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountNickname.UICorner
+G2L["d4"] = Instance.new("UICorner", G2L["d3"]);
+G2L["d4"]["CornerRadius"] = UDim.new(0, 15);
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountNickname.Title
+G2L["d5"] = Instance.new("TextLabel", G2L["d3"]);
+G2L["d5"]["TextWrapped"] = true;
+G2L["d5"]["BorderSizePixel"] = 0;
+G2L["d5"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["d5"]["TextScaled"] = true;
+G2L["d5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d5"]["TextSize"] = 14;
+G2L["d5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["d5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d5"]["BackgroundTransparency"] = 1;
+G2L["d5"]["Size"] = UDim2.new(0, 230, 0, 35);
+G2L["d5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d5"]["Text"] = [[]];
+G2L["d5"]["Name"] = [[Title]];
+G2L["d5"]["Position"] = UDim2.new(0.16703, 0, 0.09333, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountNickname.Icon
-G2L["d4"] = Instance.new("ImageLabel", G2L["d1"]);
-G2L["d4"]["BorderSizePixel"] = 0;
-G2L["d4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d4"]["ScaleType"] = Enum.ScaleType.Fit;
-G2L["d4"]["Image"] = [[rbxassetid://126071689875927]];
-G2L["d4"]["Size"] = UDim2.new(0, 35, 0, 35);
-G2L["d4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d4"]["BackgroundTransparency"] = 1;
-G2L["d4"]["Name"] = [[Icon]];
-G2L["d4"]["Position"] = UDim2.new(0.0206, 0, 0.09333, 0);
+G2L["d6"] = Instance.new("ImageLabel", G2L["d3"]);
+G2L["d6"]["BorderSizePixel"] = 0;
+G2L["d6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d6"]["ScaleType"] = Enum.ScaleType.Fit;
+G2L["d6"]["Image"] = [[rbxassetid://126071689875927]];
+G2L["d6"]["Size"] = UDim2.new(0, 35, 0, 35);
+G2L["d6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d6"]["BackgroundTransparency"] = 1;
+G2L["d6"]["Name"] = [[Icon]];
+G2L["d6"]["Position"] = UDim2.new(0.0206, 0, 0.09333, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription
-G2L["d5"] = Instance.new("Frame", G2L["bc"]);
-G2L["d5"]["BorderSizePixel"] = 0;
-G2L["d5"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
-G2L["d5"]["Size"] = UDim2.new(0, 280, 0, 45);
-G2L["d5"]["Position"] = UDim2.new(0.23423, 0, 0.36842, 0);
-G2L["d5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d5"]["Name"] = [[AccountSubscription]];
-G2L["d5"]["BackgroundTransparency"] = 0.4;
+G2L["d7"] = Instance.new("Frame", G2L["be"]);
+G2L["d7"]["BorderSizePixel"] = 0;
+G2L["d7"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
+G2L["d7"]["Size"] = UDim2.new(0, 280, 0, 45);
+G2L["d7"]["Position"] = UDim2.new(0.23423, 0, 0.36842, 0);
+G2L["d7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d7"]["Name"] = [[AccountSubscription]];
+G2L["d7"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription.UICorner
-G2L["d6"] = Instance.new("UICorner", G2L["d5"]);
-G2L["d6"]["CornerRadius"] = UDim.new(0, 15);
+G2L["d8"] = Instance.new("UICorner", G2L["d7"]);
+G2L["d8"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription.Title
-G2L["d7"] = Instance.new("TextLabel", G2L["d5"]);
-G2L["d7"]["TextWrapped"] = true;
-G2L["d7"]["BorderSizePixel"] = 0;
-G2L["d7"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["d7"]["TextScaled"] = true;
-G2L["d7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d7"]["TextSize"] = 14;
-G2L["d7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["d7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d7"]["BackgroundTransparency"] = 1;
-G2L["d7"]["Size"] = UDim2.new(0, 230, 0, 35);
-G2L["d7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d7"]["Text"] = [[]];
-G2L["d7"]["Name"] = [[Title]];
-G2L["d7"]["Position"] = UDim2.new(0.16703, 0, 0.10444, 0);
+G2L["d9"] = Instance.new("TextLabel", G2L["d7"]);
+G2L["d9"]["TextWrapped"] = true;
+G2L["d9"]["BorderSizePixel"] = 0;
+G2L["d9"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["d9"]["TextScaled"] = true;
+G2L["d9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d9"]["TextSize"] = 14;
+G2L["d9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["d9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d9"]["BackgroundTransparency"] = 1;
+G2L["d9"]["Size"] = UDim2.new(0, 230, 0, 35);
+G2L["d9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d9"]["Text"] = [[]];
+G2L["d9"]["Name"] = [[Title]];
+G2L["d9"]["Position"] = UDim2.new(0.16703, 0, 0.10444, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription.Title.Premium
-G2L["d8"] = Instance.new("UIGradient", G2L["d7"]);
-G2L["d8"]["Enabled"] = false;
-G2L["d8"]["Rotation"] = -90;
-G2L["d8"]["Name"] = [[Premium]];
-G2L["d8"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(111, 176, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription.Icon
-G2L["d9"] = Instance.new("ImageLabel", G2L["d5"]);
-G2L["d9"]["BorderSizePixel"] = 0;
-G2L["d9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d9"]["ScaleType"] = Enum.ScaleType.Crop;
-G2L["d9"]["Image"] = [[rbxassetid://133501711913099]];
-G2L["d9"]["Size"] = UDim2.new(0, 35, 0, 35);
-G2L["d9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d9"]["BackgroundTransparency"] = 1;
-G2L["d9"]["Name"] = [[Icon]];
-G2L["d9"]["Position"] = UDim2.new(0.0206, 0, 0.10444, 0);
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription.Icon.Premium
 G2L["da"] = Instance.new("UIGradient", G2L["d9"]);
 G2L["da"]["Enabled"] = false;
 G2L["da"]["Rotation"] = -90;
@@ -2135,445 +2124,472 @@ G2L["da"]["Name"] = [[Premium]];
 G2L["da"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(111, 176, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client
-G2L["db"] = Instance.new("Frame", G2L["ba"]);
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription.Icon
+G2L["db"] = Instance.new("ImageLabel", G2L["d7"]);
 G2L["db"]["BorderSizePixel"] = 0;
-G2L["db"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
-G2L["db"]["Size"] = UDim2.new(0, 555, 0, 170);
-G2L["db"]["Position"] = UDim2.new(0, 0, 0.04762, 0);
+G2L["db"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["db"]["ScaleType"] = Enum.ScaleType.Crop;
+G2L["db"]["Image"] = [[rbxassetid://115064230896081]];
+G2L["db"]["Size"] = UDim2.new(0, 35, 0, 35);
 G2L["db"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["db"]["Name"] = [[Client]];
-G2L["db"]["BackgroundTransparency"] = 0.4;
+G2L["db"]["BackgroundTransparency"] = 1;
+G2L["db"]["Name"] = [[Icon]];
+G2L["db"]["Position"] = UDim2.new(0.0206, 0, 0.10444, 0);
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Account.AccountSubscription.Icon.Premium
+G2L["dc"] = Instance.new("UIGradient", G2L["db"]);
+G2L["dc"]["Enabled"] = false;
+G2L["dc"]["Rotation"] = -90;
+G2L["dc"]["Name"] = [[Premium]];
+G2L["dc"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(111, 176, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client
+G2L["dd"] = Instance.new("Frame", G2L["bc"]);
+G2L["dd"]["BorderSizePixel"] = 0;
+G2L["dd"]["BackgroundColor3"] = Color3.fromRGB(41, 45, 58);
+G2L["dd"]["Size"] = UDim2.new(0, 555, 0, 170);
+G2L["dd"]["Position"] = UDim2.new(0, 0, 0.04762, 0);
+G2L["dd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["dd"]["Name"] = [[Client]];
+G2L["dd"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.Title
-G2L["dc"] = Instance.new("TextLabel", G2L["db"]);
-G2L["dc"]["TextWrapped"] = true;
-G2L["dc"]["BorderSizePixel"] = 0;
-G2L["dc"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["dc"]["TextScaled"] = true;
-G2L["dc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["dc"]["TextSize"] = 14;
-G2L["dc"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["dc"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["dc"]["BackgroundTransparency"] = 1;
-G2L["dc"]["Size"] = UDim2.new(0, 520, 0, 40);
-G2L["dc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["dc"]["Text"] = [[CLIENT]];
-G2L["dc"]["Name"] = [[Title]];
-G2L["dc"]["Position"] = UDim2.new(0.03063, 0, 0.02892, 0);
+G2L["de"] = Instance.new("TextLabel", G2L["dd"]);
+G2L["de"]["TextWrapped"] = true;
+G2L["de"]["BorderSizePixel"] = 0;
+G2L["de"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["de"]["TextScaled"] = true;
+G2L["de"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["de"]["TextSize"] = 14;
+G2L["de"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["de"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["de"]["BackgroundTransparency"] = 1;
+G2L["de"]["Size"] = UDim2.new(0, 520, 0, 40);
+G2L["de"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["de"]["Text"] = [[CLIENT]];
+G2L["de"]["Name"] = [[Title]];
+G2L["de"]["Position"] = UDim2.new(0.03063, 0, 0.02892, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.UICorner
-G2L["dd"] = Instance.new("UICorner", G2L["db"]);
-G2L["dd"]["CornerRadius"] = UDim.new(0, 25);
+G2L["df"] = Instance.new("UICorner", G2L["dd"]);
+G2L["df"]["CornerRadius"] = UDim.new(0, 25);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.ClientVersion
-G2L["de"] = Instance.new("Frame", G2L["db"]);
-G2L["de"]["BorderSizePixel"] = 0;
-G2L["de"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
-G2L["de"]["Size"] = UDim2.new(0, 520, 0, 50);
-G2L["de"]["Position"] = UDim2.new(0.03063, 0, 0.30313, 0);
-G2L["de"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["de"]["Name"] = [[ClientVersion]];
-G2L["de"]["BackgroundTransparency"] = 0.4;
+G2L["e0"] = Instance.new("Frame", G2L["dd"]);
+G2L["e0"]["BorderSizePixel"] = 0;
+G2L["e0"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
+G2L["e0"]["Size"] = UDim2.new(0, 520, 0, 50);
+G2L["e0"]["Position"] = UDim2.new(0.03063, 0, 0.30313, 0);
+G2L["e0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e0"]["Name"] = [[ClientVersion]];
+G2L["e0"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.ClientVersion.UICorner
-G2L["df"] = Instance.new("UICorner", G2L["de"]);
-G2L["df"]["CornerRadius"] = UDim.new(0, 15);
+G2L["e1"] = Instance.new("UICorner", G2L["e0"]);
+G2L["e1"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.ClientVersion.Title
-G2L["e0"] = Instance.new("TextLabel", G2L["de"]);
-G2L["e0"]["TextWrapped"] = true;
-G2L["e0"]["BorderSizePixel"] = 0;
-G2L["e0"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["e0"]["TextScaled"] = true;
-G2L["e0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e0"]["TextSize"] = 14;
-G2L["e0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["e0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e0"]["BackgroundTransparency"] = 1;
-G2L["e0"]["Size"] = UDim2.new(0, 450, 0, 35);
-G2L["e0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e0"]["Text"] = [[]];
-G2L["e0"]["Name"] = [[Title]];
-G2L["e0"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
+G2L["e2"] = Instance.new("TextLabel", G2L["e0"]);
+G2L["e2"]["TextWrapped"] = true;
+G2L["e2"]["BorderSizePixel"] = 0;
+G2L["e2"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["e2"]["TextScaled"] = true;
+G2L["e2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e2"]["TextSize"] = 14;
+G2L["e2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["e2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e2"]["BackgroundTransparency"] = 1;
+G2L["e2"]["Size"] = UDim2.new(0, 450, 0, 35);
+G2L["e2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e2"]["Text"] = [[]];
+G2L["e2"]["Name"] = [[Title]];
+G2L["e2"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.ClientVersion.Icon
-G2L["e1"] = Instance.new("ImageLabel", G2L["de"]);
-G2L["e1"]["BorderSizePixel"] = 0;
-G2L["e1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e1"]["ScaleType"] = Enum.ScaleType.Crop;
-G2L["e1"]["Image"] = [[rbxassetid://98234471743311]];
-G2L["e1"]["Size"] = UDim2.new(0, 35, 0, 35);
-G2L["e1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e1"]["BackgroundTransparency"] = 1;
-G2L["e1"]["Name"] = [[Icon]];
-G2L["e1"]["Position"] = UDim2.new(0.01291, 0, 0.14, 0);
+G2L["e3"] = Instance.new("ImageLabel", G2L["e0"]);
+G2L["e3"]["BorderSizePixel"] = 0;
+G2L["e3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e3"]["ScaleType"] = Enum.ScaleType.Crop;
+G2L["e3"]["Image"] = [[rbxassetid://103750593434662]];
+G2L["e3"]["Size"] = UDim2.new(0, 35, 0, 35);
+G2L["e3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e3"]["BackgroundTransparency"] = 1;
+G2L["e3"]["Name"] = [[Icon]];
+G2L["e3"]["Position"] = UDim2.new(0.01291, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.Timeplay
-G2L["e2"] = Instance.new("Frame", G2L["db"]);
-G2L["e2"]["BorderSizePixel"] = 0;
-G2L["e2"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
-G2L["e2"]["Size"] = UDim2.new(0, 520, 0, 50);
-G2L["e2"]["Position"] = UDim2.new(0.03063, 0, 0.63254, 0);
-G2L["e2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e2"]["Name"] = [[Timeplay]];
-G2L["e2"]["BackgroundTransparency"] = 0.4;
+G2L["e4"] = Instance.new("Frame", G2L["dd"]);
+G2L["e4"]["BorderSizePixel"] = 0;
+G2L["e4"]["BackgroundColor3"] = Color3.fromRGB(29, 33, 41);
+G2L["e4"]["Size"] = UDim2.new(0, 520, 0, 50);
+G2L["e4"]["Position"] = UDim2.new(0.03063, 0, 0.63254, 0);
+G2L["e4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e4"]["Name"] = [[Timeplay]];
+G2L["e4"]["BackgroundTransparency"] = 0.4;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.Timeplay.UICorner
-G2L["e3"] = Instance.new("UICorner", G2L["e2"]);
-G2L["e3"]["CornerRadius"] = UDim.new(0, 15);
+G2L["e5"] = Instance.new("UICorner", G2L["e4"]);
+G2L["e5"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.Timeplay.Title
-G2L["e4"] = Instance.new("TextLabel", G2L["e2"]);
-G2L["e4"]["TextWrapped"] = true;
-G2L["e4"]["BorderSizePixel"] = 0;
-G2L["e4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["e4"]["TextScaled"] = true;
-G2L["e4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e4"]["TextSize"] = 14;
-G2L["e4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["e4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e4"]["BackgroundTransparency"] = 1;
-G2L["e4"]["Size"] = UDim2.new(0, 450, 0, 35);
-G2L["e4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e4"]["Text"] = [[]];
-G2L["e4"]["Name"] = [[Title]];
-G2L["e4"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
+G2L["e6"] = Instance.new("TextLabel", G2L["e4"]);
+G2L["e6"]["TextWrapped"] = true;
+G2L["e6"]["BorderSizePixel"] = 0;
+G2L["e6"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["e6"]["TextScaled"] = true;
+G2L["e6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e6"]["TextSize"] = 14;
+G2L["e6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["e6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e6"]["BackgroundTransparency"] = 1;
+G2L["e6"]["Size"] = UDim2.new(0, 450, 0, 35);
+G2L["e6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e6"]["Text"] = [[]];
+G2L["e6"]["Name"] = [[Title]];
+G2L["e6"]["Position"] = UDim2.new(0.09615, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.Client.Timeplay.Icon
-G2L["e5"] = Instance.new("ImageLabel", G2L["e2"]);
-G2L["e5"]["BorderSizePixel"] = 0;
-G2L["e5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e5"]["ScaleType"] = Enum.ScaleType.Crop;
-G2L["e5"]["Image"] = [[rbxassetid://18109297031]];
-G2L["e5"]["Size"] = UDim2.new(0, 35, 0, 35);
-G2L["e5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e5"]["BackgroundTransparency"] = 1;
-G2L["e5"]["Name"] = [[Icon]];
-G2L["e5"]["Position"] = UDim2.new(0.01291, 0, 0.14, 0);
+G2L["e7"] = Instance.new("ImageLabel", G2L["e4"]);
+G2L["e7"]["BorderSizePixel"] = 0;
+G2L["e7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e7"]["ScaleType"] = Enum.ScaleType.Crop;
+G2L["e7"]["Image"] = [[rbxassetid://18109297031]];
+G2L["e7"]["Size"] = UDim2.new(0, 35, 0, 35);
+G2L["e7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e7"]["BackgroundTransparency"] = 1;
+G2L["e7"]["Name"] = [[Icon]];
+G2L["e7"]["Position"] = UDim2.new(0.01291, 0, 0.14, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.DataSoftware
-G2L["e6"] = Instance.new("LocalScript", G2L["ba"]);
-G2L["e6"]["Name"] = [[DataSoftware]];
+G2L["e8"] = Instance.new("LocalScript", G2L["bc"]);
+G2L["e8"]["Name"] = [[DataSoftware]];
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.ScrollSoftware
+G2L["e9"] = Instance.new("LocalScript", G2L["bc"]);
+G2L["e9"]["Name"] = [[ScrollSoftware]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Home
-G2L["e7"] = Instance.new("Frame", G2L["2c"]);
-G2L["e7"]["Visible"] = false;
-G2L["e7"]["BorderSizePixel"] = 0;
-G2L["e7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e7"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["e7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e7"]["Name"] = [[Home]];
-G2L["e7"]["BackgroundTransparency"] = 1;
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Home.Title
-G2L["e8"] = Instance.new("TextLabel", G2L["e7"]);
-G2L["e8"]["TextWrapped"] = true;
-G2L["e8"]["BorderSizePixel"] = 0;
-G2L["e8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["e8"]["TextScaled"] = true;
-G2L["e8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e8"]["TextSize"] = 45;
-G2L["e8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["e8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e8"]["BackgroundTransparency"] = 1;
-G2L["e8"]["Size"] = UDim2.new(0, 523, 0, 55);
-G2L["e8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e8"]["Text"] = [[ATOM KILLWAVE]];
-G2L["e8"]["Name"] = [[Title]];
-G2L["e8"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Home.Description
-G2L["e9"] = Instance.new("TextLabel", G2L["e7"]);
-G2L["e9"]["TextWrapped"] = true;
-G2L["e9"]["BorderSizePixel"] = 0;
-G2L["e9"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["e9"]["TextScaled"] = true;
-G2L["e9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e9"]["TextSize"] = 14;
-G2L["e9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["e9"]["TextColor3"] = Color3.fromRGB(56, 62, 80);
-G2L["e9"]["BackgroundTransparency"] = 1;
-G2L["e9"]["Size"] = UDim2.new(0, 555, 0, 150);
-G2L["e9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e9"]["Text"] = [[ATOM KILLWAVE — YOUR ACE IN THE HOLE FOR GAMES! WORKS IN A TON OF GAMES, GIVING YOU FUCKING AWESOME ADVANTAGES FOR TOTAL DOMINATION. FAST, DOESN’T SLOW DOWN YOUR GAME, EASY TO USE. CUSTOMIZE IT HOWEVER YOU WANT AND RIP EVERYONE APART! TRY IT — FEEL THE DIFFERENCE!]];
-G2L["e9"]["Name"] = [[Description]];
-G2L["e9"]["Position"] = UDim2.new(0.01695, 0, 0.16265, 0);
-
-
--- StarterGui.AtomKillwave.Software.Atom.Corner.Corner
-G2L["ea"] = Instance.new("Frame", G2L["4"]);
-G2L["ea"]["ZIndex"] = 0;
+G2L["ea"] = Instance.new("Frame", G2L["2c"]);
+G2L["ea"]["Visible"] = false;
 G2L["ea"]["BorderSizePixel"] = 0;
 G2L["ea"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["ea"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["ea"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ea"]["Name"] = [[Corner]];
+G2L["ea"]["Name"] = [[Home]];
 G2L["ea"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Atom.Corner.Corner.BackgroundLogo
-G2L["eb"] = Instance.new("ImageLabel", G2L["ea"]);
-G2L["eb"]["ZIndex"] = 0;
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Home.Title
+G2L["eb"] = Instance.new("TextLabel", G2L["ea"]);
+G2L["eb"]["TextWrapped"] = true;
 G2L["eb"]["BorderSizePixel"] = 0;
+G2L["eb"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["eb"]["TextScaled"] = true;
 G2L["eb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["eb"]["ScaleType"] = Enum.ScaleType.Crop;
-G2L["eb"]["ImageTransparency"] = 0.95;
-G2L["eb"]["Image"] = [[rbxassetid://138389913964568]];
-G2L["eb"]["Size"] = UDim2.new(0, 350, 0, 350);
-G2L["eb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["eb"]["TextSize"] = 45;
+G2L["eb"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["eb"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["eb"]["BackgroundTransparency"] = 1;
-G2L["eb"]["Name"] = [[BackgroundLogo]];
-G2L["eb"]["Position"] = UDim2.new(0.25259, 0, -0.03494, 0);
+G2L["eb"]["Size"] = UDim2.new(0, 523, 0, 55);
+G2L["eb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["eb"]["Text"] = [[ATOM KILLWAVE]];
+G2L["eb"]["Name"] = [[Title]];
+G2L["eb"]["Position"] = UDim2.new(0.01695, 0, 0.0241, 0);
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Home.Description
+G2L["ec"] = Instance.new("TextLabel", G2L["ea"]);
+G2L["ec"]["TextWrapped"] = true;
+G2L["ec"]["BorderSizePixel"] = 0;
+G2L["ec"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["ec"]["TextScaled"] = true;
+G2L["ec"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ec"]["TextSize"] = 14;
+G2L["ec"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["ec"]["TextColor3"] = Color3.fromRGB(56, 62, 80);
+G2L["ec"]["BackgroundTransparency"] = 1;
+G2L["ec"]["Size"] = UDim2.new(0, 555, 0, 150);
+G2L["ec"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ec"]["Text"] = [[ATOM KILLWAVE — YOUR ACE IN THE HOLE FOR GAMES! WORKS IN A TON OF GAMES, GIVING YOU FUCKING AWESOME ADVANTAGES FOR TOTAL DOMINATION. FAST, DOESN’T SLOW DOWN YOUR GAME, EASY TO USE. CUSTOMIZE IT HOWEVER YOU WANT AND RIP EVERYONE APART! TRY IT — FEEL THE DIFFERENCE!]];
+G2L["ec"]["Name"] = [[Description]];
+G2L["ec"]["Position"] = UDim2.new(0.01695, 0, 0.16265, 0);
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Corner
+G2L["ed"] = Instance.new("Frame", G2L["4"]);
+G2L["ed"]["ZIndex"] = 0;
+G2L["ed"]["BorderSizePixel"] = 0;
+G2L["ed"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ed"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["ed"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ed"]["Name"] = [[Corner]];
+G2L["ed"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Corner.BackgroundLogo
+G2L["ee"] = Instance.new("ImageLabel", G2L["ed"]);
+G2L["ee"]["ZIndex"] = 0;
+G2L["ee"]["BorderSizePixel"] = 0;
+G2L["ee"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ee"]["ScaleType"] = Enum.ScaleType.Crop;
+G2L["ee"]["ImageTransparency"] = 0.95;
+G2L["ee"]["Image"] = [[rbxassetid://138389913964568]];
+G2L["ee"]["Size"] = UDim2.new(0, 350, 0, 350);
+G2L["ee"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ee"]["BackgroundTransparency"] = 1;
+G2L["ee"]["Name"] = [[BackgroundLogo]];
+G2L["ee"]["Position"] = UDim2.new(0.25259, 0, -0.03494, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Corner.UIListLayout
-G2L["ec"] = Instance.new("UIListLayout", G2L["ea"]);
-G2L["ec"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
-G2L["ec"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
-G2L["ec"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["ef"] = Instance.new("UIListLayout", G2L["ed"]);
+G2L["ef"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+G2L["ef"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+G2L["ef"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.AtomSoftware
-G2L["ed"] = Instance.new("LocalScript", G2L["4"]);
-G2L["ed"]["Name"] = [[AtomSoftware]];
+G2L["f0"] = Instance.new("LocalScript", G2L["4"]);
+G2L["f0"]["Name"] = [[AtomSoftware]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.AtomSoftware.Click
-G2L["ee"] = Instance.new("Sound", G2L["ed"]);
-G2L["ee"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
-G2L["ee"]["Name"] = [[Click]];
-G2L["ee"]["SoundId"] = [[rbxassetid://166084059]];
+G2L["f1"] = Instance.new("Sound", G2L["f0"]);
+G2L["f1"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["f1"]["Name"] = [[Click]];
+G2L["f1"]["SoundId"] = [[rbxassetid://166084059]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.AtomSoftware.On
-G2L["ef"] = Instance.new("Sound", G2L["ed"]);
-G2L["ef"]["Volume"] = 0.1;
-G2L["ef"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
-G2L["ef"]["Name"] = [[On]];
-G2L["ef"]["SoundId"] = [[rbxassetid://7851351309]];
+G2L["f2"] = Instance.new("Sound", G2L["f0"]);
+G2L["f2"]["Volume"] = 0.1;
+G2L["f2"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["f2"]["Name"] = [[On]];
+G2L["f2"]["SoundId"] = [[rbxassetid://7851351309]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.AtomSoftware.Off
-G2L["f0"] = Instance.new("Sound", G2L["ed"]);
-G2L["f0"]["Volume"] = 0.1;
-G2L["f0"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
-G2L["f0"]["Name"] = [[Off]];
-G2L["f0"]["SoundId"] = [[rbxassetid://3466798390]];
+G2L["f3"] = Instance.new("Sound", G2L["f0"]);
+G2L["f3"]["Volume"] = 0.1;
+G2L["f3"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["f3"]["Name"] = [[Off]];
+G2L["f3"]["SoundId"] = [[rbxassetid://3466798390]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.DragSoftware
-G2L["f1"] = Instance.new("LocalScript", G2L["4"]);
-G2L["f1"]["Name"] = [[DragSoftware]];
+G2L["f4"] = Instance.new("LocalScript", G2L["4"]);
+G2L["f4"]["Name"] = [[DragSoftware]];
 
 
 -- StarterGui.AtomKillwave.Software.Notifications
-G2L["f2"] = Instance.new("Frame", G2L["2"]);
-G2L["f2"]["BorderSizePixel"] = 0;
-G2L["f2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f2"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["f2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f2"]["Name"] = [[Notifications]];
-G2L["f2"]["BackgroundTransparency"] = 1;
-
-
--- StarterGui.AtomKillwave.Software.Notifications.Container
-G2L["f3"] = Instance.new("Frame", G2L["f2"]);
-G2L["f3"]["BorderSizePixel"] = 0;
-G2L["f3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f3"]["Size"] = UDim2.new(0, 300, 0, 150);
-G2L["f3"]["Position"] = UDim2.new(0.81061, 0, 0.81156, 0);
-G2L["f3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f3"]["Name"] = [[Container]];
-G2L["f3"]["BackgroundTransparency"] = 1;
-
-
--- StarterGui.AtomKillwave.Software.Notifications.Container.UIListLayout
-G2L["f4"] = Instance.new("UIListLayout", G2L["f3"]);
-G2L["f4"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
-G2L["f4"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
-G2L["f4"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
-
-
--- StarterGui.AtomKillwave.Software.Notifications.Container.Corner
-G2L["f5"] = Instance.new("Frame", G2L["f3"]);
+G2L["f5"] = Instance.new("Frame", G2L["2"]);
 G2L["f5"]["BorderSizePixel"] = 0;
 G2L["f5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f5"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["f5"]["Position"] = UDim2.new(0.16667, 0, 0.19333, 0);
+G2L["f5"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["f5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f5"]["Name"] = [[Corner]];
+G2L["f5"]["Name"] = [[Notifications]];
 G2L["f5"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Notifications.Container.Corner.UIListLayout
-G2L["f6"] = Instance.new("UIListLayout", G2L["f5"]);
-G2L["f6"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
-G2L["f6"]["Padding"] = UDim.new(0, 5);
-G2L["f6"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
-G2L["f6"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+-- StarterGui.AtomKillwave.Software.Notifications.Container
+G2L["f6"] = Instance.new("Frame", G2L["f5"]);
+G2L["f6"]["BorderSizePixel"] = 0;
+G2L["f6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f6"]["Size"] = UDim2.new(0, 300, 0, 150);
+G2L["f6"]["Position"] = UDim2.new(0.81061, 0, 0.81156, 0);
+G2L["f6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f6"]["Name"] = [[Container]];
+G2L["f6"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.AtomKillwave.Software.Notifications.UIListLayout
-G2L["f7"] = Instance.new("UIListLayout", G2L["f2"]);
-G2L["f7"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Right;
-G2L["f7"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
+-- StarterGui.AtomKillwave.Software.Notifications.Container.UIListLayout
+G2L["f7"] = Instance.new("UIListLayout", G2L["f6"]);
+G2L["f7"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+G2L["f7"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
 G2L["f7"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
+-- StarterGui.AtomKillwave.Software.Notifications.Container.Corner
+G2L["f8"] = Instance.new("Frame", G2L["f6"]);
+G2L["f8"]["BorderSizePixel"] = 0;
+G2L["f8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f8"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["f8"]["Position"] = UDim2.new(0.16667, 0, 0.19333, 0);
+G2L["f8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f8"]["Name"] = [[Corner]];
+G2L["f8"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.AtomKillwave.Software.Notifications.Container.Corner.UIListLayout
+G2L["f9"] = Instance.new("UIListLayout", G2L["f8"]);
+G2L["f9"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+G2L["f9"]["Padding"] = UDim.new(0, 5);
+G2L["f9"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
+G2L["f9"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.AtomKillwave.Software.Notifications.UIListLayout
+G2L["fa"] = Instance.new("UIListLayout", G2L["f5"]);
+G2L["fa"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Right;
+G2L["fa"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
+G2L["fa"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware
-G2L["f8"] = Instance.new("LocalScript", G2L["f2"]);
-G2L["f8"]["Name"] = [[NotificationsSoftware]];
+G2L["fb"] = Instance.new("LocalScript", G2L["f5"]);
+G2L["fb"]["Name"] = [[NotificationsSoftware]];
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification
-G2L["f9"] = Instance.new("Frame", G2L["f8"]);
-G2L["f9"]["BorderSizePixel"] = 0;
-G2L["f9"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f9"]["Size"] = UDim2.new(0, 275, 0, 100);
-G2L["f9"]["Position"] = UDim2.new(-0.1875, 0, 0, 0);
-G2L["f9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f9"]["Name"] = [[Notification]];
-G2L["f9"]["BackgroundTransparency"] = 1;
+G2L["fc"] = Instance.new("Frame", G2L["fb"]);
+G2L["fc"]["BorderSizePixel"] = 0;
+G2L["fc"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fc"]["Size"] = UDim2.new(0, 275, 0, 100);
+G2L["fc"]["Position"] = UDim2.new(-0.1875, 0, 0, 0);
+G2L["fc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fc"]["Name"] = [[Notification]];
+G2L["fc"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification.Container
-G2L["fa"] = Instance.new("Frame", G2L["f9"]);
-G2L["fa"]["BorderSizePixel"] = 0;
-G2L["fa"]["BackgroundColor3"] = Color3.fromRGB(33, 36, 46);
-G2L["fa"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["fa"]["Position"] = UDim2.new(1, 500, 0, 0);
-G2L["fa"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fa"]["Name"] = [[Container]];
+G2L["fd"] = Instance.new("Frame", G2L["fc"]);
+G2L["fd"]["BorderSizePixel"] = 0;
+G2L["fd"]["BackgroundColor3"] = Color3.fromRGB(33, 36, 46);
+G2L["fd"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["fd"]["Position"] = UDim2.new(1, 500, 0, 0);
+G2L["fd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fd"]["Name"] = [[Container]];
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification.Container.UICorner
-G2L["fb"] = Instance.new("UICorner", G2L["fa"]);
-G2L["fb"]["CornerRadius"] = UDim.new(0, 15);
+G2L["fe"] = Instance.new("UICorner", G2L["fd"]);
+G2L["fe"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification.Container.BackgroundLogo
-G2L["fc"] = Instance.new("ImageLabel", G2L["fa"]);
-G2L["fc"]["BorderSizePixel"] = 0;
-G2L["fc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["fc"]["ScaleType"] = Enum.ScaleType.Crop;
-G2L["fc"]["ResampleMode"] = Enum.ResamplerMode.Pixelated;
-G2L["fc"]["ImageTransparency"] = 0.9;
-G2L["fc"]["Image"] = [[rbxassetid://85144060099112]];
-G2L["fc"]["Size"] = UDim2.new(0, 117, 0, 109);
-G2L["fc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fc"]["BackgroundTransparency"] = 1;
-G2L["fc"]["Name"] = [[BackgroundLogo]];
-G2L["fc"]["Position"] = UDim2.new(0.28727, 0, -0.09, 0);
+G2L["ff"] = Instance.new("ImageLabel", G2L["fd"]);
+G2L["ff"]["BorderSizePixel"] = 0;
+G2L["ff"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ff"]["ScaleType"] = Enum.ScaleType.Crop;
+G2L["ff"]["ResampleMode"] = Enum.ResamplerMode.Pixelated;
+G2L["ff"]["ImageTransparency"] = 0.9;
+G2L["ff"]["Image"] = [[rbxassetid://85144060099112]];
+G2L["ff"]["Size"] = UDim2.new(0, 117, 0, 109);
+G2L["ff"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ff"]["BackgroundTransparency"] = 1;
+G2L["ff"]["Name"] = [[BackgroundLogo]];
+G2L["ff"]["Position"] = UDim2.new(0.28727, 0, -0.09, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification.Container.Title
-G2L["fd"] = Instance.new("TextLabel", G2L["fa"]);
-G2L["fd"]["TextWrapped"] = true;
-G2L["fd"]["BorderSizePixel"] = 0;
-G2L["fd"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["fd"]["TextScaled"] = true;
-G2L["fd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["fd"]["TextSize"] = 14;
-G2L["fd"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["fd"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["fd"]["BackgroundTransparency"] = 1;
-G2L["fd"]["Size"] = UDim2.new(0, 235, 0, 35);
-G2L["fd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fd"]["Text"] = [[]];
-G2L["fd"]["Name"] = [[Title]];
-G2L["fd"]["Position"] = UDim2.new(0.07273, 0, 0.1, 0);
+G2L["100"] = Instance.new("TextLabel", G2L["fd"]);
+G2L["100"]["TextWrapped"] = true;
+G2L["100"]["BorderSizePixel"] = 0;
+G2L["100"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["100"]["TextScaled"] = true;
+G2L["100"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["100"]["TextSize"] = 14;
+G2L["100"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["100"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["100"]["BackgroundTransparency"] = 1;
+G2L["100"]["Size"] = UDim2.new(0, 235, 0, 35);
+G2L["100"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["100"]["Text"] = [[]];
+G2L["100"]["Name"] = [[Title]];
+G2L["100"]["Position"] = UDim2.new(0.07273, 0, 0.1, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.Notification.Container.Description
-G2L["fe"] = Instance.new("TextLabel", G2L["fa"]);
-G2L["fe"]["TextWrapped"] = true;
-G2L["fe"]["BorderSizePixel"] = 0;
-G2L["fe"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["fe"]["TextScaled"] = true;
-G2L["fe"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["fe"]["TextSize"] = 1;
-G2L["fe"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["fe"]["TextColor3"] = Color3.fromRGB(56, 62, 80);
-G2L["fe"]["BackgroundTransparency"] = 1;
-G2L["fe"]["Size"] = UDim2.new(0, 235, 0, 45);
-G2L["fe"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fe"]["Text"] = [[]];
-G2L["fe"]["Name"] = [[Description]];
-G2L["fe"]["Position"] = UDim2.new(0.07273, 0, 0.45, 0);
+G2L["101"] = Instance.new("TextLabel", G2L["fd"]);
+G2L["101"]["TextWrapped"] = true;
+G2L["101"]["BorderSizePixel"] = 0;
+G2L["101"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["101"]["TextScaled"] = true;
+G2L["101"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["101"]["TextSize"] = 1;
+G2L["101"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["101"]["TextColor3"] = Color3.fromRGB(56, 62, 80);
+G2L["101"]["BackgroundTransparency"] = 1;
+G2L["101"]["Size"] = UDim2.new(0, 235, 0, 45);
+G2L["101"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["101"]["Text"] = [[]];
+G2L["101"]["Name"] = [[Description]];
+G2L["101"]["Position"] = UDim2.new(0.07273, 0, 0.45, 0);
 
 
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware.NotificationSound
-G2L["ff"] = Instance.new("Sound", G2L["f8"]);
-G2L["ff"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
-G2L["ff"]["Name"] = [[NotificationSound]];
-G2L["ff"]["SoundId"] = [[rbxassetid://261072074]];
+G2L["102"] = Instance.new("Sound", G2L["fb"]);
+G2L["102"]["Volume"] = 1;
+G2L["102"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["102"]["Name"] = [[NotificationSound]];
+G2L["102"]["SoundId"] = [[rbxassetid://6647898215]];
 
 
 -- StarterGui.AtomKillwave.Software.System
-G2L["100"] = Instance.new("Folder", G2L["2"]);
-G2L["100"]["Name"] = [[System]];
+G2L["103"] = Instance.new("Folder", G2L["2"]);
+G2L["103"]["Name"] = [[System]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Values
-G2L["101"] = Instance.new("Folder", G2L["100"]);
-G2L["101"]["Name"] = [[Values]];
+G2L["104"] = Instance.new("Folder", G2L["103"]);
+G2L["104"]["Name"] = [[Values]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Values.MenuKeycode
-G2L["102"] = Instance.new("StringValue", G2L["101"]);
-G2L["102"]["Name"] = [[MenuKeycode]];
-G2L["102"]["Value"] = [[RightAlt]];
+G2L["105"] = Instance.new("StringValue", G2L["104"]);
+G2L["105"]["Name"] = [[MenuKeycode]];
+G2L["105"]["Value"] = [[RightAlt]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Values.AimKeycode
-G2L["103"] = Instance.new("StringValue", G2L["101"]);
-G2L["103"]["Name"] = [[AimKeycode]];
+G2L["106"] = Instance.new("StringValue", G2L["104"]);
+G2L["106"]["Name"] = [[AimKeycode]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Values.EspKeycode
-G2L["104"] = Instance.new("StringValue", G2L["101"]);
-G2L["104"]["Name"] = [[EspKeycode]];
+G2L["107"] = Instance.new("StringValue", G2L["104"]);
+G2L["107"]["Name"] = [[EspKeycode]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Notifications
-G2L["105"] = Instance.new("Folder", G2L["100"]);
-G2L["105"]["Name"] = [[Notifications]];
+G2L["108"] = Instance.new("Folder", G2L["103"]);
+G2L["108"]["Name"] = [[Notifications]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Notification
-G2L["106"] = Instance.new("StringValue", G2L["100"]);
-G2L["106"]["Name"] = [[Notification]];
+G2L["109"] = Instance.new("StringValue", G2L["103"]);
+G2L["109"]["Name"] = [[Notification]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Notification.NotificationDescription
-G2L["107"] = Instance.new("StringValue", G2L["106"]);
-G2L["107"]["Name"] = [[NotificationDescription]];
+G2L["10a"] = Instance.new("StringValue", G2L["109"]);
+G2L["10a"]["Name"] = [[NotificationDescription]];
 
 
 -- StarterGui.AtomKillwave.Software.System.Esp
-G2L["108"] = Instance.new("Folder", G2L["100"]);
-G2L["108"]["Name"] = [[Esp]];
+G2L["10b"] = Instance.new("Folder", G2L["103"]);
+G2L["10b"]["Name"] = [[Esp]];
 
 
 -- StarterGui.AtomKillwave.Software.System.AtomVersion
-G2L["109"] = Instance.new("StringValue", G2L["100"]);
-G2L["109"]["Name"] = [[AtomVersion]];
-G2L["109"]["Value"] = [[0.01]];
+G2L["10c"] = Instance.new("StringValue", G2L["103"]);
+G2L["10c"]["Name"] = [[AtomVersion]];
+G2L["10c"]["Value"] = [[0.01]];
 
 
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.AIM.Thick.ThickClient
@@ -3073,9 +3089,24 @@ local function C_4d()
 
 end;
 task.spawn(C_4d);
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Legit.Functions.Scroll.ScrollSoftware
+local function C_7c()
+	local script = G2L["7c"];
+	local ScrollingFrame = script.Parent
+	local UiListLayout = ScrollingFrame:FindFirstChild("UIListLayout")
+
+	local function updateCanvasSize()
+		ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, UiListLayout.AbsoluteContentSize.Y)
+	end
+
+	UiListLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(updateCanvasSize)
+	updateCanvasSize()
+
+end;
+task.spawn(C_7c);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.AIM.KeycodeSoftware
-local function C_8a()
-	local script = G2L["8a"];
+local function C_8b()
+	local script = G2L["8b"];
 	local UserInputService = game:GetService("UserInputService")
 
 	local Keybind = script.Parent.Keybind
@@ -3147,10 +3178,10 @@ local function C_8a()
 	KeybindButton.MouseButton1Click:Connect(startListening)
 
 end;
-task.spawn(C_8a);
+task.spawn(C_8b);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ESP.KeycodeSoftware
-local function C_99()
-	local script = G2L["99"];
+local function C_9a()
+	local script = G2L["9a"];
 	local UserInputService = game:GetService("UserInputService")
 
 	local Keybind = script.Parent.Keybind
@@ -3222,10 +3253,10 @@ local function C_99()
 	KeybindButton.MouseButton1Click:Connect(startListening)
 
 end;
-task.spawn(C_99);
+task.spawn(C_9a);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.CLIENT.KeycodeSoftware
-local function C_a7()
-	local script = G2L["a7"];
+local function C_a8()
+	local script = G2L["a8"];
 	local UserInputService = game:GetService("UserInputService")
 
 	local Keybind = script.Parent.Keybind
@@ -3297,10 +3328,10 @@ local function C_a7()
 	KeybindButton.MouseButton1Click:Connect(startListening)
 
 end;
-task.spawn(C_a7);
+task.spawn(C_a8);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.Thick.ThickClient
-local function C_b2()
-	local script = G2L["b2"];
+local function C_b3()
+	local script = G2L["b3"];
 	local TweenService = game:GetService("TweenService")
 	local Culc = script.Parent.Culc
 	local Button = script.Parent.Button
@@ -3384,10 +3415,10 @@ local function C_b2()
 		end
 	end)
 end;
-task.spawn(C_b2);
+task.spawn(C_b3);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.POTATO.FunctionSoftware
-local function C_b5()
-	local script = G2L["b5"];
+local function C_b6()
+	local script = G2L["b6"];
 	local UserInputService = game:GetService("UserInputService")
 	local Lighting = game:GetService("Lighting")
 	local Players = game:GetService("Players")
@@ -3500,15 +3531,36 @@ local function C_b5()
 	end
 
 	------------------------------------
+	-- Функция пакетной обработки объектов
+	-- processFunc - функция обработки (processDescendant или restoreDescendant)
+	-- instances   - список объектов для обработки
+	-- batchSize   - размер партии объектов за один кадр
+	------------------------------------
+	local function processInBatches(instances, processFunc, batchSize)
+		batchSize = batchSize or 50
+		for i = 1, #instances do
+			local instance = instances[i]
+			-- Используем pcall, чтобы избежать ошибок в процессе обработки
+			pcall(function()
+				processFunc(instance)
+			end)
+			-- Если достигли размера партии, даём время на следующий кадр
+			if i % batchSize == 0 then
+				task.wait()
+			end
+		end
+	end
+
+	------------------------------------
 	-- Основная функция включения «мыльного» режима
 	------------------------------------
 	local function makeGameSoap()
 		soapActive = true
 		disableLighting()
-		-- Обрабатываем все существующие объекты в мире
-		for _, instance in ipairs(game:GetDescendants()) do
-			pcall(function() processDescendant(instance) end)
-		end
+		-- Получаем все объекты игры
+		local allInstances = game:GetDescendants()
+		-- Обрабатываем объекты пакетами
+		processInBatches(allInstances, processDescendant, 50)
 	end
 
 	------------------------------------
@@ -3516,10 +3568,10 @@ local function C_b5()
 	------------------------------------
 	local function restoreGameGraphics()
 		soapActive = false
-		-- Восстанавливаем все объекты
-		for _, instance in ipairs(game:GetDescendants()) do
-			pcall(function() restoreDescendant(instance) end)
-		end
+		-- Получаем все объекты игры
+		local allInstances = game:GetDescendants()
+		-- Обрабатываем объекты пакетами
+		processInBatches(allInstances, restoreDescendant, 50)
 		-- Очищаем таблицы сохранений
 		storedTextures = {}
 		storedMaterials = {}
@@ -3556,12 +3608,26 @@ local function C_b5()
 			end
 		end)
 	end)
+end;
+task.spawn(C_b6);
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Config.Functions.Scroll.ScrollSoftware
+local function C_b8()
+	local script = G2L["b8"];
+	local ScrollingFrame = script.Parent
+	local UiListLayout = ScrollingFrame:FindFirstChild("UIListLayout")
+
+	local function updateCanvasSize()
+		ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, UiListLayout.AbsoluteContentSize.Y)
+	end
+
+	UiListLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(updateCanvasSize)
+	updateCanvasSize()
 
 end;
-task.spawn(C_b5);
+task.spawn(C_b8);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.DataSoftware
-local function C_e6()
-	local script = G2L["e6"];
+local function C_e8()
+	local script = G2L["e8"];
 	local CoreGui = game:GetService("CoreGui")
 	local Atom = script.Parent.Parent.Parent.Parent.Parent.Parent
 	local Account = script.Parent:WaitForChild("Account", 10)
@@ -3650,10 +3716,25 @@ local function C_e6()
 		Notify.Parent = System.Notifications
 	end
 end;
-task.spawn(C_e6);
+task.spawn(C_e8);
+-- StarterGui.AtomKillwave.Software.Atom.Corner.Screen.Information.Functions.Scroll.ScrollSoftware
+local function C_e9()
+	local script = G2L["e9"];
+	local ScrollingFrame = script.Parent
+	local UiListLayout = ScrollingFrame:FindFirstChild("UIListLayout")
+
+	local function updateCanvasSize()
+		ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, UiListLayout.AbsoluteContentSize.Y)
+	end
+
+	UiListLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(updateCanvasSize)
+	updateCanvasSize()
+
+end;
+task.spawn(C_e9);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.AtomSoftware
-local function C_ed()
-	local script = G2L["ed"];
+local function C_f0()
+	local script = G2L["f0"];
 	local TweenService = game:GetService("TweenService")
 	local UserInputService = game:GetService("UserInputService")
 
@@ -3767,10 +3848,10 @@ local function C_ed()
 	coroutine.wrap(ActivatedAnimation)(Home, 0.15)
 	coroutine.wrap(ShowFrameForButton)(Home)
 end;
-task.spawn(C_ed);
+task.spawn(C_f0);
 -- StarterGui.AtomKillwave.Software.Atom.Corner.DragSoftware
-local function C_f1()
-	local script = G2L["f1"];
+local function C_f4()
+	local script = G2L["f4"];
 	local UserInputService = game:GetService("UserInputService")
 	local Element = script.Parent
 
@@ -3810,10 +3891,10 @@ local function C_f1()
 		end
 	end)
 end;
-task.spawn(C_f1);
+task.spawn(C_f4);
 -- StarterGui.AtomKillwave.Software.Notifications.NotificationsSoftware
-local function C_f8()
-	local script = G2L["f8"];
+local function C_fb()
+	local script = G2L["fb"];
 	local TweenService = game:GetService("TweenService")
 
 	local System = script.Parent.Parent:WaitForChild("System")
@@ -3863,6 +3944,6 @@ local function C_f8()
 
 	InstanceNotification("SYSTEM", "ATOM KILLWAVE IS READY TO GO! FUCK PLAYING!")
 end;
-task.spawn(C_f8);
+task.spawn(C_fb);
 
 return G2L["1"], require;
