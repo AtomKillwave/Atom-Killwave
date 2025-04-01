@@ -6,7 +6,9 @@
       "AccountAvatar": "rbxassetid://13410742107",
       "AccountAge": "20.05.2024",
       "AccountSubscription": "Premium",
-      "AccountStatus": "Verified"
+      "AccountStatus": "Verified",
+      "AccountBanned": "True",
+      "AccountBanMessage": "Banned"
     }
   ]
 }
