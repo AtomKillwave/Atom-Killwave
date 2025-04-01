@@ -7,7 +7,7 @@
       "AccountAge": "20.05.2024",
       "AccountSubscription": "Premium",
       "AccountStatus": "Verified",
-      "AccountBanned": false,
+      "AccountBanned": "False",
       "AccountBanMessage": "Banned"
     }
   ]
