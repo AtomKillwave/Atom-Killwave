@@ -8,7 +8,7 @@
       "AccountSubscription": "Premium",
       "AccountStatus": "Verified",
       "AccountBanned": "False",
-      "AccountBanMessage": "Banned"
+      "AccountBanMessage": ""
     }
   ]
 }
